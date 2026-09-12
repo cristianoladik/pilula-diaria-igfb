@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "projeto": "Pílula Diária",
+  "canal": "instagram-facebook-stories",
+  "timezone": "America/Sao_Paulo",
+  "github": {
+    "repositorio": "cristianoladik/pilula-diaria-igfb",
+    "release_tag": "fila-instagram-facebook"
+  },
+  "politica": {
+    "exigir_aprovacao_por_item": true,
+    "data_inicio_aquecimento": "2026-09-11",
+    "reels": {
+      "horarios": [
+        "05:00",
+        "09:00",
+        "13:00",
+        "17:00",
+        "21:00"
+      ],
+      "quantidade_por_semana": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quantidade_apos_semana_5": 5,
+      "duracao_minima_segundos": 4,
+      "duracao_maxima_segundos": 180,
+      "compartilhar_no_feed_instagram": true,
+      "legenda": "Siga @piluladiaria_br",
+      "prefixos_de_arquivo_bloqueados": [
+        "932 -"
+      ]
+    },
+    "stories": {
+      "videos_fonte_por_dia": 1,
+      "horario": "09:00",
+      "limite_parte_segundos": 59.0,
+      "dividir_em_partes_iguais": true
+    }
+  },
+  "horario": "09:00",
+  "limite_por_parte_segundos": 59.0,
+  "pacotes": [],
+  "estoque_minimo_dias": 60,
+  "estoque_alvo_dias": 60,
+  "conteudos": []
+}

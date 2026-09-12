@@ -1,0 +1,141 @@
+name: Publicar Reels Instagram e Facebook
+
+on:
+  schedule:
+    # Horários em UTC; equivalem a 05:00, 13:00, 17:00 e 21:00 em Brasília.
+    # O slot de 09:00 roda no workflow de Stories.
+    - cron: "0 8 * * *"
+    - cron: "15 8 * * *"
+    - cron: "0 16 * * *"
+    - cron: "15 16 * * *"
+    - cron: "0 20 * * *"
+    - cron: "15 20 * * *"
+    - cron: "0 0 * * *"
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+    inputs:
+      data_publicacao:
+        description: "Data exata do Reel (AAAA-MM-DD)"
+        required: true
+        type: string
+      horario_publicacao:
+        description: "Horário exato (05:00, 09:00, 13:00, 17:00 ou 21:00)"
+        required: true
+        type: choice
+        options:
+          - "05:00"
+          - "09:00"
+          - "13:00"
+          - "17:00"
+          - "21:00"
+      confirmar_publicacao:
+        description: "Confirma que esta execução manual pode publicar de verdade"
+        required: true
+        default: "NAO_PUBLICAR"
+        type: choice
+        options:
+          - "NAO_PUBLICAR"
+          - "PUBLICAR"
+
+concurrency:
+  group: publicacao-meta-pilula-diaria
+  queue: max
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    if: ${{ vars.PUBLICACAO_ATIVA == 'true' && (github.event_name != 'workflow_dispatch' || inputs.confirmar_publicacao == 'PUBLICAR') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          # Busca a ponta atual somente depois de adquirir o lock de concorrência.
+          # Isso evita que dois dispatches enfileirados usem o mesmo SHA antigo.
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Definir slot exato
+        shell: bash
+        env:
+          EVENTO: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+          DATA_INPUT: ${{ inputs.data_publicacao }}
+          HORA_INPUT: ${{ inputs.horario_publicacao }}
+        run: |
+          if [[ "$EVENTO" == "workflow_dispatch" ]]; then
+            data="$DATA_INPUT"
+            hora="$HORA_INPUT"
+          else
+            case "$CRON" in
+              "0 8 * * *"|"15 8 * * *") data="$(date -u +%F)"; hora="05:00" ;;
+              "0 16 * * *"|"15 16 * * *") data="$(date -u +%F)"; hora="13:00" ;;
+              "0 20 * * *"|"15 20 * * *") data="$(date -u +%F)"; hora="17:00" ;;
+              # 00:00 UTC ainda pertence ao dia anterior em Brasília. Derivar
+              # do cron mantém a data correta mesmo se o runner atrasar horas.
+              "0 0 * * *"|"15 0 * * *") data="$(date -u -d 'yesterday' +%F)"; hora="21:00" ;;
+              *) echo "Cron não reconhecido: $CRON" >&2; exit 2 ;;
+            esac
+          fi
+          echo "DATA_PUBLICACAO=$data" >> "$GITHUB_ENV"
+          echo "HORARIO_PUBLICACAO=$hora" >> "$GITHUB_ENV"
+      - name: Validar filas
+        run: python validar_filas.py
+      - name: Publicar Reel do slot
+        id: publicar_reel
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v23.0' }}
+          RELEASE_TAG: ${{ vars.RELEASE_TAG || 'fila-instagram-facebook' }}
+          PERSISTIR_ESTADO_REMOTO: "true"
+          MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
+        run: python publicar_reels.py
+      - name: Persistir estado da publicação
+        id: salvar_estado_publicacao
+        if: ${{ always() && steps.publicar_reel.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          python meta_comum.py persistir-git \
+            --fila fila/fila-reels.json \
+            --mensagem "chore: registrar Reel $DATA_PUBLICACAO $HORARIO_PUBLICACAO"
+      - name: Remover mídia temporária confirmada
+        id: limpar_release
+        if: ${{ always() && steps.salvar_estado_publicacao.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RELEASE_TAG: ${{ vars.RELEASE_TAG || 'fila-instagram-facebook' }}
+          PERSISTIR_ESTADO_REMOTO: "true"
+        run: python limpar_release.py --fila fila/fila-reels.json
+      - name: Persistir marcadores da limpeza
+        id: salvar_marcadores_limpeza
+        if: ${{ always() && steps.salvar_estado_publicacao.outcome == 'success' && steps.limpar_release.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          python meta_comum.py persistir-git \
+            --fila fila/fila-reels.json \
+            --mensagem "chore: registrar limpeza do Reel $DATA_PUBLICACAO $HORARIO_PUBLICACAO"
+      - name: Propagar falhas após preservar o estado
+        if: always()
+        shell: bash
+        env:
+          RESULTADO_PUBLICACAO: ${{ steps.publicar_reel.outcome }}
+          RESULTADO_ESTADO: ${{ steps.salvar_estado_publicacao.outcome }}
+          RESULTADO_LIMPEZA: ${{ steps.limpar_release.outcome }}
+          RESULTADO_MARCADORES: ${{ steps.salvar_marcadores_limpeza.outcome }}
+        run: |
+          [[ "$RESULTADO_PUBLICACAO" == "success" \
+            && "$RESULTADO_ESTADO" == "success" \
+            && "$RESULTADO_LIMPEZA" == "success" \
+            && "$RESULTADO_MARCADORES" == "success" ]]
