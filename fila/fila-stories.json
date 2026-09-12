@@ -59,7 +59,7 @@
       "aprovado": true,
       "data": "2026-09-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0453 - O que todo médico precisa aprender. 🩺.mp4",
         "sha256": "eb38905dc487221b8a22342c503c015836d6d4ef29beb71a5579980ddb430bfc"
@@ -93,7 +93,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-12T17:58:25.345557-03:00"
     }
   ],
   "estoque_minimo_dias": 1,
