@@ -84,7 +84,7 @@
           },
           "facebook": {
             "status": "enviando",
-            "fase": "sessao_criada",
+            "fase": "upload_em_andamento",
             "video_id": "3013513425702639",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/3013513425702639"
           }
