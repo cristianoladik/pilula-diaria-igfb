@@ -75,9 +75,12 @@
             "duracao_segundos": 53.52
           },
           "instagram": {
-            "status": "processando",
-            "fase": "publicacao_solicitada",
-            "container_id": "18107694022950888"
+            "status": "publicado",
+            "fase": "publicacao_confirmada",
+            "container_id": "18107694022950888",
+            "id": "18067276994502503",
+            "publicado_em": "2026-09-12T17:58:07.713778-03:00",
+            "confirmacao": "media_publish"
           },
           "facebook": {
             "status": "pendente"
