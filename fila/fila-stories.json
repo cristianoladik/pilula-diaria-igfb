@@ -101,7 +101,7 @@
       "concluido_em": "2026-09-12T17:58:25.345557-03:00"
     }
   ],
-  "estoque_minimo_dias": 1,
-  "estoque_alvo_dias": 1,
+  "estoque_minimo_dias": 60,
+  "estoque_alvo_dias": 60,
   "conteudos": []
 }
