@@ -53,7 +53,37 @@
   },
   "horario": "09:00",
   "limite_por_parte_segundos": 59.0,
-  "pacotes": [],
+  "pacotes": [
+    {
+      "id": "story-20260913-eb38905dc4",
+      "aprovado": true,
+      "data": "2026-09-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0453 - O que todo médico precisa aprender. 🩺.mp4",
+        "sha256": "eb38905dc487221b8a22342c503c015836d6d4ef29beb71a5579980ddb430bfc"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-bb541d29a92e7ec4528261ec3851bd97effd390b64f16f8a2664ec97f4ba9b90.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-bb541d29a92e7ec4528261ec3851bd97effd390b64f16f8a2664ec97f4ba9b90.mp4",
+            "sha256": "bb541d29a92e7ec4528261ec3851bd97effd390b64f16f8a2664ec97f4ba9b90",
+            "tamanho_bytes": 17440655,
+            "duracao_segundos": 53.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    }
+  ],
   "estoque_minimo_dias": 1,
   "estoque_alvo_dias": 1,
   "conteudos": []

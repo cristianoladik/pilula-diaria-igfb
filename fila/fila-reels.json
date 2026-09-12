@@ -51,7 +51,35 @@
       "dividir_em_partes_iguais": true
     }
   },
-  "conteudos": [],
+  "conteudos": [
+    {
+      "id": "reel-20260913-1900-385c7bb3f1",
+      "aprovado": true,
+      "data": "2026-09-13",
+      "horario": "19:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0001 - Um minuto que vale por uma aula.mp4",
+        "sha256": "385c7bb3f139c97a3d94078c4db5d0c975072ea39dce73cb4c4dd1ffd20cf938"
+      },
+      "midia": {
+        "asset": "sha256-385c7bb3f139c97a3d94078c4db5d0c975072ea39dce73cb4c4dd1ffd20cf938.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-385c7bb3f139c97a3d94078c4db5d0c975072ea39dce73cb4c4dd1ffd20cf938.mp4",
+        "sha256": "385c7bb3f139c97a3d94078c4db5d0c975072ea39dce73cb4c4dd1ffd20cf938",
+        "tamanho_bytes": 11267569,
+        "duracao_segundos": 53.52
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    }
+  ],
   "estoque_minimo_dias": 1,
   "estoque_alvo_dias": 1
 }
