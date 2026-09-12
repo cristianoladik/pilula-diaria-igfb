@@ -84,7 +84,7 @@
         "status": "enviando",
         "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target, due to lack of pages_manage_posts permission.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Aw-7E3ehd-gHhN4oXT4pUyX\"}}",
         "ultima_tentativa_em": "2026-09-12T16:13:23.453200-03:00",
-        "fase": "sessao_criada",
+        "fase": "upload_em_andamento",
         "video_id": "1713005699815274",
         "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1713005699815274"
       }
