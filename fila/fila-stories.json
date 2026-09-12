@@ -9,23 +9,33 @@
   },
   "politica": {
     "exigir_aprovacao_por_item": true,
-    "data_inicio_aquecimento": "2026-09-11",
+    "data_inicio_aquecimento": "2026-09-13",
     "reels": {
       "horarios": [
-        "05:00",
-        "09:00",
-        "13:00",
-        "17:00",
-        "21:00"
+        "19:00",
+        "12:00",
+        "21:00",
+        "08:00",
+        "16:00",
+        "06:00",
+        "18:00",
+        "10:00",
+        "22:00",
+        "14:00"
       ],
       "quantidade_por_semana": [
         1,
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
-      "quantidade_apos_semana_5": 5,
+      "quantidade_apos_semana_5": 10,
       "duracao_minima_segundos": 4,
       "duracao_maxima_segundos": 180,
       "compartilhar_no_feed_instagram": true,

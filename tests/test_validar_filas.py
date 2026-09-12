@@ -51,7 +51,9 @@ def midia(sha256: str, duracao: float) -> dict:
     }
 
 
-def reel(*, data: str = D0, horario: str = "05:00", duracao: float = 60.0) -> dict:
+# 05:00 saiu da lista: a escada da Pilula Diaria comeca em 19:00, o melhor
+# horario do dia (12/09/2026).
+def reel(*, data: str = D0, horario: str = "19:00", duracao: float = 60.0) -> dict:
     return {
         "id": f"reel-{data}-{horario}",
         "data": data,
@@ -153,7 +155,8 @@ class TestPoliticaVersionada(unittest.TestCase):
         self.assertTrue(any("quantidade_por_semana" in mensagem for mensagem in erros))
 
     def test_slot_fora_do_prefixo_da_rampa_falha(self) -> None:
-        self.reels["conteudos"] = [reel(horario="09:00")]
+        # 12:00 so entra na semana 2; na semana 1 vale apenas 19:00.
+        self.reels["conteudos"] = [reel(horario="12:00")]
 
         erros = validar_filas(self.reels, self.stories)
 
@@ -165,7 +168,7 @@ class TestPoliticaVersionada(unittest.TestCase):
         primeiro["aprovado"] = False
         primeiro["origem"]["arquivo"] = "932 - divergente.mp4"
         segundo["id"] = "outro-id"
-        segundo["horario"] = "09:00"
+        segundo["horario"] = "12:00"
         self.reels["conteudos"] = [primeiro, segundo]
 
         erros = validar_filas(self.reels, self.stories)

@@ -25,8 +25,24 @@ CANAL_REELS = "instagram-facebook-reels"
 CANAL_STORIES = "instagram-facebook-stories"
 TIMEZONE = "America/Sao_Paulo"
 PLACEHOLDER = "__CONFIGURAR__"
-HORARIOS_REELS = ("05:00", "09:00", "13:00", "17:00", "21:00")
-RAMPA_REELS = (1, 2, 3, 4, 5)
+# A ordem desta lista e a ordem em que os horarios entram na escada, NAO a
+# ordem do relogio. A semana 1 usa o primeiro, a semana 2 os dois primeiros, e
+# assim por diante. Por isso ela comeca pelos melhores horarios do dia no
+# Brasil: 19h, 12h e 21h. Escolha do Cristiano em 12/09/2026, para a Pilula
+# Diaria subir de 1 ate 10 Reels por dia, um a mais por semana.
+HORARIOS_REELS = (
+    "19:00",
+    "12:00",
+    "21:00",
+    "08:00",
+    "16:00",
+    "06:00",
+    "18:00",
+    "10:00",
+    "22:00",
+    "14:00",
+)
+RAMPA_REELS = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 HORARIO_STORY = "09:00"
 LIMITE_STORY = Decimal("59")
 MINIMO_REEL = Decimal("4")
@@ -35,7 +51,11 @@ PREFIXO_BLOQUEADO = "932 -"
 
 HASH_RE = re.compile(r"^[0-9a-f]{64}$")
 REPOSITORIO_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
-LEGENDA_RE = re.compile(r"^Siga @[A-Za-z0-9._]{1,30}$")
+# A legenda repete "Siga @arroba" em ate quatro linhas, para ficar bem visivel
+# no aplicativo. Pedido do Cristiano em 12/09/2026. Continua entrando so isso:
+# nenhum outro texto e aceito.
+_LINHA_SIGA = r"Siga @[A-Za-z0-9._]{1,30}"
+LEGENDA_RE = re.compile(r"^" + _LINHA_SIGA + r"(?:\n" + _LINHA_SIGA + r"){0,3}$")
 ESTADOS_INSTAGRAM = {"pendente", "processando", "publicado", "erro"}
 ESTADOS_FACEBOOK = {"pendente", "enviando", "processando", "publicado", "erro"}
 STATUS_ITENS = {"pendente", "concluido"}
@@ -261,8 +281,8 @@ def _validar_politica(
     )
     erro(
         type(reels.get("quantidade_apos_semana_5")) is int
-        and reels.get("quantidade_apos_semana_5") == 5,
-        f"{contexto}.politica.reels.quantidade_apos_semana_5 deve ser 5",
+        and reels.get("quantidade_apos_semana_5") == len(HORARIOS_REELS),
+        f"{contexto}.politica.reels.quantidade_apos_semana_5 deve ser {len(HORARIOS_REELS)}",
         erros,
     )
     minimo = _decimal(
