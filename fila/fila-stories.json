@@ -39,7 +39,7 @@
       "duracao_minima_segundos": 4,
       "duracao_maxima_segundos": 180,
       "compartilhar_no_feed_instagram": true,
-      "legenda": "Siga @piluladiaria_br",
+      "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
       "prefixos_de_arquivo_bloqueados": [
         "932 -"
       ]
@@ -54,7 +54,7 @@
   "horario": "09:00",
   "limite_por_parte_segundos": 59.0,
   "pacotes": [],
-  "estoque_minimo_dias": 60,
-  "estoque_alvo_dias": 60,
+  "estoque_minimo_dias": 1,
+  "estoque_alvo_dias": 1,
   "conteudos": []
 }

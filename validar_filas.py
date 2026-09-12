@@ -707,7 +707,7 @@ def _validar_itens_reels(
         data_texto = item.get("data")
         data_item = _data_iso(data_texto, f"{contexto}.data", erros)
         horario = item.get("horario") if isinstance(item.get("horario"), str) else ""
-        erro(horario in HORARIOS_REELS, f"{contexto}: horário fora dos cinco slots oficiais", erros)
+        erro(horario in HORARIOS_REELS, f"{contexto}: horário fora dos slots oficiais", erros)
         slot = (str(data_texto), horario)
         erro(slot not in slots, f"{contexto}: slot duplicado {slot}", erros)
         slots.add(slot)

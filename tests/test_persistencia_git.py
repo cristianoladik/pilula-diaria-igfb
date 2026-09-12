@@ -70,7 +70,7 @@ def _reel(
     return {
         "id": f"reel-{data}-05-00",
         "data": data,
-        "horario": "05:00",
+        "horario": "19:00",
         "status": "pendente",
         "aprovado": True,
         "origem": {
@@ -419,7 +419,7 @@ class TestRetryGit(unittest.TestCase):
                     {
                         "PERSISTIR_ESTADO_REMOTO": "true",
                         "DATA_PUBLICACAO": D0,
-                        "HORARIO_PUBLICACAO": "05:00",
+                        "HORARIO_PUBLICACAO": "19:00",
                     },
                     clear=False,
                 ),
