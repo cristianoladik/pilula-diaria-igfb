@@ -99,6 +99,1947 @@
         }
       ],
       "concluido_em": "2026-09-12T17:58:25.345557-03:00"
+    },
+    {
+      "id": "story-20260914-c86b1fae27",
+      "aprovado": true,
+      "data": "2026-09-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1497 - Ainda não chorei por mim.mp4",
+        "sha256": "c86b1fae27899e36a649910ff56486605b461d82096f2faa6aad8c17954eaba0"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-96ecc6e0779184cdd9aab031d17b8ebbe9d9888f171b1a87e1da00a1fd7dcaaf.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-96ecc6e0779184cdd9aab031d17b8ebbe9d9888f171b1a87e1da00a1fd7dcaaf.mp4",
+            "sha256": "96ecc6e0779184cdd9aab031d17b8ebbe9d9888f171b1a87e1da00a1fd7dcaaf",
+            "tamanho_bytes": 7633066,
+            "duracao_segundos": 51.48
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260915-96be2b29d7",
+      "aprovado": true,
+      "data": "2026-09-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1496 - Afeto que precisa ser demonstrado.mp4",
+        "sha256": "96be2b29d79511d42289e81b3c1ce2ff8e07fc13608b98b10d7b700b453d3023"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-392e24b678d65d765f50fcf6c2d430f7e8a8aaf20d5bc94ce00c057ae1c52d93.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-392e24b678d65d765f50fcf6c2d430f7e8a8aaf20d5bc94ce00c057ae1c52d93.mp4",
+            "sha256": "392e24b678d65d765f50fcf6c2d430f7e8a8aaf20d5bc94ce00c057ae1c52d93",
+            "tamanho_bytes": 6257466,
+            "duracao_segundos": 48.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260916-b54405af2c",
+      "aprovado": true,
+      "data": "2026-09-16",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1495 - Adolescentes, desumanização e respeito o que estamos ensinando.mp4",
+        "sha256": "b54405af2c0b067f89358e7fc3e374fc4f76dbd917f62ea2b9ee909ad973a316"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-cdbf405920e676bef555358356e09178da301f0db0b04b76ac7c57a5fe250648.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-cdbf405920e676bef555358356e09178da301f0db0b04b76ac7c57a5fe250648.mp4",
+            "sha256": "cdbf405920e676bef555358356e09178da301f0db0b04b76ac7c57a5fe250648",
+            "tamanho_bytes": 9941668,
+            "duracao_segundos": 49.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-fc64a6c9e28760dd8cf8b9f8c0a502a97352e0c5ccb14f70f76b08ddb306455f.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-fc64a6c9e28760dd8cf8b9f8c0a502a97352e0c5ccb14f70f76b08ddb306455f.mp4",
+            "sha256": "fc64a6c9e28760dd8cf8b9f8c0a502a97352e0c5ccb14f70f76b08ddb306455f",
+            "tamanho_bytes": 10172152,
+            "duracao_segundos": 49.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260917-cef07a3607",
+      "aprovado": true,
+      "data": "2026-09-17",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1494 - Adolescentes criam lista ofensiva psicologia do grupo.mp4",
+        "sha256": "cef07a3607cb2cfb56e9498293bef9d490b3599da45cebc6aa3aa7b105d98ba6"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-2e19abb29fea526182a066b5647f0f9077b812e239d962629a18de86197e543b.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-2e19abb29fea526182a066b5647f0f9077b812e239d962629a18de86197e543b.mp4",
+            "sha256": "2e19abb29fea526182a066b5647f0f9077b812e239d962629a18de86197e543b",
+            "tamanho_bytes": 7532730,
+            "duracao_segundos": 39.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-a80128dfd0ec53bd3b676773229bc6565fecc2f684838aa8066e6be0880be9f8.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-a80128dfd0ec53bd3b676773229bc6565fecc2f684838aa8066e6be0880be9f8.mp4",
+            "sha256": "a80128dfd0ec53bd3b676773229bc6565fecc2f684838aa8066e6be0880be9f8",
+            "tamanho_bytes": 8426889,
+            "duracao_segundos": 39.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 3,
+          "midia": {
+            "asset": "sha256-d2a3574713fea93133f722d705e828f558f8ea27d535857b331d60d590d3e622.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-d2a3574713fea93133f722d705e828f558f8ea27d535857b331d60d590d3e622.mp4",
+            "sha256": "d2a3574713fea93133f722d705e828f558f8ea27d535857b331d60d590d3e622",
+            "tamanho_bytes": 7277147,
+            "duracao_segundos": 39.525
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260918-cab92d69cd",
+      "aprovado": true,
+      "data": "2026-09-18",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1493 - Achar que a reposição hormonal serve apenas para aliviar calores é um erro que pode custar.mp4",
+        "sha256": "cab92d69cd9fc93dad905976f454142c23cfaeb9054367e1fa532beec4b1f459"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-be9774dd758678c77829d73d2264632303fc40cda87bdd962b1d587c3aa7fefc.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-be9774dd758678c77829d73d2264632303fc40cda87bdd962b1d587c3aa7fefc.mp4",
+            "sha256": "be9774dd758678c77829d73d2264632303fc40cda87bdd962b1d587c3aa7fefc",
+            "tamanho_bytes": 3349524,
+            "duracao_segundos": 47.32
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-ef40997777ccf0feebea544ea0fe894097d1e70c277e19b14c790c4fbd7cfe79.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-ef40997777ccf0feebea544ea0fe894097d1e70c277e19b14c790c4fbd7cfe79.mp4",
+            "sha256": "ef40997777ccf0feebea544ea0fe894097d1e70c277e19b14c790c4fbd7cfe79",
+            "tamanho_bytes": 2664290,
+            "duracao_segundos": 47.32
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260919-92c857d107",
+      "aprovado": true,
+      "data": "2026-09-19",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1492 - Acha que depois dos 80 anos só nos resta aceitar as dores.mp4",
+        "sha256": "92c857d10701136a937347325de120f1d596f5494c53739a91fe710a7d6481fc"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-b111e460b373c55096c4366d1b013283cf72ac68fe499e18f80b3700ae8925ea.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-b111e460b373c55096c4366d1b013283cf72ac68fe499e18f80b3700ae8925ea.mp4",
+            "sha256": "b111e460b373c55096c4366d1b013283cf72ac68fe499e18f80b3700ae8925ea",
+            "tamanho_bytes": 7998782,
+            "duracao_segundos": 50.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-447b018114c3c6f8387c9fc298409254a86c33dc43ca2d3b880fb49c631bd940.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-447b018114c3c6f8387c9fc298409254a86c33dc43ca2d3b880fb49c631bd940.mp4",
+            "sha256": "447b018114c3c6f8387c9fc298409254a86c33dc43ca2d3b880fb49c631bd940",
+            "tamanho_bytes": 10136663,
+            "duracao_segundos": 50.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260920-51bf084391",
+      "aprovado": true,
+      "data": "2026-09-20",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1491 - A Metade da laranja Realmente existe.mp4",
+        "sha256": "51bf08439112e7064d83f9d0435e5d8c2ebef765fc4c26f331d518bf113b3de6"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7e4b3eb4bd4e0b0833a9057c5f8b44f4318df076aaa27054a11ebaf002900702.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7e4b3eb4bd4e0b0833a9057c5f8b44f4318df076aaa27054a11ebaf002900702.mp4",
+            "sha256": "7e4b3eb4bd4e0b0833a9057c5f8b44f4318df076aaa27054a11ebaf002900702",
+            "tamanho_bytes": 12342353,
+            "duracao_segundos": 44.28
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260921-1d83de984f",
+      "aprovado": true,
+      "data": "2026-09-21",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1490 - A vulnerabilidade pode estar te hipnotizando.mp4",
+        "sha256": "1d83de984fa8a4f075f8d03ec8fbeff5d24cbe259d1035cf1e4556a007f18833"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-1c801a2e857a914c44c526fbc9cd40d9cb9bf84515bb1c601b6cc5aa3e8931c1.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-1c801a2e857a914c44c526fbc9cd40d9cb9bf84515bb1c601b6cc5aa3e8931c1.mp4",
+            "sha256": "1c801a2e857a914c44c526fbc9cd40d9cb9bf84515bb1c601b6cc5aa3e8931c1",
+            "tamanho_bytes": 8702235,
+            "duracao_segundos": 56.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-93f836173c5ad8960331d213f6089d67c60680043dbd9b02b57d1d7f35b2dfcb.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-93f836173c5ad8960331d213f6089d67c60680043dbd9b02b57d1d7f35b2dfcb.mp4",
+            "sha256": "93f836173c5ad8960331d213f6089d67c60680043dbd9b02b57d1d7f35b2dfcb",
+            "tamanho_bytes": 8086988,
+            "duracao_segundos": 56.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260922-d2c955ce1d",
+      "aprovado": true,
+      "data": "2026-09-22",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1489 - A vingança adoece quem a planeja - Podpeople inverso com Dra. Ana beatriz.mp4",
+        "sha256": "d2c955ce1d80c0f20c211e51109faa92dd596b933ee4f7a53631411fe5c51d78"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-bd6842c64b50ba66f9f9619c60968aedd9d11cb48652d65e64a5090b75bfbb06.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-bd6842c64b50ba66f9f9619c60968aedd9d11cb48652d65e64a5090b75bfbb06.mp4",
+            "sha256": "bd6842c64b50ba66f9f9619c60968aedd9d11cb48652d65e64a5090b75bfbb06",
+            "tamanho_bytes": 9958280,
+            "duracao_segundos": 55.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260923-ea071ec08a",
+      "aprovado": true,
+      "data": "2026-09-23",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1488 - A vida é sobre bancar as nossas escolhas. Você tem bancado as suas.mp4",
+        "sha256": "ea071ec08ac7fc44a23780798a1a4cdff71d9f6a5abacc85d7b025db9cd7fc98"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-18972a3fc31a2a83fc6cf647a6484de39b7073311f54c9e79b679d9dc4f38bb4.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-18972a3fc31a2a83fc6cf647a6484de39b7073311f54c9e79b679d9dc4f38bb4.mp4",
+            "sha256": "18972a3fc31a2a83fc6cf647a6484de39b7073311f54c9e79b679d9dc4f38bb4",
+            "tamanho_bytes": 7513635,
+            "duracao_segundos": 48.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-aee5cb7874ee04af960644295ddc76ce4d49fca8f7fdb26938fc0c6c3dfd169d.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-aee5cb7874ee04af960644295ddc76ce4d49fca8f7fdb26938fc0c6c3dfd169d.mp4",
+            "sha256": "aee5cb7874ee04af960644295ddc76ce4d49fca8f7fdb26938fc0c6c3dfd169d",
+            "tamanho_bytes": 7307228,
+            "duracao_segundos": 48.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260924-ce5d54ba6b",
+      "aprovado": true,
+      "data": "2026-09-24",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1486 - A vida plena não é um checklist que a sociedade te obriga a preencher.mp4",
+        "sha256": "ce5d54ba6bc680bd9ef0a31af438cbfcc19077e5c9baa92a12bd86d1a5565e4e"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-a0ce52932a566921cbb8f8576b01dc6f69883f0a37ef40e71c5021a27f01d1ce.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-a0ce52932a566921cbb8f8576b01dc6f69883f0a37ef40e71c5021a27f01d1ce.mp4",
+            "sha256": "a0ce52932a566921cbb8f8576b01dc6f69883f0a37ef40e71c5021a27f01d1ce",
+            "tamanho_bytes": 9928962,
+            "duracao_segundos": 57.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-51ba67d0717ec08c7415420bf6c1a5a1401254399b6cf2149edd0c0b94c174ea.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-51ba67d0717ec08c7415420bf6c1a5a1401254399b6cf2149edd0c0b94c174ea.mp4",
+            "sha256": "51ba67d0717ec08c7415420bf6c1a5a1401254399b6cf2149edd0c0b94c174ea",
+            "tamanho_bytes": 10772555,
+            "duracao_segundos": 57.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260925-38d019e7f5",
+      "aprovado": true,
+      "data": "2026-09-25",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1485 - A vida depois dos 50 nada mais me abala!.mp4",
+        "sha256": "38d019e7f578e911da1db67c70230ef06046bb922e040e7c9b1e5721d0c35e09"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-66a173572015cdddee5ade1a78a716d33c7fc7d63cab04504c1f42289b071e90.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-66a173572015cdddee5ade1a78a716d33c7fc7d63cab04504c1f42289b071e90.mp4",
+            "sha256": "66a173572015cdddee5ade1a78a716d33c7fc7d63cab04504c1f42289b071e90",
+            "tamanho_bytes": 1553833,
+            "duracao_segundos": 10.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260926-08836f1317",
+      "aprovado": true,
+      "data": "2026-09-26",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1484 - A verdadeira transformação exige o desprendimento absoluto daquilo que te mantém estagnado.mp4",
+        "sha256": "08836f1317a21d2b3b5a39c6d502a15692b766aa8ad710786213b4a9e8d623c8"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-3304bbeee491f7c24fbae91497717ad8ca6701277517866db9848ad1cfa90c14.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3304bbeee491f7c24fbae91497717ad8ca6701277517866db9848ad1cfa90c14.mp4",
+            "sha256": "3304bbeee491f7c24fbae91497717ad8ca6701277517866db9848ad1cfa90c14",
+            "tamanho_bytes": 9630501,
+            "duracao_segundos": 52.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-bc873f5f58a8c09bb06b823f291a638761070ba2bd03f8fc02eb0a761699b3f8.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-bc873f5f58a8c09bb06b823f291a638761070ba2bd03f8fc02eb0a761699b3f8.mp4",
+            "sha256": "bc873f5f58a8c09bb06b823f291a638761070ba2bd03f8fc02eb0a761699b3f8",
+            "tamanho_bytes": 10590974,
+            "duracao_segundos": 52.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260927-8d174c7194",
+      "aprovado": true,
+      "data": "2026-09-27",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1483 - A verdade é complexa, a mentira seduz!.mp4",
+        "sha256": "8d174c7194a6f1a062c9ff53e350297dd28bd477a359d5f0f656ef892b6daab1"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-53dcce0c674e76beea3aa817efedc4feafc3a216d986a4b3ea6eaca62450031a.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-53dcce0c674e76beea3aa817efedc4feafc3a216d986a4b3ea6eaca62450031a.mp4",
+            "sha256": "53dcce0c674e76beea3aa817efedc4feafc3a216d986a4b3ea6eaca62450031a",
+            "tamanho_bytes": 7662348,
+            "duracao_segundos": 43.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260928-5b94062c33",
+      "aprovado": true,
+      "data": "2026-09-28",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1482 - A verdade sobre quem te puxa saco!.mp4",
+        "sha256": "5b94062c338fee47fe70c9c9d44b5aa889919d3b3e979a9a6c403f45f7351fcf"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-ab3abf06888a9e992181b22c84856894a1df32d8ce54ddec0fdbfee5d2a22698.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-ab3abf06888a9e992181b22c84856894a1df32d8ce54ddec0fdbfee5d2a22698.mp4",
+            "sha256": "ab3abf06888a9e992181b22c84856894a1df32d8ce54ddec0fdbfee5d2a22698",
+            "tamanho_bytes": 2514537,
+            "duracao_segundos": 15.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260929-4e434bfb39",
+      "aprovado": true,
+      "data": "2026-09-29",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1481 - Você será lembrado por isso.mp4",
+        "sha256": "4e434bfb3951550f68bb88a7db23a2ea67c4204ff09dfc92e820e2ba0a65e4eb"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-61c6cbd3768711ace5c004b9561b1f10412e881b2b418aa0fcff226097098f96.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-61c6cbd3768711ace5c004b9561b1f10412e881b2b418aa0fcff226097098f96.mp4",
+            "sha256": "61c6cbd3768711ace5c004b9561b1f10412e881b2b418aa0fcff226097098f96",
+            "tamanho_bytes": 4573425,
+            "duracao_segundos": 29.0
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260930-a0d36b4965",
+      "aprovado": true,
+      "data": "2026-09-30",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1480 - Propósito no trabalho.mp4",
+        "sha256": "a0d36b4965059edaaee9c0625bac52abb024f59ef1e4e28fdfa500d0a1b46a81"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-3240272b6d6c7cd4627d82fd22491bcd751c724408795731fe2feb0a28e878ca.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3240272b6d6c7cd4627d82fd22491bcd751c724408795731fe2feb0a28e878ca.mp4",
+            "sha256": "3240272b6d6c7cd4627d82fd22491bcd751c724408795731fe2feb0a28e878ca",
+            "tamanho_bytes": 3341608,
+            "duracao_segundos": 20.2
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261001-31cfad9e1a",
+      "aprovado": true,
+      "data": "2026-10-01",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1479 - O verdadeiro significado da medalha que joel presenteou!.mp4",
+        "sha256": "31cfad9e1a66a6c4e8590d9f20f8d372eb0d66153f04d9ca3897329b0f465186"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7788ba67fdc3394ec80b4199307eac486049506c9803304deee21538e04b8942.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7788ba67fdc3394ec80b4199307eac486049506c9803304deee21538e04b8942.mp4",
+            "sha256": "7788ba67fdc3394ec80b4199307eac486049506c9803304deee21538e04b8942",
+            "tamanho_bytes": 10690158,
+            "duracao_segundos": 45.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261002-2fa95595ef",
+      "aprovado": true,
+      "data": "2026-10-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1478 - Faça isso e será um procrastinador nato!.mp4",
+        "sha256": "2fa95595ef80f540fde530fa99ae6e7b742348211e6386c57679af96ee5b4210"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-8cd79d68d92daeb2dfbb2d3ddf8fa849f82017ceb397da6ca063261806ff3ddb.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-8cd79d68d92daeb2dfbb2d3ddf8fa849f82017ceb397da6ca063261806ff3ddb.mp4",
+            "sha256": "8cd79d68d92daeb2dfbb2d3ddf8fa849f82017ceb397da6ca063261806ff3ddb",
+            "tamanho_bytes": 6997393,
+            "duracao_segundos": 33.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261003-7abe8fafda",
+      "aprovado": true,
+      "data": "2026-10-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1477 - Apaixone-se pelo que você faz!.mp4",
+        "sha256": "7abe8fafda7452f4ac11950d67f74a78259a74238a284aed51cd899de297fa2e"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-19485d8ccf2d0f30bc7ee2b42aa3da5bc78e8ae978e03d06d8a0a7fcafb76c3a.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-19485d8ccf2d0f30bc7ee2b42aa3da5bc78e8ae978e03d06d8a0a7fcafb76c3a.mp4",
+            "sha256": "19485d8ccf2d0f30bc7ee2b42aa3da5bc78e8ae978e03d06d8a0a7fcafb76c3a",
+            "tamanho_bytes": 5085125,
+            "duracao_segundos": 26.0
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261004-9454c28fb0",
+      "aprovado": true,
+      "data": "2026-10-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1476 - A verdade sobre o diagnóstica de tea e TDAH.mp4",
+        "sha256": "9454c28fb0e49d28a1bb8ea7180eac9575a088ca798f351a6b76cbb5481e3ce6"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-4e9ad5605bc86408ace34742fe76bd60d89073049bf06cb03e83ae3e17e27036.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-4e9ad5605bc86408ace34742fe76bd60d89073049bf06cb03e83ae3e17e27036.mp4",
+            "sha256": "4e9ad5605bc86408ace34742fe76bd60d89073049bf06cb03e83ae3e17e27036",
+            "tamanho_bytes": 8499580,
+            "duracao_segundos": 47.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-b06e8f352d157a323959f71859ec9c414750fc6fede824ec881ac14047bc1443.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-b06e8f352d157a323959f71859ec9c414750fc6fede824ec881ac14047bc1443.mp4",
+            "sha256": "b06e8f352d157a323959f71859ec9c414750fc6fede824ec881ac14047bc1443",
+            "tamanho_bytes": 8390271,
+            "duracao_segundos": 47.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 3,
+          "midia": {
+            "asset": "sha256-be5b1259044b290d10d588222c02145ee8ad2fe736ae65ed5941301262a2f786.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-be5b1259044b290d10d588222c02145ee8ad2fe736ae65ed5941301262a2f786.mp4",
+            "sha256": "be5b1259044b290d10d588222c02145ee8ad2fe736ae65ed5941301262a2f786",
+            "tamanho_bytes": 8449428,
+            "duracao_segundos": 47.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261005-4e3c975e77",
+      "aprovado": true,
+      "data": "2026-10-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1475 - Você concorda com isso.mp4",
+        "sha256": "4e3c975e778ee4a5ed3aefd52a94c83df9b0357325ca47aa23c4fc952335cf96"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-edc7065da4a9f73fbefb1d6e55f56377a30a54846eddaa6b5d5537ca89e47385.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-edc7065da4a9f73fbefb1d6e55f56377a30a54846eddaa6b5d5537ca89e47385.mp4",
+            "sha256": "edc7065da4a9f73fbefb1d6e55f56377a30a54846eddaa6b5d5537ca89e47385",
+            "tamanho_bytes": 8508772,
+            "duracao_segundos": 48.32
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261006-3016bb18d8",
+      "aprovado": true,
+      "data": "2026-10-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1474 - Storytelling das marcas de sucesso.mp4",
+        "sha256": "3016bb18d8370c8eb2fc729cdfa7dc0d48c8b3279830727509a9143dbd7d468a"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-d89302d357765d307d2e85b96463f7e2a522efd50585e7750ca466ba38c38ca1.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-d89302d357765d307d2e85b96463f7e2a522efd50585e7750ca466ba38c38ca1.mp4",
+            "sha256": "d89302d357765d307d2e85b96463f7e2a522efd50585e7750ca466ba38c38ca1",
+            "tamanho_bytes": 9147937,
+            "duracao_segundos": 46.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261007-768c338ddc",
+      "aprovado": true,
+      "data": "2026-10-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1473 - Networking do bem!.mp4",
+        "sha256": "768c338ddc264bdb408097590f48acfc659ee04759ee8ee0db1e4d6ccdb72bc6"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-26182abff215dc7eb2f78b21cb638b8a3f1ad6323dea311bc077144f55bd2672.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-26182abff215dc7eb2f78b21cb638b8a3f1ad6323dea311bc077144f55bd2672.mp4",
+            "sha256": "26182abff215dc7eb2f78b21cb638b8a3f1ad6323dea311bc077144f55bd2672",
+            "tamanho_bytes": 8584492,
+            "duracao_segundos": 44.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261008-e367526e9c",
+      "aprovado": true,
+      "data": "2026-10-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1472 - Essa mensagem de rodrigo silva vai mudar seu dia!.mp4",
+        "sha256": "e367526e9ccef91d948af80ff701c43bfc8130ccb2f1f059d968d11e068e5884"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-6a718e2bdbaaae67a94f87b66767cad8e2afd36ba6bdad73e08e1e779d7a259c.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-6a718e2bdbaaae67a94f87b66767cad8e2afd36ba6bdad73e08e1e779d7a259c.mp4",
+            "sha256": "6a718e2bdbaaae67a94f87b66767cad8e2afd36ba6bdad73e08e1e779d7a259c",
+            "tamanho_bytes": 10410505,
+            "duracao_segundos": 47.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261009-80cd311de8",
+      "aprovado": true,
+      "data": "2026-10-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1471 - A verdade sobre a mente do superdotado - Podpeople inverso com Dra. Ana beatriz.mp4",
+        "sha256": "80cd311de8fc425a8cec648535f10fff5dfb180f38fc72050f6382df9578ca03"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-fe75d2c1219c4c0b1423996f762094edf5c5acf4acc0bbac1a2e6493bee197f2.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-fe75d2c1219c4c0b1423996f762094edf5c5acf4acc0bbac1a2e6493bee197f2.mp4",
+            "sha256": "fe75d2c1219c4c0b1423996f762094edf5c5acf4acc0bbac1a2e6493bee197f2",
+            "tamanho_bytes": 7533139,
+            "duracao_segundos": 45.76
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261010-150af6a826",
+      "aprovado": true,
+      "data": "2026-10-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1470 - Você não pode desistir.mp4",
+        "sha256": "150af6a826d730f5665389a7ea957da4947108eace528d6c9524d193e87c3f3d"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-574e66e0084329c3f2ef67fea0fb5d700f57dd91116272e1619705e3fdab89f2.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-574e66e0084329c3f2ef67fea0fb5d700f57dd91116272e1619705e3fdab89f2.mp4",
+            "sha256": "574e66e0084329c3f2ef67fea0fb5d700f57dd91116272e1619705e3fdab89f2",
+            "tamanho_bytes": 5138851,
+            "duracao_segundos": 27.2
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261011-a62621d1d5",
+      "aprovado": true,
+      "data": "2026-10-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1469 - O jeito que você se cuida revela como você está.mp4",
+        "sha256": "a62621d1d51b62b55513a7f9dfc2f683c5c27f17285964a79624bce13403ae85"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-6adc238258767797489e58057de166d0a9e84b0c81824fd53e98b792e8f25a68.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-6adc238258767797489e58057de166d0a9e84b0c81824fd53e98b792e8f25a68.mp4",
+            "sha256": "6adc238258767797489e58057de166d0a9e84b0c81824fd53e98b792e8f25a68",
+            "tamanho_bytes": 5056457,
+            "duracao_segundos": 27.6
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261012-9b8091d16d",
+      "aprovado": true,
+      "data": "2026-10-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1468 - Largue essas companhias!.mp4",
+        "sha256": "9b8091d16dd40b4191f79da451740ec5b6b2926eedca0b1ae0acfe3b42ab1a98"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-b90c778dd7a31934eca53bb1abac3eab9169e61de459cef30dc69e4e2b3f4a65.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-b90c778dd7a31934eca53bb1abac3eab9169e61de459cef30dc69e4e2b3f4a65.mp4",
+            "sha256": "b90c778dd7a31934eca53bb1abac3eab9169e61de459cef30dc69e4e2b3f4a65",
+            "tamanho_bytes": 6365217,
+            "duracao_segundos": 38.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-1f43ff8f248db8dfb0e1acb53380cab2d36483999626dad9fe8342299dedf710.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-1f43ff8f248db8dfb0e1acb53380cab2d36483999626dad9fe8342299dedf710.mp4",
+            "sha256": "1f43ff8f248db8dfb0e1acb53380cab2d36483999626dad9fe8342299dedf710",
+            "tamanho_bytes": 9538392,
+            "duracao_segundos": 38.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261013-a54931c0ef",
+      "aprovado": true,
+      "data": "2026-10-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1467 - Joel jota fica sem palavras o que júnior Rostirola disse.mp4",
+        "sha256": "a54931c0ef61b62b29ac58e2c73638c4767aed00aae689615e919d1ba863df69"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-6f60ed5c18c602daf0a9a58e43e83b4ead58e7e342a901f4b3ec775859b80543.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-6f60ed5c18c602daf0a9a58e43e83b4ead58e7e342a901f4b3ec775859b80543.mp4",
+            "sha256": "6f60ed5c18c602daf0a9a58e43e83b4ead58e7e342a901f4b3ec775859b80543",
+            "tamanho_bytes": 8421805,
+            "duracao_segundos": 48.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261014-65dc1564e3",
+      "aprovado": true,
+      "data": "2026-10-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1466 - A verdade que mudará sua existência.mp4",
+        "sha256": "65dc1564e306f46846885244c4ed1421c14f1b462bf63619708ff146e391b893"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-91b446fd9bb43c9e93df1016ffc6cc3f620b22cdbb26f2487c7dcc6633c30aa7.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-91b446fd9bb43c9e93df1016ffc6cc3f620b22cdbb26f2487c7dcc6633c30aa7.mp4",
+            "sha256": "91b446fd9bb43c9e93df1016ffc6cc3f620b22cdbb26f2487c7dcc6633c30aa7",
+            "tamanho_bytes": 10889582,
+            "duracao_segundos": 40.6
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261015-a2248fec24",
+      "aprovado": true,
+      "data": "2026-10-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1465 - Você decide como leva sua vida.mp4",
+        "sha256": "a2248fec2479ef186f70afa642a03cee26db48813c8d1e2c4fb2a443bd72fd86"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-cd107407e8befc519bcc8e2faf2b8f37bcff67d03ae330f6cef3bac4dc897c24.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-cd107407e8befc519bcc8e2faf2b8f37bcff67d03ae330f6cef3bac4dc897c24.mp4",
+            "sha256": "cd107407e8befc519bcc8e2faf2b8f37bcff67d03ae330f6cef3bac4dc897c24",
+            "tamanho_bytes": 5286428,
+            "duracao_segundos": 34.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261016-35e960eb31",
+      "aprovado": true,
+      "data": "2026-10-16",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1464 - Peite os boletos!.mp4",
+        "sha256": "35e960eb31a12a6432e524559479dd97e656c057f01d5094f2a8a01b31219548"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7a6263a91b83eba1ce196294fa35cc4e6f7fa7e99db4fd0d075836cd7694cf91.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7a6263a91b83eba1ce196294fa35cc4e6f7fa7e99db4fd0d075836cd7694cf91.mp4",
+            "sha256": "7a6263a91b83eba1ce196294fa35cc4e6f7fa7e99db4fd0d075836cd7694cf91",
+            "tamanho_bytes": 7728369,
+            "duracao_segundos": 30.24
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-ad9933704972e8fbd5a9488e678365de74a330463bdafcfe24501cb61b7a02ce.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-ad9933704972e8fbd5a9488e678365de74a330463bdafcfe24501cb61b7a02ce.mp4",
+            "sha256": "ad9933704972e8fbd5a9488e678365de74a330463bdafcfe24501cb61b7a02ce",
+            "tamanho_bytes": 7994975,
+            "duracao_segundos": 30.24
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261017-debcd80eb9",
+      "aprovado": true,
+      "data": "2026-10-17",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1463 - Júnior Rostirola tem uma mensagem linda pra você!.mp4",
+        "sha256": "debcd80eb998ae5836f527122b49616f3f84f768f48f9371ec434afdc555a818"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-55ee47ffc52e03123f2f640cb24d60114464a45943eef00b44c93615285b4503.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-55ee47ffc52e03123f2f640cb24d60114464a45943eef00b44c93615285b4503.mp4",
+            "sha256": "55ee47ffc52e03123f2f640cb24d60114464a45943eef00b44c93615285b4503",
+            "tamanho_bytes": 6624412,
+            "duracao_segundos": 31.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261018-13458e9dc3",
+      "aprovado": true,
+      "data": "2026-10-18",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1462 - Agindo como geraldo rufino!.mp4",
+        "sha256": "13458e9dc3cc286003a1f94693a67cda3a2cfdbe34c3bc822ff25edb0162f41f"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-6163b8ff7eb2d2ab4ced10cc2fe57c8f83bf30ffb0f025c5d0ed2b0192736e32.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-6163b8ff7eb2d2ab4ced10cc2fe57c8f83bf30ffb0f025c5d0ed2b0192736e32.mp4",
+            "sha256": "6163b8ff7eb2d2ab4ced10cc2fe57c8f83bf30ffb0f025c5d0ed2b0192736e32",
+            "tamanho_bytes": 5277086,
+            "duracao_segundos": 33.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261019-60dc5c0c15",
+      "aprovado": true,
+      "data": "2026-10-19",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1461 - A verdade não machuca, ela organiza. O que dói é a fantasia quando desmorona.mp4",
+        "sha256": "60dc5c0c15a812970d8ba3671ab31cdc8b25714c01250f2a3fdd2b624f52e5ee"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7a5712b218a9cb89f6662fcffd69bf456e563e88374b8c156c6e67fb27216bec.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7a5712b218a9cb89f6662fcffd69bf456e563e88374b8c156c6e67fb27216bec.mp4",
+            "sha256": "7a5712b218a9cb89f6662fcffd69bf456e563e88374b8c156c6e67fb27216bec",
+            "tamanho_bytes": 4703416,
+            "duracao_segundos": 29.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-3595dc95ae3fa682d32dd5d2ba9ea1bce71f465f2d7223f7c52c028acd3e833c.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3595dc95ae3fa682d32dd5d2ba9ea1bce71f465f2d7223f7c52c028acd3e833c.mp4",
+            "sha256": "3595dc95ae3fa682d32dd5d2ba9ea1bce71f465f2d7223f7c52c028acd3e833c",
+            "tamanho_bytes": 4546003,
+            "duracao_segundos": 29.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261020-486afc29d6",
+      "aprovado": true,
+      "data": "2026-10-20",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1460 - Tira os pesos do barco!.mp4",
+        "sha256": "486afc29d6115f9fb474d58efc9428a6df957c8b71cac2ee322da1906c0ca995"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-ae24d1f14868fe1f718d45361d5fbcec7c4fc403cce39baa250caacaea1da00b.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-ae24d1f14868fe1f718d45361d5fbcec7c4fc403cce39baa250caacaea1da00b.mp4",
+            "sha256": "ae24d1f14868fe1f718d45361d5fbcec7c4fc403cce39baa250caacaea1da00b",
+            "tamanho_bytes": 5911210,
+            "duracao_segundos": 32.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-f69fa9c6863f6adf704130a0620722ef4ca393abec4f267d86f0e0881d568c63.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-f69fa9c6863f6adf704130a0620722ef4ca393abec4f267d86f0e0881d568c63.mp4",
+            "sha256": "f69fa9c6863f6adf704130a0620722ef4ca393abec4f267d86f0e0881d568c63",
+            "tamanho_bytes": 5376588,
+            "duracao_segundos": 32.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261021-20627aa85b",
+      "aprovado": true,
+      "data": "2026-10-21",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1459 - Qual é o objetivo do seu trabalho.mp4",
+        "sha256": "20627aa85b3a7c4665705a6b9d75bf3b8984c2989551ba7d681590a35bd218c1"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-9468b51107b5149a0e610e76c9474678d9b16e1bcb879daa99b082d49b3f61c0.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-9468b51107b5149a0e610e76c9474678d9b16e1bcb879daa99b082d49b3f61c0.mp4",
+            "sha256": "9468b51107b5149a0e610e76c9474678d9b16e1bcb879daa99b082d49b3f61c0",
+            "tamanho_bytes": 14242106,
+            "duracao_segundos": 58.96
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261022-b0e4d953fd",
+      "aprovado": true,
+      "data": "2026-10-22",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1458 - O que é ser rico.mp4",
+        "sha256": "b0e4d953fd51d60564b75ccde7e7421f1af7ff2d853cae2f47248b2c1e464090"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-0ea95e9572fc8fd22a7bf06db5c54c50db9e1eca575a92ca00ef824cc56f12bc.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-0ea95e9572fc8fd22a7bf06db5c54c50db9e1eca575a92ca00ef824cc56f12bc.mp4",
+            "sha256": "0ea95e9572fc8fd22a7bf06db5c54c50db9e1eca575a92ca00ef824cc56f12bc",
+            "tamanho_bytes": 7030363,
+            "duracao_segundos": 58.48
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261023-78e4641db4",
+      "aprovado": true,
+      "data": "2026-10-23",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1457 - Marca vai além do que você pensa.mp4",
+        "sha256": "78e4641db43a8f48091e2f9f26f7155a6abdc0d2c5e824abf310babff6b1b39f"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-69cfebf39c29ebd2f813fc948c0ce388e3b59e85fb5e4bbcb868bc3271156abe.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-69cfebf39c29ebd2f813fc948c0ce388e3b59e85fb5e4bbcb868bc3271156abe.mp4",
+            "sha256": "69cfebf39c29ebd2f813fc948c0ce388e3b59e85fb5e4bbcb868bc3271156abe",
+            "tamanho_bytes": 7207665,
+            "duracao_segundos": 38.64
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261024-f1756286ee",
+      "aprovado": true,
+      "data": "2026-10-24",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1456 - Deus sabe de coisas que você nunca vai saber.mp4",
+        "sha256": "f1756286ee204c5efdf118e36182472dc87ab937ca7a44727604cfa5b4b3320b"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-4cf2f07cbdc4e4e624339f1988ec0c863b2bc7976776d9e6e1c5f53a631532ac.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-4cf2f07cbdc4e4e624339f1988ec0c863b2bc7976776d9e6e1c5f53a631532ac.mp4",
+            "sha256": "4cf2f07cbdc4e4e624339f1988ec0c863b2bc7976776d9e6e1c5f53a631532ac",
+            "tamanho_bytes": 6872446,
+            "duracao_segundos": 47.0
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261025-33acda0891",
+      "aprovado": true,
+      "data": "2026-10-25",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1455 - A verdade chocante sobre comer com talher.mp4",
+        "sha256": "33acda089137b94ccc6980b130d1f2013614d12090ac4eb6cb2696d793f46c7d"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-30f2123558b589870b5591e19682442327ab96b4967ad17bb1828f69d26a5355.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-30f2123558b589870b5591e19682442327ab96b4967ad17bb1828f69d26a5355.mp4",
+            "sha256": "30f2123558b589870b5591e19682442327ab96b4967ad17bb1828f69d26a5355",
+            "tamanho_bytes": 7035635,
+            "duracao_segundos": 47.2
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-3348243cced8201eb6b0e58a4614210d9fd6d73a7984fe042d8fcc97a612e758.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3348243cced8201eb6b0e58a4614210d9fd6d73a7984fe042d8fcc97a612e758.mp4",
+            "sha256": "3348243cced8201eb6b0e58a4614210d9fd6d73a7984fe042d8fcc97a612e758",
+            "tamanho_bytes": 5891546,
+            "duracao_segundos": 47.2
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261026-87b34280d7",
+      "aprovado": true,
+      "data": "2026-10-26",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1454 - O livro que o Ninja indica!.mp4",
+        "sha256": "87b34280d7ae6d403b62382ba468f5d34a0ae7bfa3c39c0b8b03011d67cef167"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-e9c70507294149ed7df9c695c660f3baaadc0b43ca1995e9ce557b30507779c0.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-e9c70507294149ed7df9c695c660f3baaadc0b43ca1995e9ce557b30507779c0.mp4",
+            "sha256": "e9c70507294149ed7df9c695c660f3baaadc0b43ca1995e9ce557b30507779c0",
+            "tamanho_bytes": 6508656,
+            "duracao_segundos": 28.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261027-7d8383b9a8",
+      "aprovado": true,
+      "data": "2026-10-27",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1453 - Já passou por isso.mp4",
+        "sha256": "7d8383b9a89cdfbd6b080d82a645f69ee1871bc6e7ef3facaa735c5d0a992c2a"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-3b4af1cf00de50417dd41cac5e685603a864c2db0038bda3802fa70d6b1bcf4a.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3b4af1cf00de50417dd41cac5e685603a864c2db0038bda3802fa70d6b1bcf4a.mp4",
+            "sha256": "3b4af1cf00de50417dd41cac5e685603a864c2db0038bda3802fa70d6b1bcf4a",
+            "tamanho_bytes": 5523094,
+            "duracao_segundos": 37.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-bb1ce570dcb41424e149b80558c9d6d7391ada7ba1e9c1dfd5b9302c1c48f063.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-bb1ce570dcb41424e149b80558c9d6d7391ada7ba1e9c1dfd5b9302c1c48f063.mp4",
+            "sha256": "bb1ce570dcb41424e149b80558c9d6d7391ada7ba1e9c1dfd5b9302c1c48f063",
+            "tamanho_bytes": 5753547,
+            "duracao_segundos": 37.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261028-9c2830fc41",
+      "aprovado": true,
+      "data": "2026-10-28",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1452 - Inveja, 3 conselhos para não ser alvo.mp4",
+        "sha256": "9c2830fc410d2a59809836987d6a056495d802dd42ddd61d1083d88b66248a06"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-8a25dc61ddc17543f6c5336702bb8c6d9cf74b66901c11ab978879b1e8a67d30.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-8a25dc61ddc17543f6c5336702bb8c6d9cf74b66901c11ab978879b1e8a67d30.mp4",
+            "sha256": "8a25dc61ddc17543f6c5336702bb8c6d9cf74b66901c11ab978879b1e8a67d30",
+            "tamanho_bytes": 11822446,
+            "duracao_segundos": 50.76
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261029-1aa0be8f8f",
+      "aprovado": true,
+      "data": "2026-10-29",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1451 - A vacina contra relacionamentos abusivos.mp4",
+        "sha256": "1aa0be8f8fef2a9e0358c7ffeeda2da06873c23d1ad055cabaaeb080c1279d2a"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7c97bafd96b7a72c1f13efd6468393d95e00459e2b06b10e0c9b0164f426755c.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7c97bafd96b7a72c1f13efd6468393d95e00459e2b06b10e0c9b0164f426755c.mp4",
+            "sha256": "7c97bafd96b7a72c1f13efd6468393d95e00459e2b06b10e0c9b0164f426755c",
+            "tamanho_bytes": 8229075,
+            "duracao_segundos": 37.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-1b4bf0cee42ee548097254b24884428c4bff422035c8bccf69a50c940df84628.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-1b4bf0cee42ee548097254b24884428c4bff422035c8bccf69a50c940df84628.mp4",
+            "sha256": "1b4bf0cee42ee548097254b24884428c4bff422035c8bccf69a50c940df84628",
+            "tamanho_bytes": 7611962,
+            "duracao_segundos": 37.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261030-7ea54e1ee5",
+      "aprovado": true,
+      "data": "2026-10-30",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1450 - Um verdadeiro amigo não te zoa!.mp4",
+        "sha256": "7ea54e1ee5d8487d0afd0b678783be3cc571b3fe601fea9c0c6a4e9f62f7fc44"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-c636d023df8ba65ca70d4379b7b7c572299e0787fa977bf46a6357c71a03ca0a.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-c636d023df8ba65ca70d4379b7b7c572299e0787fa977bf46a6357c71a03ca0a.mp4",
+            "sha256": "c636d023df8ba65ca70d4379b7b7c572299e0787fa977bf46a6357c71a03ca0a",
+            "tamanho_bytes": 2749258,
+            "duracao_segundos": 14.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261031-aef2dd8520",
+      "aprovado": true,
+      "data": "2026-10-31",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1449 - Quem está em paz não quer guerra.mp4",
+        "sha256": "aef2dd8520683dc40d79e2a337246459098f992def3aa78df668b725d5b4c460"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-5e006d009153363d81364aa26f2b78420ea49f6478867d81896b17a72dcee5bf.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-5e006d009153363d81364aa26f2b78420ea49f6478867d81896b17a72dcee5bf.mp4",
+            "sha256": "5e006d009153363d81364aa26f2b78420ea49f6478867d81896b17a72dcee5bf",
+            "tamanho_bytes": 4486800,
+            "duracao_segundos": 23.76
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261101-ca8cda70a6",
+      "aprovado": true,
+      "data": "2026-11-01",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1448 - Papo reto do Ninja que vai mudar sua mente!.mp4",
+        "sha256": "ca8cda70a677131086d2dc6a7fba95e8edda85a359414f2ef7437076b54aac7e"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-4452a481cbb612a386d4252294c328796773dafbf599564f5738ad2f8b939cee.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-4452a481cbb612a386d4252294c328796773dafbf599564f5738ad2f8b939cee.mp4",
+            "sha256": "4452a481cbb612a386d4252294c328796773dafbf599564f5738ad2f8b939cee",
+            "tamanho_bytes": 4627709,
+            "duracao_segundos": 20.0
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261102-17caebacce",
+      "aprovado": true,
+      "data": "2026-11-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1447 - Como curar dor na alma.mp4",
+        "sha256": "17caebacce876644dd0d20f3b12f693db49e523d964eb5e419f82b44b347b3cc"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-bff0878b22568eca1bcbd88d76f86cb318e83ccef1b7e42b1a00c0c6de28a1a7.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-bff0878b22568eca1bcbd88d76f86cb318e83ccef1b7e42b1a00c0c6de28a1a7.mp4",
+            "sha256": "bff0878b22568eca1bcbd88d76f86cb318e83ccef1b7e42b1a00c0c6de28a1a7",
+            "tamanho_bytes": 6773687,
+            "duracao_segundos": 47.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261103-034f98250d",
+      "aprovado": true,
+      "data": "2026-11-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1446 - A união das gerações é a chave para a evolução!.mp4",
+        "sha256": "034f98250ded65c82e4d017bf415367c51348fe8148e8b7b8a944332ae09a884"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-dadd2d4533a86f2ad6fcc04f1ab02ec227570ac7c095efe7d5345b55ced661dc.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-dadd2d4533a86f2ad6fcc04f1ab02ec227570ac7c095efe7d5345b55ced661dc.mp4",
+            "sha256": "dadd2d4533a86f2ad6fcc04f1ab02ec227570ac7c095efe7d5345b55ced661dc",
+            "tamanho_bytes": 3012416,
+            "duracao_segundos": 15.28
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261104-d777a742be",
+      "aprovado": true,
+      "data": "2026-11-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1445 - A gente vive pra isso.mp4",
+        "sha256": "d777a742be931e3f64e40e3b31cb310e7fc251e543f81838f42487ba54c8c2cc"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-3fbbc99a2e48cc8fbfdecd1c9bc74e44e725f3b6b49891f3e4a466829e0bfe8a.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3fbbc99a2e48cc8fbfdecd1c9bc74e44e725f3b6b49891f3e4a466829e0bfe8a.mp4",
+            "sha256": "3fbbc99a2e48cc8fbfdecd1c9bc74e44e725f3b6b49891f3e4a466829e0bfe8a",
+            "tamanho_bytes": 5617905,
+            "duracao_segundos": 35.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261105-44576d3e78",
+      "aprovado": true,
+      "data": "2026-11-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1444 - Tá vivo Então dá pra melhorar!.mp4",
+        "sha256": "44576d3e783d87b015a040c8e3d24277e2ba5234ca37802bc7d480f92a846061"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-7b5a6243c08a9e677dff786cd43c1fac33f88aa41b5d04401bd293cd98c790f8.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-7b5a6243c08a9e677dff786cd43c1fac33f88aa41b5d04401bd293cd98c790f8.mp4",
+            "sha256": "7b5a6243c08a9e677dff786cd43c1fac33f88aa41b5d04401bd293cd98c790f8",
+            "tamanho_bytes": 3191162,
+            "duracao_segundos": 25.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261106-dd86c67d78",
+      "aprovado": true,
+      "data": "2026-11-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1443 - Quem é o seu maior inimigo.mp4",
+        "sha256": "dd86c67d783ba6cc7c0c99811f9e146815bd9807ef5cf51d84fef4800652b057"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-9e201862af090116326baf25e964262643b19b8f36333ede4dd3c40e75c97aa0.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-9e201862af090116326baf25e964262643b19b8f36333ede4dd3c40e75c97aa0.mp4",
+            "sha256": "9e201862af090116326baf25e964262643b19b8f36333ede4dd3c40e75c97aa0",
+            "tamanho_bytes": 2164415,
+            "duracao_segundos": 15.6
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261107-3a20b57f02",
+      "aprovado": true,
+      "data": "2026-11-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1442 - O livro que vai mudar sua visão da vida!.mp4",
+        "sha256": "3a20b57f02058f0f2573ce74f022b7f32436750f9c1842ca50f03491e96bb9f5"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-99a9119dcb3b7594d36972868b213148dd2d684a1538fbf8440392d70de1e4c5.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-99a9119dcb3b7594d36972868b213148dd2d684a1538fbf8440392d70de1e4c5.mp4",
+            "sha256": "99a9119dcb3b7594d36972868b213148dd2d684a1538fbf8440392d70de1e4c5",
+            "tamanho_bytes": 8996936,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261108-7ac2cc704b",
+      "aprovado": true,
+      "data": "2026-11-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1441 - O botão da desistência.mp4",
+        "sha256": "7ac2cc704b76c386f0c37bd091606642fa441dad6fc446419a7a1d64dd364d13"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-43fe62e0f9f3eb2557ef745e690ef7733226ea9403a5c912ee2998ba24feea25.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-43fe62e0f9f3eb2557ef745e690ef7733226ea9403a5c912ee2998ba24feea25.mp4",
+            "sha256": "43fe62e0f9f3eb2557ef745e690ef7733226ea9403a5c912ee2998ba24feea25",
+            "tamanho_bytes": 8527348,
+            "duracao_segundos": 50.16
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261109-8e3ca1ebae",
+      "aprovado": true,
+      "data": "2026-11-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "1440 - Ambientes certos, pessoas erradas.mp4",
+        "sha256": "8e3ca1ebae19451dffae2390c05f41cb64c34225f1bd98e9a1fc96ce8e9c839e"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-1587c6d06826afcaebc3e497179891ad4c1c4d49f747927d66149ac963caa016.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-1587c6d06826afcaebc3e497179891ad4c1c4d49f747927d66149ac963caa016.mp4",
+            "sha256": "1587c6d06826afcaebc3e497179891ad4c1c4d49f747927d66149ac963caa016",
+            "tamanho_bytes": 8104261,
+            "duracao_segundos": 43.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 60,
