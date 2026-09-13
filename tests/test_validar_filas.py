@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import copy
+import io
 import json
 import sys
+import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 from urllib.parse import quote
 
@@ -11,7 +14,24 @@ from urllib.parse import quote
 RAIZ = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(RAIZ))
 
-from validar_filas import validar_filas  # noqa: E402
+from validar_filas import (  # noqa: E402
+    conferir_filas,
+    defeito_do_reel,
+    defeito_do_story,
+    main,
+    validar_filas,
+)
+
+
+def defeitos_de(reels: dict, stories: dict) -> list[str]:
+    """Problemas de um item só, que viram AVISO e não derrubam a fila.
+
+    Até 12/09/2026 tudo caía na mesma lista e qualquer item ruim reprovava a fila
+    inteira, deixando o canal sem publicar naquele dia. Hoje o defeito de item sai
+    separado aqui, e quem recusa o item é o publicador, no horário dele.
+    """
+
+    return list(conferir_filas(reels, stories)[1].values())
 
 
 SHA_A = "a" * 64
@@ -35,6 +55,11 @@ def operacionalizar(reels: dict, stories: dict) -> None:
         fila["github"]["release_tag"] = TAG
         fila["politica"]["data_inicio_aquecimento"] = D0
         fila["politica"]["reels"]["legenda"] = LEGENDA
+    # Cada teste monta os itens que quer conferir. Os itens reais do repositório
+    # apontam para outro repositório e outro D0, então ficariam sujando o
+    # resultado com problemas que não são o assunto do teste.
+    reels["conteudos"] = []
+    stories["pacotes"] = []
 
 
 def midia(sha256: str, duracao: float) -> dict:
@@ -115,14 +140,17 @@ class TestPoliticaVersionada(unittest.TestCase):
         self.reels["conteudos"] = [reel(duracao=60.0)]
         self.stories["pacotes"] = [story(duracao=59.0)]
 
-        self.assertEqual(validar_filas(self.reels, self.stories), [])
+        self.assertEqual(conferir_filas(self.reels, self.stories), ([], {}))
 
     def test_story_de_60_segundos_falha_no_teto_rigido(self) -> None:
         self.stories["pacotes"] = [story(duracao=60.0)]
 
-        erros = validar_filas(self.reels, self.stories)
+        defeitos = defeitos_de(self.reels, self.stories)
 
-        self.assertTrue(any("59" in mensagem and "duração" in mensagem for mensagem in erros))
+        self.assertTrue(any("59" in mensagem and "duração" in mensagem for mensagem in defeitos))
+        # O teto continua valendo, mas agora só tira este pacote da publicação.
+        self.assertEqual(validar_filas(self.reels, self.stories), [])
+        self.assertIn("59", defeito_do_story(self.stories, self.stories["pacotes"][0]) or "")
 
     def test_limite_declarado_nao_pode_relaxar_teto_de_59(self) -> None:
         for fila in (self.reels, self.stories):
@@ -171,10 +199,14 @@ class TestPoliticaVersionada(unittest.TestCase):
         segundo["horario"] = "12:00"
         self.reels["conteudos"] = [primeiro, segundo]
 
-        erros = validar_filas(self.reels, self.stories)
+        erros, defeitos = conferir_filas(self.reels, self.stories)
+        mensagens = list(defeitos.values())
 
-        self.assertTrue(any("aprovado" in mensagem for mensagem in erros))
-        self.assertTrue(any("prefixo bloqueado" in mensagem for mensagem in erros))
+        # Falta de aprovação e prefixo bloqueado são problema de um item só.
+        self.assertTrue(any("aprovado" in mensagem for mensagem in mensagens))
+        self.assertTrue(any("prefixo bloqueado" in mensagem for mensagem in mensagens))
+        # Asset e SHA repetidos são da mesma família do ID repetido: dois itens
+        # apontando para o mesmo vídeo derrubam a fila inteira, como antes.
         self.assertTrue(any("asset duplicado" in mensagem for mensagem in erros))
         self.assertTrue(any("SHA-256 de mídia duplicado" in mensagem for mensagem in erros))
 
@@ -183,9 +215,10 @@ class TestPoliticaVersionada(unittest.TestCase):
         item["instagram"]["status"] = "agendado"
         self.reels["conteudos"] = [item]
 
-        erros = validar_filas(self.reels, self.stories)
+        defeitos = defeitos_de(self.reels, self.stories)
 
-        self.assertTrue(any("status inválido" in mensagem for mensagem in erros))
+        self.assertTrue(any("status inválido" in mensagem for mensagem in defeitos))
+        self.assertEqual(validar_filas(self.reels, self.stories), [])
 
     def test_facebook_processando_com_video_id_e_valido(self) -> None:
         item = reel()
@@ -208,12 +241,14 @@ class TestPoliticaVersionada(unittest.TestCase):
         )
         self.reels["conteudos"] = [item]
 
-        erros = validar_filas(self.reels, self.stories)
-        self.assertTrue(any("upload_url obrigatória" in mensagem for mensagem in erros))
+        defeitos = defeitos_de(self.reels, self.stories)
+        self.assertTrue(any("upload_url obrigatória" in mensagem for mensagem in defeitos))
 
         item["facebook"]["upload_url"] = "https://graph.facebook.com/video-upload/v23.0/video-123"
-        erros = validar_filas(self.reels, self.stories)
-        self.assertTrue(any("URL canônica" in mensagem for mensagem in erros))
+        defeitos = defeitos_de(self.reels, self.stories)
+        self.assertTrue(any("URL canônica" in mensagem for mensagem in defeitos))
+        # A recusa deste Reel sai agora na hora de publicar, não na fila toda.
+        self.assertIn("URL canônica", defeito_do_reel(self.reels, item) or "")
 
     def test_checkpoint_de_id_abandonado_permanece_fila_valida(self) -> None:
         item = reel()
@@ -265,8 +300,8 @@ class TestPoliticaVersionada(unittest.TestCase):
         )
         self.reels["conteudos"] = [item]
 
-        erros = validar_filas(self.reels, self.stories)
-        self.assertTrue(any("fase desconhecida" in mensagem for mensagem in erros))
+        defeitos = defeitos_de(self.reels, self.stories)
+        self.assertTrue(any("fase desconhecida" in mensagem for mensagem in defeitos))
 
     def test_intencao_de_remocao_exige_publicacao_e_destino_correto(self) -> None:
         item = reel()
@@ -279,10 +314,64 @@ class TestPoliticaVersionada(unittest.TestCase):
         )
         self.reels["conteudos"] = [item]
 
-        erros = validar_filas(self.reels, self.stories)
+        defeitos = defeitos_de(self.reels, self.stories)
 
-        self.assertTrue(any("remoção só pode" in mensagem for mensagem in erros))
-        self.assertTrue(any("intenção de remoção diverge" in mensagem for mensagem in erros))
+        self.assertTrue(any("remoção só pode" in mensagem for mensagem in defeitos))
+        self.assertTrue(any("intenção de remoção diverge" in mensagem for mensagem in defeitos))
+
+
+class TestItemRuimNaoCalaOCanal(unittest.TestCase):
+    """Em 12/09/2026 cinco vídeos agendados para novembro deixaram um canal sem
+    publicar de manhã: o conferidor reprovava a fila toda por causa deles e o
+    publicador nem chegava a rodar. Estes testes seguram o conserto no lugar."""
+
+    def setUp(self) -> None:
+        self.reels, self.stories = carregar_bases()
+        operacionalizar(self.reels, self.stories)
+        self.bom = reel(data=D0, horario="19:00", duracao=60.0)
+        self.ruim = reel(data="2026-09-15", horario="19:00", duracao=999.0)
+        self.ruim["origem"]["sha256"] = SHA_B
+        self.ruim["midia"] = midia(SHA_C, 999.0)
+        self.reels["conteudos"] = [self.bom, self.ruim]
+
+    def test_video_la_do_fim_da_fila_vira_aviso_e_a_fila_continua_valida(self) -> None:
+        erros, defeitos = conferir_filas(self.reels, self.stories)
+
+        self.assertEqual(erros, [])
+        self.assertEqual(list(defeitos), [self.ruim["id"]])
+        self.assertIn("duração", defeitos[self.ruim["id"]])
+
+    def test_conferidor_sai_com_codigo_zero_mesmo_com_item_defeituoso(self) -> None:
+        with tempfile.TemporaryDirectory() as pasta:
+            raiz = Path(pasta)
+            (raiz / "fila").mkdir()
+            (raiz / "fila" / "fila-reels.json").write_text(
+                json.dumps(self.reels), encoding="utf-8"
+            )
+            (raiz / "fila" / "fila-stories.json").write_text(
+                json.dumps(self.stories), encoding="utf-8"
+            )
+            saida = io.StringIO()
+            with redirect_stdout(saida):
+                codigo = main(["--raiz", str(raiz)])
+
+        self.assertEqual(codigo, 0)
+        self.assertIn("AVISO: 1 item(ns) com defeito", saida.getvalue())
+        self.assertIn(self.ruim["id"], saida.getvalue())
+
+    def test_publicador_recusa_o_item_ruim_e_deixa_o_bom_passar(self) -> None:
+        self.assertIsNone(defeito_do_reel(self.reels, self.bom))
+        self.assertIn("duração", defeito_do_reel(self.reels, self.ruim) or "")
+
+    def test_pacote_de_story_ruim_tambem_so_perde_o_proprio_dia(self) -> None:
+        pacote_ruim = story(duracao=90.0)
+        self.stories["pacotes"] = [pacote_ruim]
+
+        erros, defeitos = conferir_filas(self.reels, self.stories)
+
+        self.assertEqual(erros, [])
+        self.assertIn(pacote_ruim["id"], defeitos)
+        self.assertIn("duração", defeito_do_story(self.stories, pacote_ruim) or "")
 
 
 if __name__ == "__main__":

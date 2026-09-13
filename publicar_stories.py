@@ -39,6 +39,11 @@ from retomada_meta import (
     video_facebook_falhou,
 )
 
+# O conferidor da fila agora só AVISA sobre pacote ruim, para um vídeo errado lá
+# no fim da fila não calar o canal inteiro. Quem barra o pacote ruim é aqui, na
+# hora de publicar, e só o dia dele fica sem publicar (incidente de 12/09/2026).
+from validar_filas import defeito_do_story
+
 
 FILA_FILE = ROOT / "fila" / "fila-stories.json"
 
@@ -380,6 +385,9 @@ def main() -> None:
         return
     if pacote.get("aprovado") is not True:
         raise RuntimeError("O pacote de Stories não possui aprovação explícita.")
+    defeito = defeito_do_story(fila, pacote)
+    if defeito:
+        raise SystemExit(f"Story do slot recusado por defeito: {defeito}")
 
     def persistir() -> None:
         persistir_fila(FILA_FILE, fila)

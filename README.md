@@ -21,6 +21,15 @@ Os scripts publicam **somente o item da data e do horário explicitamente
 informados pelo workflow**. Itens atrasados não são despejados automaticamente
 em outro horário.
 
+Um vídeo com defeito não cala mais o canal inteiro. O `validar_filas.py` separa
+dois casos: erro que tira a confiança da fila toda (cabeçalho, política, ID,
+asset ou SHA repetido, data, janela, status fora da lista) continua derrubando
+tudo, com código diferente de zero; defeito de um item só (duração, legenda,
+URL do asset, estado de plataforma) vira `AVISO` e o conferidor sai com código
+zero. Quem recusa o item ruim é o publicador, no horário dele, e só aquele
+horário fica sem publicar. Em 12/09/2026, num canal irmão, cinco vídeos
+agendados para novembro deixaram a publicação daquela manhã sem acontecer.
+
 O checkout usa explicitamente a ponta atual da branch padrão depois que o job
 adquire o lock de concorrência. Essa proteção corrige uma falha observada no
 projeto de referência, em que dois dispatches enfileirados partiram do mesmo SHA

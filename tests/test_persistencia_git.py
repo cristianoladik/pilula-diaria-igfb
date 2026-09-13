@@ -35,6 +35,10 @@ def _filas_base() -> tuple[dict, dict]:
         fila["github"] = {"repositorio": REPOSITORIO, "release_tag": TAG}
         fila["politica"]["data_inicio_aquecimento"] = D0
         fila["politica"]["reels"]["legenda"] = LEGENDA
+    # O pacote de Stories que está no repositório é do dia anterior ao D0 que
+    # este arquivo declara, então sujava todo teste com um erro que não tem nada
+    # a ver com o que se quer verificar. Cada teste monta os itens que precisa.
+    stories["pacotes"] = []
     return reels, stories
 
 

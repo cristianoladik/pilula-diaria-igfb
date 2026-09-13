@@ -776,6 +776,9 @@ def _validar_mescla_semantica(
         for relativo in relativos
     }
     # Import local evita acoplar a publicação normal ao CLI do validador.
+    # validar_filas() devolve só o que derruba a fila inteira. Defeito de um item
+    # ficou de fora de propósito: senão um vídeo errado agendado para daqui a dois
+    # meses impediria de salvar a publicação que acabou de dar certo (12/09/2026).
     from validar_filas import validar_filas
 
     erros = validar_filas(
