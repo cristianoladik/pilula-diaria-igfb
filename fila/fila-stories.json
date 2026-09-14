@@ -2040,6 +2040,93 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261110-0076e3dc0b",
+      "aprovado": true,
+      "data": "2026-11-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2826 - Não se esqueça do passado - rodrigo silva arqueologia.mp4",
+        "sha256": "0076e3dc0bf9fabcbda02ed035bddfc567aedf9af95efd8e95c975d64a12b385"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-58fe22c82703f475c852d80fc2768110abaa9c3555f30009dd1ea1fcd619926b.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-58fe22c82703f475c852d80fc2768110abaa9c3555f30009dd1ea1fcd619926b.mp4",
+            "sha256": "58fe22c82703f475c852d80fc2768110abaa9c3555f30009dd1ea1fcd619926b",
+            "tamanho_bytes": 9595842,
+            "duracao_segundos": 52.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261111-102dcffe84",
+      "aprovado": true,
+      "data": "2026-11-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2825 - Não julgue, ore - rodrigo silva arqueologia.mp4",
+        "sha256": "102dcffe849a2be3167d961d94d8f7a56d4b379592a12977076d917ebd7a18fb"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-6f60dc4baa458a09bd897c1aa933e9c70e9009091645b3e33f107aaa8ff8bbcc.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-6f60dc4baa458a09bd897c1aa933e9c70e9009091645b3e33f107aaa8ff8bbcc.mp4",
+            "sha256": "6f60dc4baa458a09bd897c1aa933e9c70e9009091645b3e33f107aaa8ff8bbcc",
+            "tamanho_bytes": 9832018,
+            "duracao_segundos": 58.96
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261112-a12942bfc8",
+      "aprovado": true,
+      "data": "2026-11-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2824 - Não desista do amor de Deus - rodrigo silva arqueologia.mp4",
+        "sha256": "a12942bfc84207b63f9fe00cba59344dd5e52fcfc2334b28fa9fcd4ea07674a6"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-603c6a6c8b6470f9033b8e589266762c8fe6c0f418019b330278e5d747148313.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-603c6a6c8b6470f9033b8e589266762c8fe6c0f418019b330278e5d747148313.mp4",
+            "sha256": "603c6a6c8b6470f9033b8e589266762c8fe6c0f418019b330278e5d747148313",
+            "tamanho_bytes": 7435106,
+            "duracao_segundos": 42.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 60,
