@@ -129,8 +129,8 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "enviando",
-            "fase": "upload_em_andamento",
+            "status": "processando",
+            "fase": "upload_concluido",
             "video_id": "1625246872558128",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1625246872558128"
           }
