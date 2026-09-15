@@ -2144,6 +2144,51 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261113-d681c1232c",
+      "aprovado": true,
+      "data": "2026-11-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2823 - Não barganhe o amor de Deus - rodrigo silva arqueologia.mp4",
+        "sha256": "d681c1232c49b9b31e8bcc1216d7af75b4ebf77b7cd5e7fac247d34a5b79eafb"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-8be48f76aa77f219c46f714406637f9eed977a96a4d6574df2ddfce695ce65e9.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-8be48f76aa77f219c46f714406637f9eed977a96a4d6574df2ddfce695ce65e9.mp4",
+            "sha256": "8be48f76aa77f219c46f714406637f9eed977a96a4d6574df2ddfce695ce65e9",
+            "tamanho_bytes": 4549507,
+            "duracao_segundos": 29.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-49ed89142f94b19340202467fed3a8f5ae9bf0974cd269c8dbbffb7ad54faf95.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-49ed89142f94b19340202467fed3a8f5ae9bf0974cd269c8dbbffb7ad54faf95.mp4",
+            "sha256": "49ed89142f94b19340202467fed3a8f5ae9bf0974cd269c8dbbffb7ad54faf95",
+            "tamanho_bytes": 4334200,
+            "duracao_segundos": 29.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 60,
