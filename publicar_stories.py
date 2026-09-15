@@ -9,6 +9,9 @@ from pathlib import Path
 import requests
 
 from meta_comum import (
+    MAX_SUBSTITUICOES_POR_RODADA,
+    esgotou_tentativas,
+    pular_e_puxar_proximo,
     BRT,
     PLATAFORMAS,
     ROOT,
@@ -392,26 +395,41 @@ def main() -> None:
     def persistir() -> None:
         persistir_fila(FILA_FILE, fila)
 
-    partes = sorted(pacote.get("partes", []), key=lambda parte: parte["ordem"])
-    if not partes or [p["ordem"] for p in partes] != list(range(1, len(partes) + 1)):
-        raise RuntimeError("O pacote de Stories não tem partes contínuas a partir de 1.")
-    for parte in partes:
-        executar_plataforma(
-            parte,
-            "instagram",
-            lambda atual, estado: publicar_instagram(atual, estado, persistir),
-            persistir,
-        )
-        executar_plataforma(
-            parte,
-            "facebook",
-            lambda atual, estado: publicar_facebook(atual, estado, persistir),
-            persistir,
-        )
-        if any(parte[p].get("status") == "erro" for p in PLATAFORMAS):
-            raise SystemExit(1)
-    pacote.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
-    persistir()
+    for _ in range(MAX_SUBSTITUICOES_POR_RODADA):
+        partes = sorted(pacote.get("partes", []), key=lambda parte: parte["ordem"])
+        if not partes or [p["ordem"] for p in partes] != list(range(1, len(partes) + 1)):
+            raise RuntimeError("O pacote de Stories não tem partes contínuas a partir de 1.")
+        falhou = False
+        for parte in partes:
+            executar_plataforma(
+                parte,
+                "instagram",
+                lambda atual, estado: publicar_instagram(atual, estado, persistir),
+                persistir,
+            )
+            executar_plataforma(
+                parte,
+                "facebook",
+                lambda atual, estado: publicar_facebook(atual, estado, persistir),
+                persistir,
+            )
+            if any(parte[p].get("status") == "erro" for p in PLATAFORMAS):
+                falhou = True
+                break
+        if not falhou:
+            pacote.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+            persistir()
+            return
+        if not esgotou_tentativas(partes, PLATAFORMAS):
+            break
+        proximo = pular_e_puxar_proximo(fila.get("pacotes", []), pacote)
+        persistir()
+        if proximo is None:
+            break
+        pacote = proximo
+        if pacote.get("aprovado") is not True:
+            raise RuntimeError("O pacote que assumiu o slot nao possui aprovacao explicita.")
+    raise SystemExit(1)
 
 
 if __name__ == "__main__":

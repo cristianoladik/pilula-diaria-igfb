@@ -9,6 +9,9 @@ from pathlib import Path
 import requests
 
 from meta_comum import (
+    MAX_SUBSTITUICOES_POR_RODADA,
+    esgotou_tentativas,
+    pular_e_puxar_proximo,
     BRT,
     PLATAFORMAS,
     ROOT,
@@ -359,23 +362,33 @@ def main() -> None:
     def persistir() -> None:
         persistir_fila(FILA_FILE, fila)
 
-    executar_plataforma(
-        item,
-        "instagram",
-        lambda atual, estado: publicar_instagram(atual, estado, persistir),
-        persistir,
-    )
-    executar_plataforma(
-        item,
-        "facebook",
-        lambda atual, estado: publicar_facebook(atual, estado, persistir),
-        persistir,
-    )
-    if all(item[p].get("status") == "publicado" for p in PLATAFORMAS):
-        item.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+    for _ in range(MAX_SUBSTITUICOES_POR_RODADA):
+        executar_plataforma(
+            item,
+            "instagram",
+            lambda atual, estado: publicar_instagram(atual, estado, persistir),
+            persistir,
+        )
+        executar_plataforma(
+            item,
+            "facebook",
+            lambda atual, estado: publicar_facebook(atual, estado, persistir),
+            persistir,
+        )
+        if all(item[p].get("status") == "publicado" for p in PLATAFORMAS):
+            item.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+            persistir()
+            return
+        if not esgotou_tentativas([item], PLATAFORMAS):
+            break
+        proximo = pular_e_puxar_proximo(fila.get("conteudos", []), item)
         persistir()
-    if any(item[p].get("status") == "erro" for p in PLATAFORMAS):
-        raise SystemExit(1)
+        if proximo is None:
+            break
+        item = proximo
+        if item.get("aprovado") is not True:
+            raise RuntimeError("O Reel que assumiu o slot nao possui aprovacao explicita.")
+    raise SystemExit(1)
 
 
 if __name__ == "__main__":

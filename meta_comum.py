@@ -968,6 +968,53 @@ def persistir_fila(caminho: Path, dados: dict) -> None:
     _atualizar_mapeamento_inplace(dados, autoritativas[relativo])
 
 
+STATUS_FINAIS = {"concluido", "pulado"}
+# Depois de tantas tentativas falhas numa rede, o item sai da vez e o proximo
+# pendente da fila assume o horario. Regra do Cristiano em 15/09/2026: quando
+# ha recusa, tentar os proximos videos da fila ate conseguir.
+MAX_TENTATIVAS_ANTES_DE_PULAR = 3
+MAX_SUBSTITUICOES_POR_RODADA = 5
+
+
+def esgotou_tentativas(blocos: list[dict], plataformas) -> bool:
+    for bloco in blocos:
+        for plataforma in plataformas:
+            estado = bloco.get(plataforma, {})
+            if estado.get("status") == "erro" and int(estado.get("tentativas", 0)) >= MAX_TENTATIVAS_ANTES_DE_PULAR:
+                return True
+    return False
+
+
+def pular_e_puxar_proximo(
+    colecao: list[dict], item: dict, *, campo_horario: str = "horario"
+) -> dict | None:
+    """Marca o item como pulado e traz o proximo pendente para o mesmo horario."""
+
+    data = str(item.get("data", ""))
+    horario = str(item.get(campo_horario, "09:00"))
+    item["status"] = "pulado"
+    item["pulado_em"] = datetime.now(BRT).isoformat()
+    candidatos = sorted(
+        (
+            outro
+            for outro in colecao
+            if outro is not item
+            and outro.get("status") == "pendente"
+            and (str(outro.get("data", "")), str(outro.get(campo_horario, "09:00"))) > (data, horario)
+        ),
+        key=lambda outro: (str(outro.get("data", "")), str(outro.get(campo_horario, "09:00"))),
+    )
+    if not candidatos:
+        print(f"PULADO {item.get('id')}: sem proximo pendente na fila para assumir {data} {horario}.")
+        return None
+    proximo = candidatos[0]
+    proximo["reagendado_de"] = f"{proximo.get('data')} {proximo.get(campo_horario, '09:00')}"
+    proximo["data"] = data
+    proximo[campo_horario] = horario
+    print(f"PULADO {item.get('id')} apos {MAX_TENTATIVAS_ANTES_DE_PULAR} tentativas; {proximo.get('id')} assume {data} {horario}.")
+    return proximo
+
+
 def alvo_exato(colecao: list[dict], *, campo_horario: str = "horario") -> dict | None:
     data = obrigatoria("DATA_PUBLICACAO")
     horario = obrigatoria("HORARIO_PUBLICACAO")
@@ -980,7 +1027,7 @@ def alvo_exato(colecao: list[dict], *, campo_horario: str = "horario") -> dict |
         for item in colecao
         if item.get("data") == data
         and item.get(campo_horario, "09:00") == horario
-        and item.get("status") != "concluido"
+        and item.get("status") not in STATUS_FINAIS
     ]
     if len(encontrados) > 1:
         raise RuntimeError(f"Mais de um item pendente no slot {data} {horario}.")
@@ -1230,6 +1277,7 @@ def executar_plataforma(
     estado = item[plataforma]
     if estado.get("status") == "publicado":
         return
+    estado["tentativas"] = int(estado.get("tentativas", 0)) + 1
     try:
         media_id = publicar(item, estado)
         if estado.get("status") != "publicado":

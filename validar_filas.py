@@ -58,7 +58,7 @@ _LINHA_SIGA = r"Siga @[A-Za-z0-9._]{1,30}"
 LEGENDA_RE = re.compile(r"^" + _LINHA_SIGA + r"(?:\n" + _LINHA_SIGA + r"){0,3}$")
 ESTADOS_INSTAGRAM = {"pendente", "processando", "publicado", "erro"}
 ESTADOS_FACEBOOK = {"pendente", "enviando", "processando", "publicado", "erro"}
-STATUS_ITENS = {"pendente", "concluido"}
+STATUS_ITENS = {"pendente", "concluido", "pulado"}
 FASES_INSTAGRAM = {
     "container_criado",
     "publicacao_solicitada",
