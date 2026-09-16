@@ -8329,6 +8329,249 @@
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261114-0600-4bdc7ffc3c",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "06:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0312 - A positividade não muda a realidade. Ela muda a forma como você enfrenta a realidade.mp4",
+        "sha256": "4bdc7ffc3c8e7dfd5ac5d7e0d5ff4ea70c6daf5b755a350fdf4903021a4b1ca2"
+      },
+      "midia": {
+        "asset": "sha256-4bdc7ffc3c8e7dfd5ac5d7e0d5ff4ea70c6daf5b755a350fdf4903021a4b1ca2.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-4bdc7ffc3c8e7dfd5ac5d7e0d5ff4ea70c6daf5b755a350fdf4903021a4b1ca2.mp4",
+        "sha256": "4bdc7ffc3c8e7dfd5ac5d7e0d5ff4ea70c6daf5b755a350fdf4903021a4b1ca2",
+        "tamanho_bytes": 6428750,
+        "duracao_segundos": 24.72
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-0800-9d314fece6",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "08:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0310 - Você está blindado por dentro.mp4",
+        "sha256": "9d314fece6106b0f84ba1933d1482f91a95f7aa083179d1d015ae6b39351af42"
+      },
+      "midia": {
+        "asset": "sha256-9d314fece6106b0f84ba1933d1482f91a95f7aa083179d1d015ae6b39351af42.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-9d314fece6106b0f84ba1933d1482f91a95f7aa083179d1d015ae6b39351af42.mp4",
+        "sha256": "9d314fece6106b0f84ba1933d1482f91a95f7aa083179d1d015ae6b39351af42",
+        "tamanho_bytes": 11777915,
+        "duracao_segundos": 46.52
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-1000-56dcec1fc5",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "10:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0314 - Isso acaba com sua autoestima.mp4",
+        "sha256": "56dcec1fc5968aebb8cdd37d19ae31953cdc4432a4b18aa3ac394fabc4532eaa"
+      },
+      "midia": {
+        "asset": "sha256-56dcec1fc5968aebb8cdd37d19ae31953cdc4432a4b18aa3ac394fabc4532eaa.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-56dcec1fc5968aebb8cdd37d19ae31953cdc4432a4b18aa3ac394fabc4532eaa.mp4",
+        "sha256": "56dcec1fc5968aebb8cdd37d19ae31953cdc4432a4b18aa3ac394fabc4532eaa",
+        "tamanho_bytes": 11347825,
+        "duracao_segundos": 58.92
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-1200-3692ef117d",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "12:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0308 - Pare de ouvir todo mundo.mp4",
+        "sha256": "3692ef117d5a3a1c18ef0c64f878786ccd1cea9aed67719b56da6687dfc27c55"
+      },
+      "midia": {
+        "asset": "sha256-3692ef117d5a3a1c18ef0c64f878786ccd1cea9aed67719b56da6687dfc27c55.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-3692ef117d5a3a1c18ef0c64f878786ccd1cea9aed67719b56da6687dfc27c55.mp4",
+        "sha256": "3692ef117d5a3a1c18ef0c64f878786ccd1cea9aed67719b56da6687dfc27c55",
+        "tamanho_bytes": 6959439,
+        "duracao_segundos": 61.24
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-1600-5f45116da9",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "16:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0311 - A verdade sobre atalhos que ninguém te conta.mp4",
+        "sha256": "5f45116da92fd39428441545eff09a80c84c23aeadd3f4853b823141bb733c8e"
+      },
+      "midia": {
+        "asset": "sha256-5f45116da92fd39428441545eff09a80c84c23aeadd3f4853b823141bb733c8e.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-5f45116da92fd39428441545eff09a80c84c23aeadd3f4853b823141bb733c8e.mp4",
+        "sha256": "5f45116da92fd39428441545eff09a80c84c23aeadd3f4853b823141bb733c8e",
+        "tamanho_bytes": 4035912,
+        "duracao_segundos": 19.04
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-1800-f11bea4b8a",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "18:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0313 - Deus não existe.mp4",
+        "sha256": "f11bea4b8a5801b0c8e8c83e6548796620ef0eded2cf4cfeb36337d917aa14df"
+      },
+      "midia": {
+        "asset": "sha256-f11bea4b8a5801b0c8e8c83e6548796620ef0eded2cf4cfeb36337d917aa14df.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-f11bea4b8a5801b0c8e8c83e6548796620ef0eded2cf4cfeb36337d917aa14df.mp4",
+        "sha256": "f11bea4b8a5801b0c8e8c83e6548796620ef0eded2cf4cfeb36337d917aa14df",
+        "tamanho_bytes": 11907821,
+        "duracao_segundos": 83.68
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-1900-468aeb6eba",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "19:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0307 - Não seja mais rejeitada - Paulo vieira.mp4",
+        "sha256": "468aeb6eba9877fdb7bce8100e4b6004cf4ded1190da1159c70acd0667f9954b"
+      },
+      "midia": {
+        "asset": "sha256-468aeb6eba9877fdb7bce8100e4b6004cf4ded1190da1159c70acd0667f9954b.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-468aeb6eba9877fdb7bce8100e4b6004cf4ded1190da1159c70acd0667f9954b.mp4",
+        "sha256": "468aeb6eba9877fdb7bce8100e4b6004cf4ded1190da1159c70acd0667f9954b",
+        "tamanho_bytes": 23921209,
+        "duracao_segundos": 50.04
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-2100-454fe193b3",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0309 - Receita matinal saudável e gostosa.mp4",
+        "sha256": "454fe193b32a15178fdc49bece8240dfc41debbe68890340cf70e8ce89ed9bcf"
+      },
+      "midia": {
+        "asset": "sha256-454fe193b32a15178fdc49bece8240dfc41debbe68890340cf70e8ce89ed9bcf.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-454fe193b32a15178fdc49bece8240dfc41debbe68890340cf70e8ce89ed9bcf.mp4",
+        "sha256": "454fe193b32a15178fdc49bece8240dfc41debbe68890340cf70e8ce89ed9bcf",
+        "tamanho_bytes": 16989795,
+        "duracao_segundos": 53.72
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-2200-b1e37ad4a6",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "22:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0315 - O seu sucesso está nas suas emoções - Paulo vieira.mp4",
+        "sha256": "b1e37ad4a6212038052bb583354e810e2f126226203b7e2870fcbe81b547c518"
+      },
+      "midia": {
+        "asset": "sha256-b1e37ad4a6212038052bb583354e810e2f126226203b7e2870fcbe81b547c518.mp4",
+        "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-b1e37ad4a6212038052bb583354e810e2f126226203b7e2870fcbe81b547c518.mp4",
+        "sha256": "b1e37ad4a6212038052bb583354e810e2f126226203b7e2870fcbe81b547c518",
+        "tamanho_bytes": 19758619,
+        "duracao_segundos": 45.56
+      },
+      "instagram": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "share_to_feed": true,
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_minimo_dias": 60,

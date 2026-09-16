@@ -2206,6 +2206,35 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261114-150f827554",
+      "aprovado": true,
+      "data": "2026-11-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2822 - Na fraqueza dos homens - rodrigo silva arqueologia.mp4",
+        "sha256": "150f8275542fce86b87eafeb05e1efa16f64a9efebe5ce00f96dfa53b137b0c9"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-f6dbc6529f6c1fa0ab11d484a28d021d61ab3da421ffeb05b0d03f53fc756600.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-f6dbc6529f6c1fa0ab11d484a28d021d61ab3da421ffeb05b0d03f53fc756600.mp4",
+            "sha256": "f6dbc6529f6c1fa0ab11d484a28d021d61ab3da421ffeb05b0d03f53fc756600",
+            "tamanho_bytes": 5128146,
+            "duracao_segundos": 39.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 60,
