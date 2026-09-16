@@ -197,7 +197,7 @@
       "aprovado": true,
       "data": "2026-09-16",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1495 - Adolescentes, desumanização e respeito o que estamos ensinando.mp4",
         "sha256": "b54405af2c0b067f89358e7fc3e374fc4f76dbd917f62ea2b9ee909ad973a316"
@@ -263,7 +263,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-16T13:02:16.829131-03:00"
     },
     {
       "id": "story-20260917-cef07a3607",
