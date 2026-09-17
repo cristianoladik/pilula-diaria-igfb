@@ -2272,6 +2272,51 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261115-dca8e72a5b",
+      "aprovado": true,
+      "data": "2026-11-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "2821 - Na cova dos leões - rodrigo silva arqueologia.mp4",
+        "sha256": "dca8e72a5b536ce8862d3e504476f496f0b6805012fe7eabffd03b58e5afbff3"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "sha256-be60b89d3566aa2994d17f646eb0b9b5f16c308a19f4310e463fb2543fbe02ff.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-be60b89d3566aa2994d17f646eb0b9b5f16c308a19f4310e463fb2543fbe02ff.mp4",
+            "sha256": "be60b89d3566aa2994d17f646eb0b9b5f16c308a19f4310e463fb2543fbe02ff",
+            "tamanho_bytes": 3078298,
+            "duracao_segundos": 29.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "sha256-28d3be51d93c660e282d3a0147830b9419e49167c5cbe874da4efbe5cdba4d8c.mp4",
+            "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-28d3be51d93c660e282d3a0147830b9419e49167c5cbe874da4efbe5cdba4d8c.mp4",
+            "sha256": "28d3be51d93c660e282d3a0147830b9419e49167c5cbe874da4efbe5cdba4d8c",
+            "tamanho_bytes": 2223195,
+            "duracao_segundos": 29.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 60,
