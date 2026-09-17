@@ -292,7 +292,10 @@
             "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-2e19abb29fea526182a066b5647f0f9077b812e239d962629a18de86197e543b.mp4",
             "sha256": "2e19abb29fea526182a066b5647f0f9077b812e239d962629a18de86197e543b",
             "tamanho_bytes": 7532730,
-            "duracao_segundos": 39.56
+            "duracao_segundos": 39.56,
+            "remocao_solicitada_em": "2026-09-17T13:10:14.933694-03:00",
+            "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
+            "remocao_release_tag": "fila-instagram-facebook"
           },
           "instagram": {
             "status": "publicado",
@@ -322,7 +325,10 @@
             "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-a80128dfd0ec53bd3b676773229bc6565fecc2f684838aa8066e6be0880be9f8.mp4",
             "sha256": "a80128dfd0ec53bd3b676773229bc6565fecc2f684838aa8066e6be0880be9f8",
             "tamanho_bytes": 8426889,
-            "duracao_segundos": 39.56
+            "duracao_segundos": 39.56,
+            "remocao_solicitada_em": "2026-09-17T13:10:14.933694-03:00",
+            "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
+            "remocao_release_tag": "fila-instagram-facebook"
           },
           "instagram": {
             "status": "publicado",
@@ -352,7 +358,10 @@
             "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-d2a3574713fea93133f722d705e828f558f8ea27d535857b331d60d590d3e622.mp4",
             "sha256": "d2a3574713fea93133f722d705e828f558f8ea27d535857b331d60d590d3e622",
             "tamanho_bytes": 7277147,
-            "duracao_segundos": 39.525
+            "duracao_segundos": 39.525,
+            "remocao_solicitada_em": "2026-09-17T13:10:14.933694-03:00",
+            "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
+            "remocao_release_tag": "fila-instagram-facebook"
           },
           "instagram": {
             "status": "publicado",
