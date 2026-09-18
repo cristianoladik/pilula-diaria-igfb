@@ -395,7 +395,7 @@
       "aprovado": true,
       "data": "2026-09-18",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1493 - Achar que a reposição hormonal serve apenas para aliviar calores é um erro que pode custar.mp4",
         "sha256": "cab92d69cd9fc93dad905976f454142c23cfaeb9054367e1fa532beec4b1f459"
@@ -461,7 +461,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-18T12:44:04.942567-03:00"
     },
     {
       "id": "story-20260919-92c857d107",
