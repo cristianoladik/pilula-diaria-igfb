@@ -145,7 +145,7 @@
       "aprovado": true,
       "data": "2026-09-15",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0003 - Cruzada incendiários em fortaleza!.mp4",
         "sha256": "547fe1d1255be5cf0df08ac126a6d1175bba0f54744a78a970a08c9090de8c66"
@@ -178,7 +178,8 @@
         "id": "1659507468857013",
         "publicado_em": "2026-09-19T14:20:25.903570-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T14:20:27.717145-03:00"
     },
     {
       "id": "reel-20260916-1900-b54103d4f4",
