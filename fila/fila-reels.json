@@ -100,7 +100,7 @@
       "aprovado": true,
       "data": "2026-09-14",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0002 - Baixe agora meu livro digital gratuito!.mp4",
         "sha256": "61c83ef233735fe6b80978f0fc26d88ae2469d8ab601242137f568a4d462cc37"
@@ -133,7 +133,8 @@
         "id": "1113434327881846",
         "publicado_em": "2026-09-19T14:17:04.100845-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T14:17:05.768887-03:00"
     },
     {
       "id": "reel-20260915-1900-547fe1d125",
