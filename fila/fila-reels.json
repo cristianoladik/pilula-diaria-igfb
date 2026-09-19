@@ -235,7 +235,7 @@
       "aprovado": true,
       "data": "2026-09-17",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0005 - Existe um período de silêncio 🤯.mp4",
         "sha256": "66347ebedb9f715f0ee446421a01e33c3a3da8c0146b6109b7fc8a962c5b54c0"
@@ -268,7 +268,8 @@
         "id": "2013357946004348",
         "publicado_em": "2026-09-19T14:24:31.470895-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T14:24:33.006061-03:00"
     },
     {
       "id": "reel-20260918-1900-60430c9ef6",
