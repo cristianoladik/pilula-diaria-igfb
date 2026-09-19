@@ -2,16 +2,28 @@ name: Publicar Reels Instagram e Facebook
 
 on:
   schedule:
-    # Horários em UTC; equivalem a 05:00, 13:00, 17:00 e 21:00 em Brasília.
-    # O slot de 09:00 roda no workflow de Stories.
-    - cron: "0 8 * * *"
-    - cron: "15 8 * * *"
-    - cron: "0 16 * * *"
-    - cron: "15 16 * * *"
-    - cron: "0 20 * * *"
-    - cron: "15 20 * * *"
+    # Horários em UTC, equivalentes aos dez slots da fila em Brasília.
+    # Cada slot tem uma segunda tentativa 15 minutos depois.
+    - cron: "0 9 * * *"
+    - cron: "15 9 * * *"
+    - cron: "0 11 * * *"
+    - cron: "15 11 * * *"
+    - cron: "0 13 * * *"
+    - cron: "15 13 * * *"
+    - cron: "0 15 * * *"
+    - cron: "15 15 * * *"
+    - cron: "0 17 * * *"
+    - cron: "15 17 * * *"
+    - cron: "0 19 * * *"
+    - cron: "15 19 * * *"
+    - cron: "0 21 * * *"
+    - cron: "15 21 * * *"
+    - cron: "0 22 * * *"
+    - cron: "15 22 * * *"
     - cron: "0 0 * * *"
     - cron: "15 0 * * *"
+    - cron: "0 1 * * *"
+    - cron: "15 1 * * *"
   workflow_dispatch:
     inputs:
       data_publicacao:
@@ -106,12 +118,18 @@ jobs:
             hora="$HORA_INPUT"
           else
             case "$CRON" in
-              "0 8 * * *"|"15 8 * * *") data="$(date -u +%F)"; hora="05:00" ;;
-              "0 16 * * *"|"15 16 * * *") data="$(date -u +%F)"; hora="13:00" ;;
-              "0 20 * * *"|"15 20 * * *") data="$(date -u +%F)"; hora="17:00" ;;
-              # 00:00 UTC ainda pertence ao dia anterior em Brasília. Derivar
-              # do cron mantém a data correta mesmo se o runner atrasar horas.
+              "0 9 * * *"|"15 9 * * *") data="$(date -u +%F)"; hora="06:00" ;;
+              "0 11 * * *"|"15 11 * * *") data="$(date -u +%F)"; hora="08:00" ;;
+              "0 13 * * *"|"15 13 * * *") data="$(date -u +%F)"; hora="10:00" ;;
+              "0 15 * * *"|"15 15 * * *") data="$(date -u +%F)"; hora="12:00" ;;
+              "0 17 * * *"|"15 17 * * *") data="$(date -u +%F)"; hora="14:00" ;;
+              "0 19 * * *"|"15 19 * * *") data="$(date -u +%F)"; hora="16:00" ;;
+              "0 21 * * *"|"15 21 * * *") data="$(date -u +%F)"; hora="18:00" ;;
+              "0 22 * * *"|"15 22 * * *") data="$(date -u +%F)"; hora="19:00" ;;
+              # 00:00 e 01:00 UTC ainda pertencem ao dia anterior em Brasília.
+              # Derivar do cron mantém a data certa se o runner atrasar.
               "0 0 * * *"|"15 0 * * *") data="$(date -u -d 'yesterday' +%F)"; hora="21:00" ;;
+              "0 1 * * *"|"15 1 * * *") data="$(date -u -d 'yesterday' +%F)"; hora="22:00" ;;
               *) echo "Cron não reconhecido: $CRON" >&2; exit 2 ;;
             esac
           fi

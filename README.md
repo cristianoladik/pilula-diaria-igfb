@@ -8,14 +8,17 @@ estiver persistido no Git.
 
 ## Agenda
 
-- Reels: 05:00, 09:00, 13:00, 17:00 e 21:00 em `America/Sao_Paulo`.
-- Stories: um pacote às 09:00; o Reel das 09:00 roda em job independente e em
-  paralelo, para um pacote longo não atrasar o outro formato.
-- Cada horário tem uma retentativa 15 minutos depois. Ela consulta e reutiliza o
+- Reels: 06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 19:00, 21:00 e
+  22:00 em `America/Sao_Paulo`. A fila libera esses horários aos poucos durante
+  o aquecimento, começando por 19:00.
+- Stories: um pacote às 09:00.
+- Cada horário tem uma nova tentativa 15 minutos depois. Ela consulta e reutiliza o
   mesmo `container_id`/`video_id`, nunca troca silenciosamente para uma nova
   operação quando já existe uma em andamento.
-- A fila determina quais horários existem durante o aquecimento; por isso os
-  workflows podem disparar cinco vezes sem publicar itens ainda não habilitados.
+- A fila determina quais horários existem durante o aquecimento. Por isso o
+  workflow pode rodar sem publicar um horário ainda não habilitado.
+- Se um horário rodar vazio enquanto existir Reel mais antigo pendente, a
+  execução falha e mostra qual foi o primeiro Reel perdido.
 
 Os scripts publicam **somente o item da data e do horário explicitamente
 informados pelo workflow**. Itens atrasados não são despejados automaticamente

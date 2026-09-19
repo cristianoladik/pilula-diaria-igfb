@@ -14,6 +14,7 @@ import publicar_reels  # noqa: E402
 import publicar_stories  # noqa: E402
 import meta_comum  # noqa: E402
 import limpar_release  # noqa: E402
+from publicar_reels import pendencias_anteriores  # noqa: E402
 from limpar_release import (  # noqa: E402
     _conferir_asset,
     _listar_todos_assets,
@@ -55,6 +56,19 @@ class TestSelecaoExata(unittest.TestCase):
             clear=False,
         ), self.assertRaisesRegex(RuntimeError, "Mais de um"):
             alvo_exato(duplicados)
+
+    def test_avisa_sobre_pendencias_anteriores_ao_slot(self) -> None:
+        itens = [
+            {"data": "2026-09-13", "horario": "19:00", "status": "concluido"},
+            {"data": "2026-09-14", "horario": "19:00", "status": "pendente"},
+            {"data": "2026-09-15", "horario": "18:00", "status": "erro"},
+            {"data": "2026-09-15", "horario": "19:00", "status": "pendente"},
+            {"data": "2026-09-16", "horario": "19:00", "status": "pendente"},
+        ]
+
+        encontrados = pendencias_anteriores(itens, "2026-09-15", "19:00")
+
+        self.assertEqual(encontrados, [itens[1], itens[2]])
 
 
 class TestLimpezaSegura(unittest.TestCase):

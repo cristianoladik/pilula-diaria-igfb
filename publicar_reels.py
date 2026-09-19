@@ -10,6 +10,7 @@ import requests
 
 from meta_comum import (
     MAX_SUBSTITUICOES_POR_RODADA,
+    STATUS_FINAIS,
     esgotou_tentativas,
     pular_e_puxar_proximo,
     BRT,
@@ -49,6 +50,22 @@ from validar_filas import defeito_do_reel
 
 
 FILA_FILE = ROOT / "fila" / "fila-reels.json"
+
+
+def pendencias_anteriores(
+    colecao: list[dict], data: str, horario: str
+) -> list[dict]:
+    """Lista itens não finalizados anteriores ao slot solicitado."""
+
+    alvo = (data, horario)
+    return [
+        item
+        for item in colecao
+        if isinstance(item.get("data"), str)
+        and isinstance(item.get("horario"), str)
+        and (item["data"], item["horario"]) < alvo
+        and item.get("status") not in STATUS_FINAIS
+    ]
 
 
 def _aguardar_instagram_seguro(
@@ -349,8 +366,21 @@ def publicar_facebook(item: dict, estado: dict, persistir) -> str:
 def main() -> None:
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
     validar_fila_operacional(fila, "instagram-facebook-reels")
-    item = alvo_exato(fila.get("conteudos", []))
+    conteudos = fila.get("conteudos", [])
+    item = alvo_exato(conteudos)
     if not item:
+        data = obrigatoria("DATA_PUBLICACAO")
+        horario = obrigatoria("HORARIO_PUBLICACAO")
+        atrasados = pendencias_anteriores(conteudos, data, horario)
+        if atrasados:
+            primeiro = min(
+                atrasados,
+                key=lambda pendente: (pendente["data"], pendente["horario"]),
+            )
+            raise RuntimeError(
+                f"Há {len(atrasados)} Reel(s) vencido(s). "
+                f"O primeiro é {primeiro['data']} {primeiro['horario']}."
+            )
         print("Nenhum Reel pendente no slot solicitado.")
         return
     if item.get("aprovado") is not True:

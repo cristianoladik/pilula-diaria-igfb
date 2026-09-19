@@ -541,6 +541,27 @@ class TestWorkflows(unittest.TestCase):
         self.assertIn("  publicar_reel_09:", stories)
         self.assertNotIn("needs:", stories)
 
+    def test_workflow_reels_cobre_os_dez_horarios_da_fila(self) -> None:
+        reels = (RAIZ / ".github" / "workflows" / "publicar-reels.yml").read_text(
+            encoding="utf-8"
+        )
+        mapeamentos = {
+            "9": "06:00",
+            "11": "08:00",
+            "13": "10:00",
+            "15": "12:00",
+            "17": "14:00",
+            "19": "16:00",
+            "21": "18:00",
+            "22": "19:00",
+            "0": "21:00",
+            "1": "22:00",
+        }
+        for hora_utc, hora_brasilia in mapeamentos.items():
+            for minuto in ("0", "15"):
+                self.assertIn(f'- cron: "{minuto} {hora_utc} * * *"', reels)
+            self.assertIn(f'hora="{hora_brasilia}"', reels)
+
 
 if __name__ == "__main__":
     unittest.main()
