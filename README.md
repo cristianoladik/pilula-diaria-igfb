@@ -12,9 +12,12 @@ estiver persistido no Git.
   22:00 em `America/Sao_Paulo`. A fila libera esses horários aos poucos durante
   o aquecimento, começando por 19:00.
 - Stories: um pacote às 09:00.
-- Cada horário tem uma nova tentativa 15 minutos depois. Ela consulta e reutiliza o
-  mesmo `container_id`/`video_id`, nunca troca silenciosamente para uma nova
-  operação quando já existe uma em andamento.
+- Cada horário tem uma nova tentativa 15 minutos depois. Os disparos usam os
+  minutos 07 e 22 para evitar o pico de carga do começo da hora. A nova
+  tentativa consulta e reutiliza o mesmo `container_id`/`video_id`, nunca troca
+  silenciosamente para uma nova operação quando já existe uma em andamento.
+- A data vem da ocorrência programada do cron. Um atraso do GitHub depois da
+  meia-noite não muda o Reel para o dia seguinte.
 - A fila determina quais horários existem durante o aquecimento. Por isso o
   workflow pode rodar sem publicar um horário ainda não habilitado.
 - Se um horário rodar vazio enquanto existir Reel mais antigo pendente, a

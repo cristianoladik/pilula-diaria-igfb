@@ -4,26 +4,27 @@ on:
   schedule:
     # Horários em UTC, equivalentes aos dez slots da fila em Brasília.
     # Cada slot tem uma segunda tentativa 15 minutos depois.
-    - cron: "0 9 * * *"
-    - cron: "15 9 * * *"
-    - cron: "0 11 * * *"
-    - cron: "15 11 * * *"
-    - cron: "0 13 * * *"
-    - cron: "15 13 * * *"
-    - cron: "0 15 * * *"
-    - cron: "15 15 * * *"
-    - cron: "0 17 * * *"
-    - cron: "15 17 * * *"
-    - cron: "0 19 * * *"
-    - cron: "15 19 * * *"
-    - cron: "0 21 * * *"
-    - cron: "15 21 * * *"
-    - cron: "0 22 * * *"
-    - cron: "15 22 * * *"
-    - cron: "0 0 * * *"
-    - cron: "15 0 * * *"
-    - cron: "0 1 * * *"
-    - cron: "15 1 * * *"
+    # Os minutos 07 e 22 evitam o pico de carga do começo da hora.
+    - cron: "7 9 * * *"
+    - cron: "22 9 * * *"
+    - cron: "7 11 * * *"
+    - cron: "22 11 * * *"
+    - cron: "7 13 * * *"
+    - cron: "22 13 * * *"
+    - cron: "7 15 * * *"
+    - cron: "22 15 * * *"
+    - cron: "7 17 * * *"
+    - cron: "22 17 * * *"
+    - cron: "7 19 * * *"
+    - cron: "22 19 * * *"
+    - cron: "7 21 * * *"
+    - cron: "22 21 * * *"
+    - cron: "7 22 * * *"
+    - cron: "22 22 * * *"
+    - cron: "7 0 * * *"
+    - cron: "22 0 * * *"
+    - cron: "7 1 * * *"
+    - cron: "22 1 * * *"
   workflow_dispatch:
     inputs:
       data_publicacao:
@@ -114,27 +115,11 @@ jobs:
           HORA_INPUT: ${{ inputs.horario_publicacao }}
         run: |
           if [[ "$EVENTO" == "workflow_dispatch" ]]; then
-            data="$DATA_INPUT"
-            hora="$HORA_INPUT"
+            echo "DATA_PUBLICACAO=$DATA_INPUT" >> "$GITHUB_ENV"
+            echo "HORARIO_PUBLICACAO=$HORA_INPUT" >> "$GITHUB_ENV"
           else
-            case "$CRON" in
-              "0 9 * * *"|"15 9 * * *") data="$(date -u +%F)"; hora="06:00" ;;
-              "0 11 * * *"|"15 11 * * *") data="$(date -u +%F)"; hora="08:00" ;;
-              "0 13 * * *"|"15 13 * * *") data="$(date -u +%F)"; hora="10:00" ;;
-              "0 15 * * *"|"15 15 * * *") data="$(date -u +%F)"; hora="12:00" ;;
-              "0 17 * * *"|"15 17 * * *") data="$(date -u +%F)"; hora="14:00" ;;
-              "0 19 * * *"|"15 19 * * *") data="$(date -u +%F)"; hora="16:00" ;;
-              "0 21 * * *"|"15 21 * * *") data="$(date -u +%F)"; hora="18:00" ;;
-              "0 22 * * *"|"15 22 * * *") data="$(date -u +%F)"; hora="19:00" ;;
-              # 00:00 e 01:00 UTC ainda pertencem ao dia anterior em Brasília.
-              # Derivar do cron mantém a data certa se o runner atrasar.
-              "0 0 * * *"|"15 0 * * *") data="$(date -u -d 'yesterday' +%F)"; hora="21:00" ;;
-              "0 1 * * *"|"15 1 * * *") data="$(date -u -d 'yesterday' +%F)"; hora="22:00" ;;
-              *) echo "Cron não reconhecido: $CRON" >&2; exit 2 ;;
-            esac
+            python resolver_slot_reel.py "$CRON" >> "$GITHUB_ENV"
           fi
-          echo "DATA_PUBLICACAO=$data" >> "$GITHUB_ENV"
-          echo "HORARIO_PUBLICACAO=$hora" >> "$GITHUB_ENV"
       - name: Validar filas
         run: python validar_filas.py
       - name: Publicar Reel do slot

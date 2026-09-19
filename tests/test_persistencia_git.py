@@ -7,6 +7,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -15,6 +16,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(RAIZ))
 
 import meta_comum  # noqa: E402
+import resolver_slot_reel  # noqa: E402
 
 
 D0 = "2026-09-14"
@@ -545,22 +547,41 @@ class TestWorkflows(unittest.TestCase):
         reels = (RAIZ / ".github" / "workflows" / "publicar-reels.yml").read_text(
             encoding="utf-8"
         )
-        mapeamentos = {
-            "9": "06:00",
-            "11": "08:00",
-            "13": "10:00",
-            "15": "12:00",
-            "17": "14:00",
-            "19": "16:00",
-            "21": "18:00",
-            "22": "19:00",
-            "0": "21:00",
-            "1": "22:00",
+        for cron in resolver_slot_reel.CRONS_REELS:
+            self.assertIn(f'- cron: "{cron}"', reels)
+        self.assertEqual(reels.count('- cron: "'), 20)
+        self.assertIn('python resolver_slot_reel.py "$CRON"', reels)
+
+
+class TestResolverSlotReel(unittest.TestCase):
+    def test_mapeia_os_dez_horarios_com_duas_tentativas(self) -> None:
+        esperados = {
+            "06:00", "08:00", "10:00", "12:00", "14:00",
+            "16:00", "18:00", "19:00", "21:00", "22:00",
         }
-        for hora_utc, hora_brasilia in mapeamentos.items():
-            for minuto in ("0", "15"):
-                self.assertIn(f'- cron: "{minuto} {hora_utc} * * *"', reels)
-            self.assertIn(f'hora="{hora_brasilia}"', reels)
+        self.assertEqual(set(resolver_slot_reel.CRONS_REELS.values()), esperados)
+        for horario in esperados:
+            self.assertEqual(
+                list(resolver_slot_reel.CRONS_REELS.values()).count(horario), 2
+            )
+
+    def test_atraso_apos_meia_noite_preserva_data_nominal(self) -> None:
+        agora = datetime(2026, 10, 1, 0, 5, tzinfo=timezone.utc)
+        self.assertEqual(
+            resolver_slot_reel.resolver_slot("7 22 * * *", agora),
+            ("2026-09-30", "19:00"),
+        )
+
+    def test_virada_do_ano_nos_horarios_noturnos(self) -> None:
+        agora = datetime(2027, 1, 1, 1, 30, tzinfo=timezone.utc)
+        self.assertEqual(
+            resolver_slot_reel.resolver_slot("7 0 * * *", agora),
+            ("2026-12-31", "21:00"),
+        )
+        self.assertEqual(
+            resolver_slot_reel.resolver_slot("22 1 * * *", agora),
+            ("2026-12-31", "22:00"),
+        )
 
 
 if __name__ == "__main__":
