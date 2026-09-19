@@ -280,7 +280,7 @@
       "aprovado": true,
       "data": "2026-09-18",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0006 - Uma pílula de conhecimento para o seu dia.mp4",
         "sha256": "60430c9ef6a72e998b2530a30598ff8459041a109c58bd00ca390d4d06bb1e76"
@@ -313,7 +313,8 @@
         "id": "1076270988590001",
         "publicado_em": "2026-09-19T14:26:42.366738-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T14:26:44.116150-03:00"
     },
     {
       "id": "reel-20260919-1900-7f63e1708f",
