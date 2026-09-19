@@ -14,7 +14,7 @@ import publicar_reels  # noqa: E402
 import publicar_stories  # noqa: E402
 import meta_comum  # noqa: E402
 import limpar_release  # noqa: E402
-from publicar_reels import pendencias_anteriores  # noqa: E402
+from publicar_reels import classificar_slot_sem_pendente, pendencias_anteriores  # noqa: E402
 from limpar_release import (  # noqa: E402
     _conferir_asset,
     _listar_todos_assets,
@@ -69,6 +69,30 @@ class TestSelecaoExata(unittest.TestCase):
         encontrados = pendencias_anteriores(itens, "2026-09-15", "19:00")
 
         self.assertEqual(encontrados, [itens[1], itens[2]])
+
+    def test_distingue_slot_finalizado_inativo_e_ativo_ausente(self) -> None:
+        fila = {
+            "politica": {
+                "data_inicio_aquecimento": "2026-09-13",
+                "reels": {"horarios": ["19:00", "12:00", "21:00"]},
+            },
+            "conteudos": [
+                {"data": "2026-09-13", "horario": "19:00", "status": "concluido"}
+            ],
+        }
+
+        self.assertEqual(
+            classificar_slot_sem_pendente(fila, "2026-09-13", "19:00"),
+            "finalizado",
+        )
+        self.assertEqual(
+            classificar_slot_sem_pendente(fila, "2026-09-13", "12:00"),
+            "inativo",
+        )
+        self.assertEqual(
+            classificar_slot_sem_pendente(fila, "2026-09-20", "12:00"),
+            "ativo_ausente",
+        )
 
 
 class TestLimpezaSegura(unittest.TestCase):

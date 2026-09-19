@@ -1,4 +1,4 @@
-name: Publicar Stories e Reel das 09h Instagram e Facebook
+name: Publicar Stories Instagram e Facebook
 
 on:
   schedule:
@@ -131,90 +131,6 @@ jobs:
           RESULTADO_ESTADO: ${{ steps.salvar_estado_stories.outcome }}
           RESULTADO_LIMPEZA: ${{ steps.limpar_stories.outcome }}
           RESULTADO_MARCADORES: ${{ steps.salvar_marcadores_stories.outcome }}
-        run: |
-          [[ "$RESULTADO_PUBLICACAO" == "success" \
-            && "$RESULTADO_ESTADO" == "success" \
-            && "$RESULTADO_LIMPEZA" == "success" \
-            && "$RESULTADO_MARCADORES" == "success" ]]
-
-  publicar_reel_09:
-    if: ${{ vars.PUBLICACAO_ATIVA == 'true' && (github.event_name != 'workflow_dispatch' || inputs.confirmar_publicacao == 'PUBLICAR') }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-        with:
-          ref: ${{ github.event.repository.default_branch }}
-          fetch-depth: 0
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
-        with:
-          python-version: "3.11"
-          cache: pip
-      - run: pip install -r requirements.txt
-      - name: Definir slot das 09h
-        shell: bash
-        env:
-          EVENTO: ${{ github.event_name }}
-          DATA_INPUT: ${{ inputs.data_publicacao }}
-        run: |
-          if [[ "$EVENTO" == "workflow_dispatch" ]]; then
-            data="$DATA_INPUT"
-          else
-            data="$(TZ=America/Sao_Paulo date +%F)"
-          fi
-          echo "DATA_PUBLICACAO=$data" >> "$GITHUB_ENV"
-          echo "HORARIO_PUBLICACAO=09:00" >> "$GITHUB_ENV"
-      - name: Validar filas
-        run: python validar_filas.py
-      - name: Publicar Reel das 09h
-        id: publicar_reel
-        continue-on-error: true
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
-          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
-          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v23.0' }}
-          RELEASE_TAG: ${{ vars.RELEASE_TAG || 'fila-instagram-facebook' }}
-          PERSISTIR_ESTADO_REMOTO: "true"
-          MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
-        run: python publicar_reels.py
-      - name: Persistir estado do Reel das 09h
-        id: salvar_estado_reel
-        if: ${{ always() && steps.publicar_reel.outcome != 'skipped' }}
-        shell: bash
-        run: |
-          python meta_comum.py persistir-git \
-            --fila fila/fila-reels.json \
-            --mensagem "chore: registrar Reel $DATA_PUBLICACAO 09:00"
-      - name: Remover Reel temporário confirmado
-        id: limpar_reel
-        if: ${{ always() && steps.salvar_estado_reel.outcome == 'success' }}
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          RELEASE_TAG: ${{ vars.RELEASE_TAG || 'fila-instagram-facebook' }}
-          PERSISTIR_ESTADO_REMOTO: "true"
-        run: python limpar_release.py --fila fila/fila-reels.json
-      - name: Persistir marcadores da limpeza do Reel
-        id: salvar_marcadores_reel
-        if: ${{ always() && steps.salvar_estado_reel.outcome == 'success' && steps.limpar_reel.outcome != 'skipped' }}
-        shell: bash
-        run: |
-          python meta_comum.py persistir-git \
-            --fila fila/fila-reels.json \
-            --mensagem "chore: registrar limpeza do Reel $DATA_PUBLICACAO 09:00"
-      - name: Propagar falhas do Reel após preservar o estado
-        if: always()
-        shell: bash
-        env:
-          RESULTADO_PUBLICACAO: ${{ steps.publicar_reel.outcome }}
-          RESULTADO_ESTADO: ${{ steps.salvar_estado_reel.outcome }}
-          RESULTADO_LIMPEZA: ${{ steps.limpar_reel.outcome }}
-          RESULTADO_MARCADORES: ${{ steps.salvar_marcadores_reel.outcome }}
         run: |
           [[ "$RESULTADO_PUBLICACAO" == "success" \
             && "$RESULTADO_ESTADO" == "success" \

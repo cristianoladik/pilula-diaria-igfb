@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 import requests
@@ -66,6 +66,39 @@ def pendencias_anteriores(
         and (item["data"], item["horario"]) < alvo
         and item.get("status") not in STATUS_FINAIS
     ]
+
+
+def classificar_slot_sem_pendente(
+    fila: dict, data_texto: str, horario: str
+) -> str:
+    """Distingue retentativa concluída, horário inativo e falha da fila."""
+
+    conteudos = fila.get("conteudos", [])
+    exatos = [
+        item
+        for item in conteudos
+        if item.get("data") == data_texto and item.get("horario") == horario
+    ]
+    if len(exatos) > 1:
+        raise RuntimeError(f"Mais de um item ocupa o slot {data_texto} {horario}.")
+    if exatos and exatos[0].get("status") in STATUS_FINAIS:
+        return "finalizado"
+
+    politica = fila.get("politica", {})
+    reels = politica.get("reels", {}) if isinstance(politica, dict) else {}
+    horarios = reels.get("horarios", []) if isinstance(reels, dict) else []
+    inicio_texto = politica.get("data_inicio_aquecimento") if isinstance(politica, dict) else None
+    try:
+        dia = date.fromisoformat(data_texto)
+        inicio = date.fromisoformat(str(inicio_texto))
+    except ValueError as erro:
+        raise RuntimeError("A política da fila possui data de início inválida.") from erro
+
+    semana = ((dia - inicio).days // 7) + 1
+    quantidade = min(max(semana, 0), len(horarios))
+    if horario in horarios[:quantidade]:
+        return "ativo_ausente"
+    return "inativo"
 
 
 def _aguardar_instagram_seguro(
@@ -381,7 +414,15 @@ def main() -> None:
                 f"Há {len(atrasados)} Reel(s) vencido(s). "
                 f"O primeiro é {primeiro['data']} {primeiro['horario']}."
             )
-        print("Nenhum Reel pendente no slot solicitado.")
+        classe = classificar_slot_sem_pendente(fila, data, horario)
+        if classe == "ativo_ausente":
+            raise RuntimeError(
+                f"O slot ativo {data} {horario} não possui Reel na fila."
+            )
+        if classe == "finalizado":
+            print("O Reel deste slot já foi finalizado.")
+        else:
+            print("O horário ainda não está ativo na rampa de publicação.")
         return
     if item.get("aprovado") is not True:
         raise RuntimeError("O Reel do slot não possui aprovação explícita.")

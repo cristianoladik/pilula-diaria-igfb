@@ -538,7 +538,7 @@ class TestWorkflows(unittest.TestCase):
             self.assertNotIn("git push", conteudo)
             self.assertNotIn("--force", conteudo)
         self.assertIn("  publicar_stories:", stories)
-        self.assertIn("  publicar_reel_09:", stories)
+        self.assertNotIn("publicar_reel_09", stories)
         self.assertNotIn("needs:", stories)
 
     def test_workflow_reels_cobre_os_dez_horarios_da_fila(self) -> None:
