@@ -190,7 +190,7 @@
       "aprovado": true,
       "data": "2026-09-16",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0004 - Deus não desistiu de você!.mp4",
         "sha256": "b54103d4f48de9b5bc67f5a562add7a96ec250e79a6b3a01fe1e3b6d309aa62a"
@@ -223,7 +223,8 @@
         "id": "1359637869266881",
         "publicado_em": "2026-09-19T14:22:30.662502-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T14:22:32.348768-03:00"
     },
     {
       "id": "reel-20260917-1900-66347ebedb",
