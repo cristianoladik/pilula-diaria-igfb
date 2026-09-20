@@ -559,7 +559,7 @@
       "aprovado": true,
       "data": "2026-09-20",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1491 - A Metade da laranja Realmente existe.mp4",
         "sha256": "51bf08439112e7064d83f9d0435e5d8c2ebef765fc4c26f331d518bf113b3de6"
@@ -595,7 +595,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-20T12:19:18.660491-03:00"
     },
     {
       "id": "story-20260921-1d83de984f",
