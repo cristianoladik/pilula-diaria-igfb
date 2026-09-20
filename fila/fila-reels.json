@@ -370,7 +370,7 @@
       "aprovado": true,
       "data": "2026-09-20",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0009 - Não importa como vai acontecer!.mp4",
         "sha256": "5508154f6fb8e7843bd1bb4c2404e45baf428d638452f7342ceac89ec0d854fe"
@@ -403,7 +403,8 @@
         "id": "1411829540963026",
         "publicado_em": "2026-09-20T15:12:39.196432-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-20T15:12:40.629193-03:00"
     },
     {
       "id": "reel-20260920-1900-edbdce0dcf",
