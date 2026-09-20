@@ -325,7 +325,7 @@
       "aprovado": true,
       "data": "2026-09-19",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0007 - Mude a sua mentalidade!.mp4",
         "sha256": "7f63e1708f95bd9038b64e6643258dbfa92a8d593f8828ed410778c2cf310d29"
@@ -358,7 +358,8 @@
         "id": "1086528370425487",
         "publicado_em": "2026-09-19T21:08:44.980123-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-19T21:08:46.679120-03:00"
     },
     {
       "id": "reel-20260920-1200-5508154f6f",
