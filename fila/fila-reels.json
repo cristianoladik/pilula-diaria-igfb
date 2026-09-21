@@ -415,7 +415,7 @@
       "aprovado": true,
       "data": "2026-09-20",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0008 - Nunca foi sobre geografia favorável!.mp4",
         "sha256": "edbdce0dcfa26bb63514b04985344401fd17669fa63ad2e58fa709b2e1843547"
@@ -448,7 +448,8 @@
         "id": "1084381637900830",
         "publicado_em": "2026-09-20T21:13:38.246165-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-20T21:13:39.714339-03:00"
     },
     {
       "id": "reel-20260921-1200-c0280e327b",
