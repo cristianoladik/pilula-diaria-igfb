@@ -460,7 +460,7 @@
       "aprovado": true,
       "data": "2026-09-21",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0011 - Pega essa chave!.mp4",
         "sha256": "c0280e327b4566bb13f9fb59d5988acff805d3a1a8ee3fa37be688b024eee5b9"
@@ -493,7 +493,8 @@
         "id": "2199326764296014",
         "publicado_em": "2026-09-21T17:00:00.385995-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-21T17:00:02.631580-03:00"
     },
     {
       "id": "reel-20260921-1900-42c0c88681",
