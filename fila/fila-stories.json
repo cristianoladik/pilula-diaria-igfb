@@ -607,7 +607,7 @@
       "aprovado": true,
       "data": "2026-09-21",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1490 - A vulnerabilidade pode estar te hipnotizando.mp4",
         "sha256": "1d83de984fa8a4f075f8d03ec8fbeff5d24cbe259d1035cf1e4556a007f18833"
@@ -673,7 +673,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-21T14:45:50.038454-03:00"
     },
     {
       "id": "story-20260922-d2c955ce1d",
