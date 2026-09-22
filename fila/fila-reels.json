@@ -505,7 +505,7 @@
       "aprovado": true,
       "data": "2026-09-21",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0010 - Não pegue atalhos!.mp4",
         "sha256": "42c0c88681c85494998a9dde6661c95fa71bb590aea014d26d27fc26f155df69"
@@ -538,7 +538,8 @@
         "id": "1414363990890419",
         "publicado_em": "2026-09-21T21:48:18.001693-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-21T21:48:19.698596-03:00"
     },
     {
       "id": "reel-20260922-1200-a04ba620a7",
