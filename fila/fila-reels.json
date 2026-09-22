@@ -550,7 +550,7 @@
       "aprovado": true,
       "data": "2026-09-22",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0013 - Se aprovação te move, a rejeição te para!.mp4",
         "sha256": "a04ba620a746b8ea5c9b757980a5b8a9faff4b2c4f913701575bd4e1e74a0dc9"
@@ -583,7 +583,8 @@
         "id": "3700612023428580",
         "publicado_em": "2026-09-22T15:49:52.424586-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-22T15:49:54.173989-03:00"
     },
     {
       "id": "reel-20260922-1900-16b5c283f9",
