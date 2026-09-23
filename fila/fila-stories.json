@@ -762,12 +762,14 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "processando",
+            "status": "erro",
             "tentativas": 1,
             "fase": "publicacao_solicitada",
             "video_id": "1076792868680897",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1076792868680897",
-            "finish_solicitado_em": "2026-09-23T12:59:34.217999-03:00"
+            "finish_solicitado_em": "2026-09-23T12:59:34.217999-03:00",
+            "erro": "Meta HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\",\"error_subcode\":99}}",
+            "ultima_tentativa_em": "2026-09-23T13:00:31.663811-03:00"
           }
         },
         {
