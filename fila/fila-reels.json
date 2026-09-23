@@ -640,7 +640,7 @@
       "aprovado": true,
       "data": "2026-09-23",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0015 - ⭕️ Deus não unge personagens, Deus unge pessoas 🔑.mp4",
         "sha256": "178820a2cc8f190165653e873a9a62af3ac287ebaf0bdaf2c434558544635452"
@@ -673,7 +673,8 @@
         "id": "2343141056438965",
         "publicado_em": "2026-09-23T16:01:51.326777-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-23T16:01:52.856971-03:00"
     },
     {
       "id": "reel-20260923-1900-a3e7eb043a",
