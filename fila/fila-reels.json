@@ -595,7 +595,7 @@
       "aprovado": true,
       "data": "2026-09-22",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0012 - Por que está demorando tanto pra acontecer.mp4",
         "sha256": "16b5c283f9e8065ceb03f978a17287b62b4488e9f96003b0ae233f5f0a37a36e"
@@ -628,7 +628,8 @@
         "id": "1088510453713387",
         "publicado_em": "2026-09-22T21:26:35.522074-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-22T21:26:37.310747-03:00"
     },
     {
       "id": "reel-20260923-1200-178820a2cc",
