@@ -730,7 +730,7 @@
       "aprovado": true,
       "data": "2026-09-24",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0017 - ⭕️ O Deus do impossível cria caminhos impossíveis! 🔑.mp4",
         "sha256": "161a71834dcfb6de840f1349ca6a539c81c17c494c7083a85d7cc8f7c1b28aac"
@@ -763,7 +763,8 @@
         "id": "1109292571914327",
         "publicado_em": "2026-09-24T16:05:48.255430-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-24T16:05:49.993926-03:00"
     },
     {
       "id": "reel-20260924-1900-1a4ce86d5e",
