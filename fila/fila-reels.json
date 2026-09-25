@@ -775,7 +775,7 @@
       "aprovado": true,
       "data": "2026-09-24",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0016 - ⭕️ Esteja a altura do seu chamado! 🤯🤯.mp4",
         "sha256": "1a4ce86d5e3bab15b2e792828eced083dcfd244e4654dc7f84d9b3b23652ea4c"
@@ -808,7 +808,8 @@
         "id": "1376448004573856",
         "publicado_em": "2026-09-24T21:32:22.864154-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-24T21:32:24.696088-03:00"
     },
     {
       "id": "reel-20260925-1200-df4c45ada9",
