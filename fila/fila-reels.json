@@ -820,7 +820,7 @@
       "aprovado": true,
       "data": "2026-09-25",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0019 - ⭕️ Quem ouve os céus faz história na terra!.mp4",
         "sha256": "df4c45ada961c0872bce2cbbd010a6a509734a9d967acfaaaf161ba7ea8e5f18"
@@ -853,7 +853,8 @@
         "id": "1123654803969534",
         "publicado_em": "2026-09-25T16:15:17.727893-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-25T16:15:19.493256-03:00"
     },
     {
       "id": "reel-20260925-1900-9bb27354af",
