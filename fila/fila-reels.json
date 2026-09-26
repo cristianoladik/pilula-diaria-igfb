@@ -910,7 +910,7 @@
       "aprovado": true,
       "data": "2026-09-26",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0021 - Coisa que você não sabia que precisava ver.mp4",
         "sha256": "12a1bb5ee6bcd2606d541e7f868b45ae2bcaf12987fc7847338b5c0e604532e2"
@@ -943,7 +943,8 @@
         "id": "1418371639630022",
         "publicado_em": "2026-09-26T15:34:13.161053-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-26T15:34:15.019227-03:00"
     },
     {
       "id": "reel-20260926-1900-ac1040fe0e",
