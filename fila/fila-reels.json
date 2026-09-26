@@ -865,7 +865,7 @@
       "aprovado": true,
       "data": "2026-09-25",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0018 - ⭕️ Ouve isso pelo amor de Deus! 🤯🤯.mp4",
         "sha256": "9bb27354af94864dd0fb8004210cc3ca78b230c04639c506d093f8eefcc68370"
@@ -898,7 +898,8 @@
         "id": "1412760527709295",
         "publicado_em": "2026-09-25T21:36:54.414055-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-25T21:36:55.958146-03:00"
     },
     {
       "id": "reel-20260926-1200-12a1bb5ee6",
