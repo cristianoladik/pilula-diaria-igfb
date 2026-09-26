@@ -925,7 +925,7 @@
       "aprovado": true,
       "data": "2026-09-26",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1484 - A verdadeira transformação exige o desprendimento absoluto daquilo que te mantém estagnado.mp4",
         "sha256": "08836f1317a21d2b3b5a39c6d502a15692b766aa8ad710786213b4a9e8d623c8"
@@ -991,7 +991,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-26T12:39:02.488903-03:00"
     },
     {
       "id": "story-20260927-8d174c7194",
