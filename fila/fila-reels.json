@@ -892,7 +892,7 @@
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "status": "processando",
         "tentativas": 1,
-        "fase": "upload_concluido",
+        "fase": "publicacao_solicitada",
         "video_id": "1412760527709295",
         "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1412760527709295"
       }
