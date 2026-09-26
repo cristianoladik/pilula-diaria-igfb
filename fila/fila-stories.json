@@ -941,7 +941,8 @@
             "duracao_segundos": 52.04,
             "remocao_solicitada_em": "2026-09-26T12:39:05.826466-03:00",
             "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
-            "remocao_release_tag": "fila-instagram-facebook"
+            "remocao_release_tag": "fila-instagram-facebook",
+            "removido_da_release_em": "2026-09-26T12:39:07.246841-03:00"
           },
           "instagram": {
             "status": "publicado",
