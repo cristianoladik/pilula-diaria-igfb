@@ -955,7 +955,7 @@
       "aprovado": true,
       "data": "2026-09-26",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0020 - ⭕️ Você não pode desistir!.mp4",
         "sha256": "ac1040fe0e9c2ee2dd68139b46f9bbf8b21ff4044f8e7a764064f9791f0c6965"
@@ -988,7 +988,8 @@
         "id": "3182838188572655",
         "publicado_em": "2026-09-26T21:32:34.884483-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-26T21:32:36.468135-03:00"
     },
     {
       "id": "reel-20260927-1200-22fc9a17d9",
