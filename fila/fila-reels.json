@@ -1000,7 +1000,7 @@
       "aprovado": true,
       "data": "2026-09-27",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0023 - A pílula de hoje é dessas que ficam na cabeça!.mp4",
         "sha256": "22fc9a17d9dafdf39cc7d7167f34c80cae50d4187226829d504eceee4c649218"
@@ -1033,7 +1033,8 @@
         "id": "1585090712755478",
         "publicado_em": "2026-09-27T15:59:13.663429-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-27T15:59:15.533651-03:00"
     },
     {
       "id": "reel-20260927-1900-cb85da0e9d",
