@@ -1135,7 +1135,7 @@
       "aprovado": true,
       "data": "2026-09-28",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0025 - Um minuto que vale por uma aula.mp4",
         "sha256": "49a8ee47a624db924d7d1210256736238b7b4bf77dc800c090e0a7ba656f836b"
@@ -1168,7 +1168,8 @@
         "id": "1720763092330320",
         "publicado_em": "2026-09-28T18:14:25.671189-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-28T18:14:27.567054-03:00"
     },
     {
       "id": "reel-20260928-1900-78dd2d51fc",
