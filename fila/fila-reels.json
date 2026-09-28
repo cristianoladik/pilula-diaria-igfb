@@ -1045,7 +1045,7 @@
       "aprovado": true,
       "data": "2026-09-27",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0022 - Descubra uma coisa nova hoje.mp4",
         "sha256": "cb85da0e9dbd3b0b2636adf977413905abcfe62435ab94c72f3f646d60396bbc"
@@ -1078,7 +1078,8 @@
         "id": "2984603055247597",
         "publicado_em": "2026-09-27T21:39:59.881451-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-27T21:40:01.755066-03:00"
     },
     {
       "id": "reel-20260927-2100-04cba23d6a",
