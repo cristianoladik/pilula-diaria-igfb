@@ -1105,10 +1105,13 @@
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "share_to_feed": true,
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 1,
-        "fase": "publicacao_solicitada",
-        "container_id": "18112957282950888"
+        "fase": "publicacao_confirmada",
+        "container_id": "18112957282950888",
+        "id": "18096769313543195",
+        "publicado_em": "2026-09-28T02:12:50.009981-03:00",
+        "confirmacao": "media_publish"
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
