@@ -1090,7 +1090,7 @@
       "aprovado": true,
       "data": "2026-09-27",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0024 - A briga do piuzinho.mp4",
         "sha256": "04cba23d6aa120ba91f79acfbd53e7286cca8939d5f6967fe0c9bf7f6c76487d"
@@ -1123,7 +1123,8 @@
         "id": "1988643168495129",
         "publicado_em": "2026-09-28T02:13:07.288597-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-28T02:13:08.760082-03:00"
     },
     {
       "id": "reel-20260928-1200-49a8ee47a6",
