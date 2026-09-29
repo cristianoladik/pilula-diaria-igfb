@@ -1180,7 +1180,7 @@
       "aprovado": true,
       "data": "2026-09-28",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0025 - A briga entre lucas inutilismo e muca.mp4",
         "sha256": "78dd2d51fca6185d075f934c48e83915e48baaf448ab0fb93e1cff57998a443e"
@@ -1213,7 +1213,8 @@
         "id": "1087262053664517",
         "publicado_em": "2026-09-28T22:53:48.324067-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-28T22:53:49.727808-03:00"
     },
     {
       "id": "reel-20260928-2100-0e1e7884cf",
