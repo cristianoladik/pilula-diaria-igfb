@@ -1225,7 +1225,7 @@
       "aprovado": true,
       "data": "2026-09-28",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0026 - A cueca furada do netenho.mp4",
         "sha256": "0e1e7884cfd65f2af963aa65ee2df0c83edd79c4744668951c3c7dc15dc91ac5"
@@ -1258,7 +1258,8 @@
         "id": "1924828418497204",
         "publicado_em": "2026-09-29T02:36:16.910516-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-29T02:36:18.686984-03:00"
     },
     {
       "id": "reel-20260929-1200-ec48b81274",
