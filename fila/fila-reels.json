@@ -1270,7 +1270,7 @@
       "aprovado": true,
       "data": "2026-09-29",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0028 - A caju fala sobre ser Demissexual.mp4",
         "sha256": "ec48b812748cea9625965b3f6b0e83dd46360b19e457a785c99c023935728b7e"
@@ -1303,7 +1303,8 @@
         "id": "2471524810317292",
         "publicado_em": "2026-09-29T16:58:22.520713-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-29T16:58:24.784460-03:00"
     },
     {
       "id": "reel-20260929-1900-579e35ae72",
