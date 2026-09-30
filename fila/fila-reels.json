@@ -1315,7 +1315,7 @@
       "aprovado": true,
       "data": "2026-09-29",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0027 - A cultura do catar.mp4",
         "sha256": "579e35ae7210a6865eba9817bf010f3496f2814af96efd48c21d6f07a9ca70fc"
@@ -1348,7 +1348,8 @@
         "id": "2706261509776579",
         "publicado_em": "2026-09-29T22:17:15.048441-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-29T22:17:17.034428-03:00"
     },
     {
       "id": "reel-20260929-2100-6857ed1e70",
