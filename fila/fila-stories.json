@@ -1169,7 +1169,7 @@
           "instagram": {
             "status": "processando",
             "tentativas": 1,
-            "fase": "container_criado",
+            "fase": "publicacao_solicitada",
             "container_id": "18113844142950888"
           },
           "facebook": {
