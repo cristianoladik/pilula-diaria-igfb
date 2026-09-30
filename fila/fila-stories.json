@@ -1151,7 +1151,7 @@
       "aprovado": true,
       "data": "2026-09-30",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1480 - Propósito no trabalho.mp4",
         "sha256": "a0d36b4965059edaaee9c0625bac52abb024f59ef1e4e28fdfa500d0a1b46a81"
@@ -1187,7 +1187,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-30T14:30:20.972282-03:00"
     },
     {
       "id": "story-20261001-31cfad9e1a",
