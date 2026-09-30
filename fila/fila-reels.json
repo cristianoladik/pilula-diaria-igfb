@@ -1405,7 +1405,7 @@
       "aprovado": true,
       "data": "2026-09-30",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0031 - A genética do mucalol.mp4",
         "sha256": "091a7f84d84e991f4ef4e619b60954a03d06d41651602fe7365e660f8256d794"
@@ -1438,7 +1438,8 @@
         "id": "915398621433728",
         "publicado_em": "2026-09-30T16:58:39.724196-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-30T16:58:41.709965-03:00"
     },
     {
       "id": "reel-20260930-1900-05a0f9908b",
