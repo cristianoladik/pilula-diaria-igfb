@@ -1360,7 +1360,7 @@
       "aprovado": true,
       "data": "2026-09-29",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0029 - A cela tem um coração muito bom, emocionante!.mp4",
         "sha256": "6857ed1e70a6a48fa265242bb932a63632d09eea1dc7d9ec2677eee1bbd2f075"
@@ -1393,7 +1393,8 @@
         "id": "1577424850287835",
         "publicado_em": "2026-09-30T02:24:05.913068-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-30T02:24:07.580073-03:00"
     },
     {
       "id": "reel-20260930-1200-091a7f84d8",
