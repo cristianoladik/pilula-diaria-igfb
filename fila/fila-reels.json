@@ -1450,7 +1450,7 @@
       "aprovado": true,
       "data": "2026-09-30",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0030 - A gafe do muca nos EUA.mp4",
         "sha256": "05a0f9908b756790cae2b952ddb7fdb81eb1c4e7fbfd81f4233c09b7c1bee3ce"
@@ -1483,7 +1483,8 @@
         "id": "1818064082547872",
         "publicado_em": "2026-09-30T22:16:39.440097-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-09-30T22:16:40.986313-03:00"
     },
     {
       "id": "reel-20260930-2100-499ede7be6",
