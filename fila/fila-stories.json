@@ -1224,12 +1224,15 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "processando",
+            "status": "publicado",
             "tentativas": 1,
-            "fase": "publicacao_solicitada",
+            "fase": "publicacao_confirmada",
             "video_id": "1009472628842875",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1009472628842875",
-            "finish_solicitado_em": "2026-10-01T14:55:00.170490-03:00"
+            "finish_solicitado_em": "2026-10-01T14:55:00.170490-03:00",
+            "id": "28759484427070955",
+            "publicado_em": "2026-10-01T14:55:05.479970-03:00",
+            "confirmacao": "finish_facebook"
           }
         }
       ]
