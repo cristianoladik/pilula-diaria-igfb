@@ -1199,7 +1199,7 @@
       "aprovado": true,
       "data": "2026-10-01",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1479 - O verdadeiro significado da medalha que joel presenteou!.mp4",
         "sha256": "31cfad9e1a66a6c4e8590d9f20f8d372eb0d66153f04d9ca3897329b0f465186"
@@ -1235,7 +1235,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-01T14:55:07.081838-03:00"
     },
     {
       "id": "story-20261002-2fa95595ef",
