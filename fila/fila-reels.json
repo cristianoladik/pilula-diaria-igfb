@@ -1540,7 +1540,7 @@
       "aprovado": true,
       "data": "2026-10-01",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0034 - A história de vida do el gato.mp4",
         "sha256": "00c448a6866c80692d37a78f6b9cb472f786b0fccddb9acd2a90d192b8673ffa"
@@ -1573,7 +1573,8 @@
         "id": "1135056285853381",
         "publicado_em": "2026-10-01T17:20:06.525236-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-01T17:20:08.250405-03:00"
     },
     {
       "id": "reel-20261001-1900-e241ff6a96",
