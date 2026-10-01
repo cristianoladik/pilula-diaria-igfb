@@ -1495,7 +1495,7 @@
       "aprovado": true,
       "data": "2026-09-30",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0032 - A hipocrisia do blackoutz.mp4",
         "sha256": "499ede7be65c2f0e44529ac299ddd05dfff74baec2187f424843e08b758878eb"
@@ -1528,7 +1528,8 @@
         "id": "1463823882234400",
         "publicado_em": "2026-10-01T02:40:04.616827-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-01T02:40:06.192578-03:00"
     },
     {
       "id": "reel-20261001-1200-00c448a686",
