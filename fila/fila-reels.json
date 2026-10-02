@@ -1675,7 +1675,7 @@
       "aprovado": true,
       "data": "2026-10-02",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0037 - A melhor cantada do hudson amorim.mp4",
         "sha256": "9c8b09ae2ecf00f382d9497c1e9cfe77aeed6ded2936c09c6da358b4efe58342"
@@ -1708,7 +1708,8 @@
         "id": "1129544079527591",
         "publicado_em": "2026-10-02T16:56:18.188389-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-02T16:56:20.799213-03:00"
     },
     {
       "id": "reel-20261002-1900-945a8e8b9d",
