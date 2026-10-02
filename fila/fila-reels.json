@@ -1585,7 +1585,7 @@
       "aprovado": true,
       "data": "2026-10-01",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0033 - A história da cueca do netenho.mp4",
         "sha256": "e241ff6a96323bc9075b106a0dd11bc13b34a55d687e22fc209a07c344dddc55"
@@ -1618,7 +1618,8 @@
         "id": "1136132745654151",
         "publicado_em": "2026-10-01T22:40:11.067529-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-01T22:40:12.712136-03:00"
     },
     {
       "id": "reel-20261001-2100-1b4b7a9d1a",
