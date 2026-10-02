@@ -1630,7 +1630,7 @@
       "aprovado": true,
       "data": "2026-10-01",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0035 - A mel maia começou a seguir o boca.mp4",
         "sha256": "1b4b7a9d1a0af29871a8b3dfcbcc423c4984696bd2ebd5519f90e4159763b80e"
@@ -1663,7 +1663,8 @@
         "id": "1102567712232596",
         "publicado_em": "2026-10-02T02:25:28.971243-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-02T02:25:30.377601-03:00"
     },
     {
       "id": "reel-20261002-1200-9c8b09ae2e",
