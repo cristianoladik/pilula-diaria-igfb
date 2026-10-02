@@ -1247,7 +1247,7 @@
       "aprovado": true,
       "data": "2026-10-02",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1478 - Faça isso e será um procrastinador nato!.mp4",
         "sha256": "2fa95595ef80f540fde530fa99ae6e7b742348211e6386c57679af96ee5b4210"
@@ -1283,7 +1283,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-02T14:19:50.004190-03:00"
     },
     {
       "id": "story-20261003-7abe8fafda",
