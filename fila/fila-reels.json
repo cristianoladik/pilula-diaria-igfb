@@ -1765,7 +1765,7 @@
       "aprovado": true,
       "data": "2026-10-02",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0038 - A melhor imitação do ninja.mp4",
         "sha256": "a49db7703e1f58c02025ecc4b39b22ab10840d00e45ea2657225455582217496"
@@ -1798,7 +1798,8 @@
         "id": "3563170757183703",
         "publicado_em": "2026-10-03T02:08:48.170751-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-03T02:08:49.505009-03:00"
     },
     {
       "id": "reel-20261003-1200-89cb7efa33",
