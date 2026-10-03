@@ -1720,7 +1720,7 @@
       "aprovado": true,
       "data": "2026-10-02",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0036 - A melhor analogia do matheus mazzafera.mp4",
         "sha256": "945a8e8b9da517e6d709247041acd22513a24e0c7bdea236d7a1684434284140"
@@ -1753,7 +1753,8 @@
         "id": "1790272422163228",
         "publicado_em": "2026-10-02T22:09:29.863316-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-02T22:09:31.392918-03:00"
     },
     {
       "id": "reel-20261002-2100-a49db7703e",
