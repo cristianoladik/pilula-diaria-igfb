@@ -1810,7 +1810,7 @@
       "aprovado": true,
       "data": "2026-10-03",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0040 - A nova música da melody e anitta!.mp4",
         "sha256": "89cb7efa33c5e7539779ffa88b7cfed9f5f8fa4f90fa4a93a31eada61512e9e8"
@@ -1843,7 +1843,8 @@
         "id": "1086225810679886",
         "publicado_em": "2026-10-03T15:40:36.906380-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-03T15:40:38.315179-03:00"
     },
     {
       "id": "reel-20261003-1900-ee77ca11ac",
