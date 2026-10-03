@@ -1295,7 +1295,7 @@
       "aprovado": true,
       "data": "2026-10-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1477 - Apaixone-se pelo que você faz!.mp4",
         "sha256": "7abe8fafda7452f4ac11950d67f74a78259a74238a284aed51cd899de297fa2e"
@@ -1331,7 +1331,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-03T12:37:23.507908-03:00"
     },
     {
       "id": "story-20261004-9454c28fb0",
