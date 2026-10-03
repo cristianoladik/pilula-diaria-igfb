@@ -1313,7 +1313,7 @@
           "instagram": {
             "status": "processando",
             "tentativas": 1,
-            "fase": "container_criado",
+            "fase": "publicacao_solicitada",
             "container_id": "18114753847950888"
           },
           "facebook": {
