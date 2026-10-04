@@ -1945,7 +1945,7 @@
       "aprovado": true,
       "data": "2026-10-04",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0045 - A estratégia do Muca pra dar sorte no ano novo 😳.mp4",
         "sha256": "56475ff7bf0a7be71a4a5db26ed7a96a9f1b41d0a54f7a9527d25bf773ee0ff4"
@@ -1978,7 +1978,8 @@
         "id": "1334737655238644",
         "publicado_em": "2026-10-04T12:46:05.576862-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-04T12:46:06.890155-03:00"
     },
     {
       "id": "reel-20261004-1200-5d5132e21c",
