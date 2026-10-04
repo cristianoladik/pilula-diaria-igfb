@@ -1343,7 +1343,7 @@
       "aprovado": true,
       "data": "2026-10-04",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1476 - A verdade sobre o diagnóstica de tea e TDAH.mp4",
         "sha256": "9454c28fb0e49d28a1bb8ea7180eac9575a088ca798f351a6b76cbb5481e3ce6"
@@ -1439,7 +1439,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-04T13:23:34.794758-03:00"
     },
     {
       "id": "story-20261005-4e3c975e77",
