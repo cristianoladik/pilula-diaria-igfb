@@ -1990,7 +1990,7 @@
       "aprovado": true,
       "data": "2026-10-04",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0043 - A cracolândia é realmente perigosa! 😳.mp4",
         "sha256": "5d5132e21cfd636256bf295d3e4ac11006cddd7be47f35f092805ef3a62b10d8"
@@ -2023,7 +2023,8 @@
         "id": "1535463695012503",
         "publicado_em": "2026-10-04T15:38:04.722502-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-04T15:38:06.195929-03:00"
     },
     {
       "id": "reel-20261004-1900-684eb35e79",
