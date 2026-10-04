@@ -1900,7 +1900,7 @@
       "aprovado": true,
       "data": "2026-10-03",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0041 - A cirurgia rara em que o Gordox teve que fazer.mp4",
         "sha256": "5a259cdf57aeb55e68e0d6234b56f674378c53f5d9f7e8e405719ed340d6a82e"
@@ -1933,7 +1933,8 @@
         "id": "927657426805136",
         "publicado_em": "2026-10-04T02:42:24.282892-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-04T02:42:25.950745-03:00"
     },
     {
       "id": "reel-20261004-0800-56475ff7bf",
