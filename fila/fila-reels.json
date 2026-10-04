@@ -1855,7 +1855,7 @@
       "aprovado": true,
       "data": "2026-10-03",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0039 - A montanha que se chama gordox.mp4",
         "sha256": "ee77ca11ac545f2a62f6ca62499ad91b0b0292c749e04776caca505332fb835d"
@@ -1888,7 +1888,8 @@
         "id": "2226618657905687",
         "publicado_em": "2026-10-03T21:35:04.292287-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-03T21:35:05.691854-03:00"
     },
     {
       "id": "reel-20261003-2100-5a259cdf57",
