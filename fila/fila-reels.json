@@ -2080,7 +2080,7 @@
       "aprovado": true,
       "data": "2026-10-04",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0044 - A dívida bilionária do Corinthians tem solução.mp4",
         "sha256": "02819063ac03140bbaa97afb2320570f16ce03d63fdc8675f9523ab571cce525"
@@ -2113,7 +2113,8 @@
         "id": "2266359967538820",
         "publicado_em": "2026-10-05T02:25:37.876928-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-05T02:25:39.391007-03:00"
     },
     {
       "id": "reel-20261005-0800-f58da4b6f0",
