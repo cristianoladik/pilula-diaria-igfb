@@ -2035,7 +2035,7 @@
       "aprovado": true,
       "data": "2026-10-04",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0042 - A comunidade do League of Legends.mp4",
         "sha256": "684eb35e79137195d116f727efbe8f1d76604fc24ac828eb840b6d03a372c2ea"
@@ -2068,7 +2068,8 @@
         "id": "2933120150391777",
         "publicado_em": "2026-10-04T21:52:31.877507-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-04T21:52:33.410373-03:00"
     },
     {
       "id": "reel-20261004-2100-02819063ac",
