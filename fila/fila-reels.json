@@ -2170,7 +2170,7 @@
       "aprovado": true,
       "data": "2026-10-05",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0047 - A história do azulzuinho! Será que m4ta.mp4",
         "sha256": "143c4292bc012745a03ced6ab0fdb44204f5bf53cbd3a39d6bb7fb546d6eea1a"
@@ -2203,7 +2203,8 @@
         "id": "1404734091639086",
         "publicado_em": "2026-10-05T18:59:12.154970-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-05T18:59:13.867816-03:00"
     },
     {
       "id": "reel-20261005-1900-18e5c979aa",
