@@ -2125,7 +2125,7 @@
       "aprovado": true,
       "data": "2026-10-05",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0049 - A lenda do canal de pesca do caio lo.mp4",
         "sha256": "f58da4b6f05cbe17d5926d1b2345865b649faabfce6d60eb48da58086a2d41ed"
@@ -2158,7 +2158,8 @@
         "id": "1416963973220969",
         "publicado_em": "2026-10-05T16:45:55.104803-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-05T16:45:56.512647-03:00"
     },
     {
       "id": "reel-20261005-1200-143c4292bc",
