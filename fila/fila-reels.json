@@ -2305,7 +2305,7 @@
       "aprovado": true,
       "data": "2026-10-06",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0053 - A notícia do Alek que ninguém queria dar 😢.mp4",
         "sha256": "0c79c2f418bd6c9b4a0f886bdf35165400af3d2d578b46af16db5e100541b067"
@@ -2338,7 +2338,8 @@
         "id": "3801685416649662",
         "publicado_em": "2026-10-06T14:09:23.645670-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-06T14:09:25.178745-03:00"
     },
     {
       "id": "reel-20261006-1200-2e556fed5d",
