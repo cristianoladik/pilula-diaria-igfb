@@ -1488,7 +1488,7 @@
       "aprovado": true,
       "data": "2026-10-06",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1474 - Storytelling das marcas de sucesso.mp4",
         "sha256": "3016bb18d8370c8eb2fc729cdfa7dc0d48c8b3279830727509a9143dbd7d468a"
@@ -1524,7 +1524,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-06T14:49:17.247244-03:00"
     },
     {
       "id": "story-20261007-768c338ddc",
