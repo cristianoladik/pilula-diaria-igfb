@@ -2350,7 +2350,7 @@
       "aprovado": true,
       "data": "2026-10-06",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0051 - A melhor analogia possível.mp4",
         "sha256": "2e556fed5da933ddb30ffa699dea94e2dc804e57cb2d7442e084be0e12b36bd5"
@@ -2383,7 +2383,8 @@
         "id": "1640945040893274",
         "publicado_em": "2026-10-06T17:13:36.560098-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-06T17:13:38.706942-03:00"
     },
     {
       "id": "reel-20261006-1900-5494842335",
