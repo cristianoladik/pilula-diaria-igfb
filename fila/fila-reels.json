@@ -2215,7 +2215,7 @@
       "aprovado": true,
       "data": "2026-10-05",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0046 - A história de minas gerais.mp4",
         "sha256": "18e5c979aa76a563505bedbc782c999b45c2c23d132f00590dfb2029ba5b9c1e"
@@ -2248,7 +2248,8 @@
         "id": "1158751213480625",
         "publicado_em": "2026-10-05T23:16:15.793243-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-05T23:16:17.238503-03:00"
     },
     {
       "id": "reel-20261005-2100-b7ae2289fe",
