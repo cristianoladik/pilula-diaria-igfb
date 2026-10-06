@@ -2260,7 +2260,7 @@
       "aprovado": true,
       "data": "2026-10-05",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0048 - A importância dos criadores de abelhas.mp4",
         "sha256": "b7ae2289fe9d458bc1adb7d26202db3d38a3f34f82b11b86430945254381e58b"
@@ -2293,7 +2293,8 @@
         "id": "1640911587683588",
         "publicado_em": "2026-10-06T03:10:27.268014-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-06T03:10:28.876052-03:00"
     },
     {
       "id": "reel-20261006-0800-0c79c2f418",
