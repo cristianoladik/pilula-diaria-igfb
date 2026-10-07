@@ -2530,7 +2530,7 @@
       "aprovado": true,
       "data": "2026-10-07",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0055 - A polêmica pergunta do Moskitão.mp4",
         "sha256": "69e8b6656d8837ce4ad80f5b6071cdb8786ed13afd889edb2b413f55ce96005e"
@@ -2563,7 +2563,8 @@
         "id": "1868833110767871",
         "publicado_em": "2026-10-07T17:35:40.897367-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-07T17:35:42.743108-03:00"
     },
     {
       "id": "reel-20261007-1900-402973ade4",
