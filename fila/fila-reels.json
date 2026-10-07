@@ -2440,7 +2440,7 @@
       "aprovado": true,
       "data": "2026-10-06",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0052 - A mudança depois da fama.mp4",
         "sha256": "a63ab71d091eaa4f0281900d0649df16650238034e38d5992dc035143526391b"
@@ -2473,7 +2473,8 @@
         "id": "4689263248024132",
         "publicado_em": "2026-10-07T02:45:26.212776-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-07T02:45:27.550670-03:00"
     },
     {
       "id": "reel-20261007-0800-e4e6d6bd99",
