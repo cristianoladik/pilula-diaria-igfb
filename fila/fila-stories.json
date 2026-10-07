@@ -1536,7 +1536,7 @@
       "aprovado": true,
       "data": "2026-10-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1473 - Networking do bem!.mp4",
         "sha256": "768c338ddc264bdb408097590f48acfc659ee04759ee8ee0db1e4d6ccdb72bc6"
@@ -1572,7 +1572,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-07T15:20:59.670052-03:00"
     },
     {
       "id": "story-20261008-e367526e9c",
