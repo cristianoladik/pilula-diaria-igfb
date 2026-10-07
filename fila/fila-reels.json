@@ -2485,7 +2485,7 @@
       "aprovado": true,
       "data": "2026-10-07",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0057 - A verdadeira idade do Muca.mp4",
         "sha256": "e4e6d6bd99a2de6215b6f2ef93ff43c02bd50d5b73314a731c387e1b320be96a"
@@ -2518,7 +2518,8 @@
         "id": "1086457310912330",
         "publicado_em": "2026-10-07T14:47:30.471071-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-07T14:47:31.916464-03:00"
     },
     {
       "id": "reel-20261007-1200-69e8b6656d",
