@@ -2395,7 +2395,7 @@
       "aprovado": true,
       "data": "2026-10-06",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0050 - A maior promessa do futebol mundial (se fizer cardio).mp4",
         "sha256": "54948423354aeaf1837c96dea31f789c805988ef007d4edf1d8705eed27f53f8"
@@ -2428,7 +2428,8 @@
         "id": "1626646922263969",
         "publicado_em": "2026-10-06T22:31:13.503021-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-06T22:31:14.866160-03:00"
     },
     {
       "id": "reel-20261006-2100-a63ab71d09",
