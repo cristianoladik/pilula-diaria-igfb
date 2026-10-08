@@ -2665,7 +2665,7 @@
       "aprovado": true,
       "data": "2026-10-08",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0061 - Aline faria convidou o Maumau para gravar um vídeo.mp4",
         "sha256": "6b0504234c78db98dc9d3a160d413c35f08c862a693f5bc0a1be69a7e1ee9469"
@@ -2698,7 +2698,8 @@
         "id": "1501061041445823",
         "publicado_em": "2026-10-08T14:50:54.246826-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-08T14:50:57.156319-03:00"
     },
     {
       "id": "reel-20261008-1200-c58626c7b5",
