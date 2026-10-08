@@ -2575,7 +2575,7 @@
       "aprovado": true,
       "data": "2026-10-07",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0054 - A polêmica da game house.mp4",
         "sha256": "402973ade434811a23cb344b11bb23704ece703661f2dcfc5a3b4393f57800b8"
@@ -2608,7 +2608,8 @@
         "id": "1890323975286187",
         "publicado_em": "2026-10-07T22:53:39.006845-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-07T22:53:40.280289-03:00"
     },
     {
       "id": "reel-20261007-2100-0a210ef861",
