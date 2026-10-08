@@ -2710,7 +2710,7 @@
       "aprovado": true,
       "data": "2026-10-08",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0059 - Arthur aguiar merece ganhar o bbb.mp4",
         "sha256": "c58626c7b50f9bd1b520fe8e3d96724744017f0a4217103a085203b066d4841a"
@@ -2743,7 +2743,8 @@
         "id": "1816885799414303",
         "publicado_em": "2026-10-08T17:41:01.755382-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-08T17:41:03.302990-03:00"
     },
     {
       "id": "reel-20261008-1900-82d27ac804",
