@@ -2890,7 +2890,7 @@
       "aprovado": true,
       "data": "2026-10-09",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0063 - Ameaçaram a cela de m0rt3.mp4",
         "sha256": "bb4a3c7cb2b638fb093fd86d27ee4879260c17491ddb22746766ef76f7d77af5"
@@ -2923,7 +2923,8 @@
         "id": "1793809104996590",
         "publicado_em": "2026-10-09T17:05:53.592334-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-09T17:05:55.364243-03:00"
     },
     {
       "id": "reel-20261009-1900-2a5dc7ad20",
