@@ -2768,7 +2768,8 @@
         "duracao_segundos": 25.12,
         "remocao_solicitada_em": "2026-10-08T23:06:32.788665-03:00",
         "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
-        "remocao_release_tag": "fila-instagram-facebook"
+        "remocao_release_tag": "fila-instagram-facebook",
+        "removido_da_release_em": "2026-10-08T23:06:34.304310-03:00"
       },
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
