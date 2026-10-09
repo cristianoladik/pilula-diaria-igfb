@@ -2845,7 +2845,7 @@
       "aprovado": true,
       "data": "2026-10-09",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0065 - As melhores caretas do bruno diferente.mp4",
         "sha256": "c01f037ea7b7f55b137c2d144453b41a03454eac259efeab1b29fda6826b9b73"
@@ -2878,7 +2878,8 @@
         "id": "1888702008778477",
         "publicado_em": "2026-10-09T14:25:32.812733-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-09T14:25:34.494056-03:00"
     },
     {
       "id": "reel-20261009-1200-bb4a3c7cb2",
