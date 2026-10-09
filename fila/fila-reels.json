@@ -2755,7 +2755,7 @@
       "aprovado": true,
       "data": "2026-10-08",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0058 - A vida saudável de Gordox.mp4",
         "sha256": "82d27ac804985dd0f4b2d94611e28f30384558f31d216b749f40d37aac3140d6"
@@ -2788,7 +2788,8 @@
         "id": "2214120196167920",
         "publicado_em": "2026-10-08T23:06:28.062776-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-08T23:06:29.398882-03:00"
     },
     {
       "id": "reel-20261008-2100-5bda285f0a",
