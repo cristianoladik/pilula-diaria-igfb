@@ -2800,7 +2800,7 @@
       "aprovado": true,
       "data": "2026-10-08",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0060 - Aim Assist é roubado.mp4",
         "sha256": "5bda285f0a050d6174c0193be210f99469844a607429db16f897464c63db3257"
@@ -2833,7 +2833,8 @@
         "id": "1646440430404378",
         "publicado_em": "2026-10-09T02:58:01.602757-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-09T02:58:03.478497-03:00"
     },
     {
       "id": "reel-20261009-0800-c01f037ea7",
