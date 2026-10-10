@@ -2935,7 +2935,7 @@
       "aprovado": true,
       "data": "2026-10-09",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0062 - Aline faria fala sobre fnx.mp4",
         "sha256": "2a5dc7ad200ab958bc75633183e38d86cd1afa1f53106e1bcd722a6e65c037e0"
@@ -2968,7 +2968,8 @@
         "id": "2113419279381711",
         "publicado_em": "2026-10-09T22:44:56.339973-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-09T22:44:57.974954-03:00"
     },
     {
       "id": "reel-20261009-2100-f9fe40e926",
