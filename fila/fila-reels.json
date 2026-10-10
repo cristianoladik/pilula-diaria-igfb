@@ -2980,7 +2980,7 @@
       "aprovado": true,
       "data": "2026-10-09",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0064 - As exigências do paulinho o Loko.mp4",
         "sha256": "f9fe40e9266cb619f698d0f1de21026a3bc01ef0124ec37fdaae5cda48622616"
@@ -3013,7 +3013,8 @@
         "id": "1645728367146322",
         "publicado_em": "2026-10-10T02:40:43.262723-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-10T02:40:44.652980-03:00"
     },
     {
       "id": "reel-20261010-0800-47649c01c5",
