@@ -3025,7 +3025,7 @@
       "aprovado": true,
       "data": "2026-10-10",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0069 - Bkinho levou o rp pra fora.mp4",
         "sha256": "47649c01c54f3d9eb52f71b32b1f7c4c8690a44ffff39a72131452e94f835b6e"
@@ -3058,7 +3058,8 @@
         "id": "876894742084438",
         "publicado_em": "2026-10-10T13:12:11.633190-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-10T13:12:13.008344-03:00"
     },
     {
       "id": "reel-20261010-1200-b6bbbc0d51",
