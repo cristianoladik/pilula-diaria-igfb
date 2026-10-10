@@ -1680,7 +1680,7 @@
       "aprovado": true,
       "data": "2026-10-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1470 - Você não pode desistir.mp4",
         "sha256": "150af6a826d730f5665389a7ea957da4947108eace528d6c9524d193e87c3f3d"
@@ -1716,7 +1716,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-10T13:51:16.553085-03:00"
     },
     {
       "id": "story-20261011-a62621d1d5",
