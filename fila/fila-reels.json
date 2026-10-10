@@ -3070,7 +3070,7 @@
       "aprovado": true,
       "data": "2026-10-10",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0067 - Banheiristas fala sobre Juninho Manella 😳.mp4",
         "sha256": "b6bbbc0d51e71f68bc54f1eab985a2289ee1a2c3e5aecf15e4233327e7a6cffc"
@@ -3103,7 +3103,8 @@
         "id": "924860380462442",
         "publicado_em": "2026-10-10T16:16:01.831023-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-10T16:16:03.519339-03:00"
     },
     {
       "id": "reel-20261010-1900-8cfce3a25a",
