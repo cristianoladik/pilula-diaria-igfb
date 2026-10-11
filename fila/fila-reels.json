@@ -3205,7 +3205,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0073 - Aguarde uma resposta de Deus! Shorts.mp4",
         "sha256": "ed93a5d90b39663a499aff47791ac6183616e9740196e1dbb78ed4680efe98f2"
@@ -3238,7 +3238,8 @@
         "id": "2267817710457605",
         "publicado_em": "2026-10-11T13:37:56.618789-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-11T13:37:58.232095-03:00"
     },
     {
       "id": "reel-20261011-1200-e9657fc59c",
