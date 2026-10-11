@@ -3115,7 +3115,7 @@
       "aprovado": true,
       "data": "2026-10-10",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0066 - Bak custou r 500.000, 00 para o fluxo.mp4",
         "sha256": "8cfce3a25a51399cea327a848e36dcd84ae3e9492557cf0b860bfe51e202009f"
@@ -3148,7 +3148,8 @@
         "id": "2074673896504139",
         "publicado_em": "2026-10-10T21:57:44.848479-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-10T21:57:46.486175-03:00"
     },
     {
       "id": "reel-20261010-2100-517986dea5",
