@@ -3250,7 +3250,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0071 - Boca de 09 deu em cima dela.mp4",
         "sha256": "e9657fc59c796368d2736199262059d5e4ca2458d009eb0511ff27ec81aea1aa"
@@ -3283,7 +3283,8 @@
         "id": "2341183966705775",
         "publicado_em": "2026-10-11T16:31:07.445330-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-11T16:31:09.087897-03:00"
     },
     {
       "id": "reel-20261011-1600-8346e41240",
