@@ -3160,7 +3160,7 @@
       "aprovado": true,
       "data": "2026-10-10",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0068 - Baptista é um cara a frente do seu tempo.mp4",
         "sha256": "517986dea5fbca4374f2684d729031ae36d9c2e91d9ffe6fb2e29fe1e85387bd"
@@ -3193,7 +3193,8 @@
         "id": "1460072919653245",
         "publicado_em": "2026-10-11T02:35:48.240467-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-11T02:35:49.574868-03:00"
     },
     {
       "id": "reel-20261011-0800-ed93a5d90b",
