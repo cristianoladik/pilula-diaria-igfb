@@ -3295,7 +3295,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0074 - Com quem você quer andar shorts.mp4",
         "sha256": "8346e412404a3d30f2f815fa8315044e4a148772dec906a1325ba104a38af039"
@@ -3328,7 +3328,8 @@
         "id": "1810832229947635",
         "publicado_em": "2026-10-11T19:48:48.455628-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-11T19:48:49.742132-03:00"
     },
     {
       "id": "reel-20261011-1900-f44961b1c7",
