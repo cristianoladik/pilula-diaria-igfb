@@ -1728,7 +1728,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1469 - O jeito que você se cuida revela como você está.mp4",
         "sha256": "a62621d1d51b62b55513a7f9dfc2f683c5c27f17285964a79624bce13403ae85"
@@ -1764,7 +1764,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-11T14:15:01.114135-03:00"
     },
     {
       "id": "story-20261012-9b8091d16d",
