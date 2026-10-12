@@ -1831,12 +1831,15 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "processando",
+            "status": "publicado",
             "tentativas": 1,
-            "fase": "publicacao_solicitada",
+            "fase": "publicacao_confirmada",
             "video_id": "2859860377719286",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/2859860377719286",
-            "finish_solicitado_em": "2026-10-12T17:50:12.407553-03:00"
+            "finish_solicitado_em": "2026-10-12T17:50:12.407553-03:00",
+            "id": "1660214779116506",
+            "publicado_em": "2026-10-12T17:50:18.240217-03:00",
+            "confirmacao": "finish_facebook"
           }
         }
       ]
