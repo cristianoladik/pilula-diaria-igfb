@@ -1776,7 +1776,7 @@
       "aprovado": true,
       "data": "2026-10-12",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1468 - Largue essas companhias!.mp4",
         "sha256": "9b8091d16dd40b4191f79da451740ec5b6b2926eedca0b1ae0acfe3b42ab1a98"
@@ -1842,7 +1842,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-12T17:50:19.857102-03:00"
     },
     {
       "id": "story-20261013-a54931c0ef",
