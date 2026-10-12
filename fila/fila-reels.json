@@ -3430,7 +3430,7 @@
       "aprovado": true,
       "data": "2026-10-12",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0078 - Desistir nunca será uma opção! Deive leonardo.mp4",
         "sha256": "2d9b56f8e4d60c6edf1233934b171484eb9575d98dbc3bf81da0c07082afcb87"
@@ -3463,7 +3463,8 @@
         "id": "884312708004718",
         "publicado_em": "2026-10-12T17:14:49.237366-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-12T17:14:50.822636-03:00"
     },
     {
       "id": "reel-20261012-1200-46f82facb0",
