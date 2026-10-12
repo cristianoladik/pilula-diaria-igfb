@@ -3385,7 +3385,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0072 - A sua voz é muito mais alta do que a tempestade que você vive! - Deive leonardo.mp4",
         "sha256": "4076a48dca31c14b5c12abbf4ff92966af18c4dcab9867d21c52e92e6787a471"
@@ -3418,7 +3418,8 @@
         "id": "1084708061083209",
         "publicado_em": "2026-10-12T02:46:10.841562-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-12T02:46:12.170452-03:00"
     },
     {
       "id": "reel-20261012-0800-2d9b56f8e4",
