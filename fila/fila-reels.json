@@ -3340,7 +3340,7 @@
       "aprovado": true,
       "data": "2026-10-11",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0070 - Blue pen acabando com a auto estima do Muca 💀.mp4",
         "sha256": "f44961b1c7dc3cc77667f3e12eaa9a8a4e9e23290b1a2e4e87ca474a80217e14"
@@ -3373,7 +3373,8 @@
         "id": "1761370432222717",
         "publicado_em": "2026-10-11T22:17:46.890112-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-11T22:17:48.363518-03:00"
     },
     {
       "id": "reel-20261011-2100-4076a48dca",
