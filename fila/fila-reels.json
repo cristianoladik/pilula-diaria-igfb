@@ -3745,7 +3745,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0084 - Essa é uma palavra de Deus pra você!.mp4",
         "sha256": "771a022e4c00fa310f268008ceeb8038ab26e82c89606f615519a35f68078633"
@@ -3778,7 +3778,8 @@
         "id": "1098434412770843",
         "publicado_em": "2026-10-13T20:15:55.755202-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T20:15:57.417826-03:00"
     },
     {
       "id": "reel-20261013-1900-e19d027194",
