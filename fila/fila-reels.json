@@ -3520,7 +3520,7 @@
       "aprovado": true,
       "data": "2026-10-12",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0079 - Deus está te colocando no processo! - Deive leonardo.mp4",
         "sha256": "aa10a57221caae64587630570807530cf272148009ba1f6110406095485b43c7"
@@ -3553,7 +3553,8 @@
         "id": "2253489541861236",
         "publicado_em": "2026-10-12T22:16:34.357223-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-12T22:16:35.913728-03:00"
     },
     {
       "id": "reel-20261012-1900-79188d96b1",
