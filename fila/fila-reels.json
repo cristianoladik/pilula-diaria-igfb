@@ -3610,7 +3610,7 @@
       "aprovado": true,
       "data": "2026-10-12",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0077 - Cuidado com o preço que você paga, pelo dinheiro que você ganha! - Deive leonardo.mp4",
         "sha256": "f12e53fd78be0aa1d6521b37f216265c504f3a47c93a8750a37f146106802054"
@@ -3643,7 +3643,8 @@
         "id": "1834384814405450",
         "publicado_em": "2026-10-13T03:41:34.734541-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T03:41:36.463187-03:00"
     },
     {
       "id": "reel-20261013-0800-675857c983",
