@@ -3700,7 +3700,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0081 - Deus sabe qual é a melhor hora! Deive leonardo.mp4",
         "sha256": "b3036a141899fad7a3477a71320d787d7e5202215aece7f76a40de393bce759d"
@@ -3733,7 +3733,8 @@
         "id": "1757949692137301",
         "publicado_em": "2026-10-13T17:39:08.210148-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T17:39:10.703034-03:00"
     },
     {
       "id": "reel-20261013-1600-771a022e4c",
