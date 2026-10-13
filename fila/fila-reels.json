@@ -3565,7 +3565,7 @@
       "aprovado": true,
       "data": "2026-10-12",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0075 - Continue semeando! - Deive leonardo.mp4",
         "sha256": "79188d96b17e5688ff58d06c335d7faa8851fe63e74b86e0d6bbb946a5125c57"
@@ -3598,7 +3598,8 @@
         "id": "1409417894727608",
         "publicado_em": "2026-10-13T00:01:45.615731-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T00:01:47.223400-03:00"
     },
     {
       "id": "reel-20261012-2100-f12e53fd78",
