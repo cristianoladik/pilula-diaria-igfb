@@ -3655,7 +3655,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0083 - Ele é perfeito em amar! Deive leonardo.mp4",
         "sha256": "675857c983b291f4bf7bd856cf02072590b13db0a72e0d24ac766ad7a6352b33"
@@ -3688,7 +3688,8 @@
         "id": "1384807367040909",
         "publicado_em": "2026-10-13T15:08:39.365418-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T15:08:41.097260-03:00"
     },
     {
       "id": "reel-20261013-1200-b3036a1418",
