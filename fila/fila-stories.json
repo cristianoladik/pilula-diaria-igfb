@@ -1858,7 +1858,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1467 - Joel jota fica sem palavras o que júnior Rostirola disse.mp4",
         "sha256": "a54931c0ef61b62b29ac58e2c73638c4767aed00aae689615e919d1ba863df69"
@@ -1894,7 +1894,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-13T15:48:16.524563-03:00"
     },
     {
       "id": "story-20261014-65dc1564e3",
