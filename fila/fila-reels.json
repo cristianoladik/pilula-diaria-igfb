@@ -3790,7 +3790,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0080 - Deus não te esqueceu! Deive leonardo.mp4",
         "sha256": "e19d027194579a88b7597f5a9bf5322c8cbe746810eed73381baf63c4e7b8c93"
@@ -3823,7 +3823,8 @@
         "id": "28695735453417307",
         "publicado_em": "2026-10-13T22:11:47.753410-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-13T22:11:49.487061-03:00"
     },
     {
       "id": "reel-20261013-2100-f22f66a074",
