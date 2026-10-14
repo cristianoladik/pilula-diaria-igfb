@@ -3880,7 +3880,7 @@
       "aprovado": true,
       "data": "2026-10-14",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0088 - Existe uma nova estação de Deus para sua vida! - Deive leonardo.mp4",
         "sha256": "e8928e89ad7aa5c46faedbf4cf4ea5d2d4f512c05bdeaeb4e48ad447f1588a60"
@@ -3913,7 +3913,8 @@
         "id": "958336433517738",
         "publicado_em": "2026-10-14T12:48:39.423657-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-14T12:48:42.151746-03:00"
     },
     {
       "id": "reel-20261014-1200-8497fccda1",
