@@ -3835,7 +3835,7 @@
       "aprovado": true,
       "data": "2026-10-13",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0082 - Deus sempre quando prepara alguém, é para algo extraordinário! - Deive leonardo.mp4",
         "sha256": "f22f66a074708609a3b25f84ef025f82746ec8918748c93f02b8a3bcac66dcfe"
@@ -3868,7 +3868,8 @@
         "id": "1527629955838077",
         "publicado_em": "2026-10-14T01:43:48.849752-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-14T01:43:50.336415-03:00"
     },
     {
       "id": "reel-20261014-0800-e8928e89ad",
