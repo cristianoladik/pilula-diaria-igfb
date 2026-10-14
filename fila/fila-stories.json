@@ -1932,12 +1932,12 @@
           },
           "facebook": {
             "status": "erro",
-            "tentativas": 1,
+            "tentativas": 2,
             "fase": "sessao_criada",
             "video_id": "1110714344691652",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1110714344691652",
-            "erro": "Git push falhou sem condição segura de retry: remote: Internal Server Error        \nremote: Request ID 282A:2DCD04:9CF1F7:D3DB96:6ACFAC9D        \nremote: Time 2026-10-14T16:24:00Z\nTo https://github.com/cristianoladik/pilula-diaria-igfb\n ! [remote rejected] main -> main (Internal Server Error)\nerror: failed to push some refs to 'https://github.com/cristianoladik/pilula-diaria-igfb'",
-            "ultima_tentativa_em": "2026-10-14T13:24:00.590879-03:00"
+            "erro": "A sessão de Story pode ter sido publicada, mas o objeto não foi comprovado na aresta /stories; nova finalização bloqueada.",
+            "ultima_tentativa_em": "2026-10-14T14:06:26.908323-03:00"
           }
         }
       ]
