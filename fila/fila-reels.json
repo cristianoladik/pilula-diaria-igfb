@@ -3925,7 +3925,7 @@
       "aprovado": true,
       "data": "2026-10-14",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0086 - Existe ajuda do alto! Deive leonardo.mp4",
         "sha256": "8497fccda1df0d13c5bbd2c941cb39426e116fdaef6a6d49ff93781930e6f8e5"
@@ -3958,7 +3958,8 @@
         "id": "1579653106699038",
         "publicado_em": "2026-10-14T16:19:49.686168-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-14T16:19:51.654878-03:00"
     },
     {
       "id": "reel-20261014-1600-e9833bbc4f",
