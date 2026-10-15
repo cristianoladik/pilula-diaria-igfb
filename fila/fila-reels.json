@@ -4015,7 +4015,7 @@
       "aprovado": true,
       "data": "2026-10-14",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0085 - Eu quero morar dentro de você! Deive leonardo.mp4",
         "sha256": "5db47a8dd4014b47472c118ffbb3fb4bec57ddf9d1cd5073254d377b2b486484"
@@ -4048,7 +4048,8 @@
         "id": "1624677985802165",
         "publicado_em": "2026-10-14T21:30:52.836728-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-14T21:30:54.275648-03:00"
     },
     {
       "id": "reel-20261014-2100-cf4800e275",
