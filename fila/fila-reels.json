@@ -4060,7 +4060,7 @@
       "aprovado": true,
       "data": "2026-10-14",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0087 - Existe um Deus no céu e na terra que ama você! Deive leonardo.mp4",
         "sha256": "cf4800e2754b803bc518dcb38ad5b137df302d3f388fd9b8527c9da1649b912e"
@@ -4093,7 +4093,8 @@
         "id": "933585089547348",
         "publicado_em": "2026-10-15T01:26:25.941217-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-15T01:26:27.539857-03:00"
     },
     {
       "id": "reel-20261015-0800-70307bf727",
