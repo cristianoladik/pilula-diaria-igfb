@@ -4105,7 +4105,7 @@
       "aprovado": true,
       "data": "2026-10-15",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0093 - Nele você pode confiar! Deive leonardo.mp4",
         "sha256": "70307bf727b308bd45a36994c42213603b09d6608706339ef4f34dfc3094525c"
@@ -4138,7 +4138,8 @@
         "id": "1408986542294045",
         "publicado_em": "2026-10-15T12:34:42.182386-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-15T12:34:43.964069-03:00"
     },
     {
       "id": "reel-20261015-1200-4be967660c",
