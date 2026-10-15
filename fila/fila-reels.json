@@ -4195,7 +4195,7 @@
       "aprovado": true,
       "data": "2026-10-15",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0094 - No teu espírito se faltar Jesus é impossível ser feliz! - Deive leonardo.mp4",
         "sha256": "ae55d72565c203d5f09d40ea40cb8de39b6a6078d07217225529a47a42870be6"
@@ -4228,7 +4228,8 @@
         "id": "3800165553476892",
         "publicado_em": "2026-10-15T19:09:52.652588-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-15T19:09:54.476189-03:00"
     },
     {
       "id": "reel-20261015-1900-4c4bfc75ed",
