@@ -1973,13 +1973,13 @@
           },
           "facebook": {
             "status": "erro",
-            "tentativas": 1,
+            "tentativas": 2,
             "fase": "publicacao_solicitada",
             "video_id": "959384543908368",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/959384543908368",
             "finish_solicitado_em": "2026-10-15T13:11:17.153105-03:00",
-            "erro": "Git push falhou sem condição segura de retry: To https://github.com/cristianoladik/pilula-diaria-igfb\n ! [remote rejected] main -> main (failed)\nerror: failed to push some refs to 'https://github.com/cristianoladik/pilula-diaria-igfb'",
-            "ultima_tentativa_em": "2026-10-15T13:11:24.071468-03:00"
+            "erro": "A sessão de Story pode ter sido publicada, mas o objeto não foi comprovado na aresta /stories; nova finalização bloqueada.",
+            "ultima_tentativa_em": "2026-10-15T13:56:02.153720-03:00"
           }
         }
       ]
