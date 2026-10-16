@@ -4240,7 +4240,7 @@
       "aprovado": true,
       "data": "2026-10-15",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0090 - Gente cheia do espírito santo, tem combustível para dar! - Deive leonardo.mp4",
         "sha256": "4c4bfc75eda6cdc9d679f814801e43aa21d85789c88d8cdb864b3b938abbdbf4"
@@ -4273,7 +4273,8 @@
         "id": "1119523587280845",
         "publicado_em": "2026-10-15T21:21:32.178176-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-15T21:21:33.653160-03:00"
     },
     {
       "id": "reel-20261015-2100-77c02c8af5",
