@@ -2005,7 +2005,10 @@
             "duracao_segundos": 30.24
           },
           "instagram": {
-            "status": "pendente"
+            "status": "processando",
+            "tentativas": 1,
+            "fase": "container_criado",
+            "container_id": "18117871702950888"
           },
           "facebook": {
             "status": "pendente"
