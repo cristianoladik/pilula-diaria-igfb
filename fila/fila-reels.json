@@ -4330,7 +4330,7 @@
       "aprovado": true,
       "data": "2026-10-16",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0098 - Não ignore os sinais.mp4",
         "sha256": "59e631c245704bcc773eacfbb04350a7e9d9e17ec5c5302d5d1df75136497120"
@@ -4363,7 +4363,8 @@
         "id": "1667326541410053",
         "publicado_em": "2026-10-16T12:22:22.915393-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-16T12:22:24.525290-03:00"
     },
     {
       "id": "reel-20261016-1200-c84434e90b",
