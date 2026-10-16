@@ -2014,12 +2014,15 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "processando",
+            "status": "publicado",
             "tentativas": 1,
-            "fase": "publicacao_solicitada",
+            "fase": "publicacao_confirmada",
             "video_id": "2991099881247407",
             "upload_url": "https://rupload.facebook.com/video-upload/v26.0/2991099881247407",
-            "finish_solicitado_em": "2026-10-16T12:58:30.502244-03:00"
+            "finish_solicitado_em": "2026-10-16T12:58:30.502244-03:00",
+            "id": "2460530097687015",
+            "publicado_em": "2026-10-16T12:58:35.611827-03:00",
+            "confirmacao": "finish_facebook"
           }
         },
         {
