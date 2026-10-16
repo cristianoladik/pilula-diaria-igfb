@@ -4285,7 +4285,7 @@
       "aprovado": true,
       "data": "2026-10-15",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0092 - Maior é aquele que está conosco! - Deive leonardo.mp4",
         "sha256": "77c02c8af5609335f6181757232168fd518e41c5b413f7d0e5d411123a082a5e"
@@ -4318,7 +4318,8 @@
         "id": "1667508804807841",
         "publicado_em": "2026-10-16T01:21:16.579702-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-16T01:21:18.474483-03:00"
     },
     {
       "id": "reel-20261016-0800-59e631c245",
