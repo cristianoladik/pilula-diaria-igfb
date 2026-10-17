@@ -4465,7 +4465,7 @@
       "aprovado": true,
       "data": "2026-10-16",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0095 - Nunca é de repente.mp4",
         "sha256": "d80ce1b61a32bbd8d10f3a369a033e542419d5165bf2960dbfc32127213a3c7e"
@@ -4498,7 +4498,8 @@
         "id": "1416778840606707",
         "publicado_em": "2026-10-16T21:25:15.243237-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-16T21:25:16.753067-03:00"
     },
     {
       "id": "reel-20261016-2100-d2948fd65f",
