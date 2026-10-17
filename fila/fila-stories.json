@@ -2071,7 +2071,7 @@
       "aprovado": true,
       "data": "2026-10-17",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1463 - Júnior Rostirola tem uma mensagem linda pra você!.mp4",
         "sha256": "debcd80eb998ae5836f527122b49616f3f84f768f48f9371ec434afdc555a818"
@@ -2107,7 +2107,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-17T11:51:41.163440-03:00"
     },
     {
       "id": "story-20261018-13458e9dc3",
