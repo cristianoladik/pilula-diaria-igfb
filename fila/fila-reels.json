@@ -4555,7 +4555,7 @@
       "aprovado": true,
       "data": "2026-10-17",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0103 - O segredo está em conhecer Jesus! Deive leonardo.mp4",
         "sha256": "4bd0e725f58908a6fcdd13cc1ab837abfb7eb0fe0bb8420df429edcc888f68e6"
@@ -4588,7 +4588,8 @@
         "id": "886717984436150",
         "publicado_em": "2026-10-17T11:10:37.671779-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-17T11:10:39.041396-03:00"
     },
     {
       "id": "reel-20261017-1200-f5ed9bec8d",
