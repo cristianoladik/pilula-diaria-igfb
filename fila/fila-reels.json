@@ -4510,7 +4510,7 @@
       "aprovado": true,
       "data": "2026-10-16",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0097 - Não desista de orar! - Deive leonardo.mp4",
         "sha256": "d2948fd65fe983d692b307de3998810ad8ba387a1195bffa115fa644a1bdc0a6"
@@ -4543,7 +4543,8 @@
         "id": "2427760281376952",
         "publicado_em": "2026-10-17T01:13:08.384974-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-17T01:13:09.969601-03:00"
     },
     {
       "id": "reel-20261017-0800-4bd0e725f5",
