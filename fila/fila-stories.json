@@ -2089,7 +2089,7 @@
           "instagram": {
             "status": "processando",
             "tentativas": 1,
-            "fase": "container_criado",
+            "fase": "publicacao_solicitada",
             "container_id": "18118105951950888"
           },
           "facebook": {
