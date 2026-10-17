@@ -4645,7 +4645,7 @@
       "aprovado": true,
       "data": "2026-10-17",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0104 - Porque muito maior do que a opinião de alguém, é o poder da palavra de Deus! Deive leonardo.mp4",
         "sha256": "2f237652d2ef0c36bc3bf77777854362c01eb30bc902574512bc6cc3c7d9cc0e"
@@ -4678,7 +4678,8 @@
         "id": "927275073583316",
         "publicado_em": "2026-10-17T18:24:44.847548-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-17T18:24:46.508040-03:00"
     },
     {
       "id": "reel-20261017-1900-d1f499bffe",
