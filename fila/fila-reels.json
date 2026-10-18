@@ -4825,7 +4825,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0108 - Se Deus disse sim, para de buscar aprovação! Deive leonardo.mp4",
         "sha256": "b659568619156c63f8a85a18157d7fcfae0dc32c642d5fe6b4a94deb631ae509"
@@ -4858,7 +4858,8 @@
         "id": "1113537918063118",
         "publicado_em": "2026-10-18T11:29:48.105195-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T11:29:49.697065-03:00"
     },
     {
       "id": "reel-20261018-1200-a7a3e82866",
