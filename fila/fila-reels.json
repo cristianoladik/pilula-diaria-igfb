@@ -4735,7 +4735,7 @@
       "aprovado": true,
       "data": "2026-10-17",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0102 - O que fazer quando tudo der errado - Deive leonardo.mp4",
         "sha256": "73d313d88648e89f1c5d671cfa038c50864c58ccf13559d603482d7e3e87f99f"
@@ -4768,7 +4768,8 @@
         "id": "28682758771391419",
         "publicado_em": "2026-10-18T01:19:42.420162-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T01:19:43.883650-03:00"
     },
     {
       "id": "reel-20261018-0600-9087d2b906",
