@@ -4915,7 +4915,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0109 - Se prepara com foco, força, fé no eterno! Deive leonardo.mp4",
         "sha256": "c1585a11fb0d9d122d1e724db0ad24f36d2dc3e52c083fe76ca0ae57bf9b08a8"
@@ -4948,7 +4948,8 @@
         "id": "2822587238116714",
         "publicado_em": "2026-10-18T18:27:24.986238-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T18:27:26.468620-03:00"
     },
     {
       "id": "reel-20261018-1900-f0e7505070",
