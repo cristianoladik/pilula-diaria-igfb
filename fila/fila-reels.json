@@ -4870,7 +4870,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0106 - Quem alimenta o ódio, vive cheio de ódio! - Deive leonardo.mp4",
         "sha256": "a7a3e828663e01043f23ebcc6fff8e6c20a2be451da74903e7aef1306c6492ff"
@@ -4903,7 +4903,8 @@
         "id": "1777301166894887",
         "publicado_em": "2026-10-18T15:03:48.385179-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T15:03:50.145762-03:00"
     },
     {
       "id": "reel-20261018-1600-c1585a11fb",
