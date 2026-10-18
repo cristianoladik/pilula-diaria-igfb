@@ -4690,7 +4690,7 @@
       "aprovado": true,
       "data": "2026-10-17",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0100 - O Deus do impossível cuida de você.mp4",
         "sha256": "d1f499bffe79860e7ce5afb76806d4039feff77e27498e3b26c0cf0f2fdec1cc"
@@ -4723,7 +4723,8 @@
         "id": "1435892367868834",
         "publicado_em": "2026-10-17T21:00:37.030618-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-17T21:00:38.484591-03:00"
     },
     {
       "id": "reel-20261017-2100-73d313d886",
