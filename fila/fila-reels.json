@@ -4780,7 +4780,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0110 - Se você está caído, permita que ele te pegue pela mão! Deive leonardo.mp4",
         "sha256": "9087d2b906e76946215e3de320ce49aac489ad52d407fd921d451ae52169b13b"
@@ -4813,7 +4813,8 @@
         "id": "1121175690303472",
         "publicado_em": "2026-10-18T10:12:01.675753-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T10:12:03.330723-03:00"
     },
     {
       "id": "reel-20261018-0800-b659568619",
