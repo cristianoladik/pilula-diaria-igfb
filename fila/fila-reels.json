@@ -5050,7 +5050,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0116 - Você não precisa reproduzir aquilo que te feriu! - Deive leonardo.mp4",
         "sha256": "4582cd01c9d68c18bafc2d45520916152ba184859e6f6f1f4febf59a29ba43c4"
@@ -5083,7 +5083,8 @@
         "id": "28449165251442375",
         "publicado_em": "2026-10-19T13:25:39.020614-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T13:25:40.551268-03:00"
     },
     {
       "id": "reel-20261019-0800-3741d7455f",
