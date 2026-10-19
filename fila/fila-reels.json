@@ -5095,7 +5095,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0114 - Todo deserto tem início, meio e fim, mas não tem ponto de parada! - Deive leonardo.mp4",
         "sha256": "3741d7455fed5d5a811b1fc0dbf7b9740bbab986aaa84a0376e8ac93e05a6960"
@@ -5128,7 +5128,8 @@
         "id": "1114222481191663",
         "publicado_em": "2026-10-19T14:26:35.119681-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T14:26:36.864105-03:00"
     },
     {
       "id": "reel-20261019-1200-51bc93146f",
