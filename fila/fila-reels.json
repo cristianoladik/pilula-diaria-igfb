@@ -5140,7 +5140,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0112 - São os íntimos que vão ficar com você até o final! - Deive leonardo.mp4",
         "sha256": "51bc93146fb96c824f5702275597ef5b2f8dc5e97aa066dcdde76dd8557505a8"
@@ -5173,7 +5173,8 @@
         "id": "2101286647187674",
         "publicado_em": "2026-10-19T17:34:27.440568-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T17:34:28.897064-03:00"
     },
     {
       "id": "reel-20261019-1600-5ec2d8a197",
