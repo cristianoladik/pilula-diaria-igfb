@@ -4960,7 +4960,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0105 - Problemas tem que ser resolvidos! - Deive leonardo.mp4",
         "sha256": "f0e75050700d15ff4d2ce9fd30ac074570dd6267d76e8d2041b022e7227fed5b"
@@ -4993,7 +4993,8 @@
         "id": "29169606849393248",
         "publicado_em": "2026-10-18T21:12:31.933639-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-18T21:12:33.358205-03:00"
     },
     {
       "id": "reel-20261018-2100-cdaa8eb1c3",
