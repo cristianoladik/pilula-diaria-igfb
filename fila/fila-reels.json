@@ -5185,7 +5185,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0115 - Você custa muito caro! Deive leonardo.mp4",
         "sha256": "5ec2d8a19760cf8addd72a9c328763d3b700046d8f3397281d299a7ca8b406fe"
@@ -5218,7 +5218,8 @@
         "id": "1655735549262444",
         "publicado_em": "2026-10-19T19:54:06.627592-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T19:54:08.137519-03:00"
     },
     {
       "id": "reel-20261019-1900-6dd11dce20",
