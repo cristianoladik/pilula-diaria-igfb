@@ -5005,7 +5005,7 @@
       "aprovado": true,
       "data": "2026-10-18",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0107 - Quem está comigo tem poder para acalmar toda e qualquer tempestade! Deive leonardo.mp4",
         "sha256": "cdaa8eb1c39d7c5f6bd055e6994b268495a6764a89329bd16e41b32f96b68591"
@@ -5038,7 +5038,8 @@
         "id": "1105917215550514",
         "publicado_em": "2026-10-19T01:29:01.988638-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T01:29:03.691068-03:00"
     },
     {
       "id": "reel-20261019-0600-4582cd01c9",
