@@ -2249,7 +2249,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1460 - Tira os pesos do barco!.mp4",
         "sha256": "486afc29d6115f9fb474d58efc9428a6df957c8b71cac2ee322da1906c0ca995"
@@ -2315,7 +2315,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-20T13:16:29.020592-03:00"
     },
     {
       "id": "story-20261021-20627aa85b",
