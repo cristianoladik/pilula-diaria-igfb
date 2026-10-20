@@ -5455,7 +5455,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0121 - A verdade sobre as amizades.mp4",
         "sha256": "cec4e6bb94f4cb39e10a897dc04cd544d9286a4277e6621a908bcb092f41e627"
@@ -5488,7 +5488,8 @@
         "id": "1422050679484257",
         "publicado_em": "2026-10-20T19:15:32.843120-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T19:15:34.418203-03:00"
     },
     {
       "id": "reel-20261020-1900-de20bdc51c",
