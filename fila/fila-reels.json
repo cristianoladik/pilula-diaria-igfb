@@ -5320,7 +5320,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0122 - Como toguro resolvou os seus ptoblemas financeiros.mp4",
         "sha256": "d6dfdc992a674fe7550c4f37cbfb0d461adbe204c7d60f538c5b51112106e502"
@@ -5353,7 +5353,8 @@
         "id": "2107175406568315",
         "publicado_em": "2026-10-20T11:16:49.247067-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T11:16:50.847916-03:00"
     },
     {
       "id": "reel-20261020-0800-1b5ad63403",
