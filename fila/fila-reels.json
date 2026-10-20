@@ -5410,7 +5410,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0118 - Você será um foco de incêndio shorts.mp4",
         "sha256": "8a1e6265ae97a175cb7a8f53c78311e41e04ff6028c53065f06fd09fb3c9055d"
@@ -5443,7 +5443,8 @@
         "id": "3291094004422541",
         "publicado_em": "2026-10-20T16:11:44.806026-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T16:11:46.837397-03:00"
     },
     {
       "id": "reel-20261020-1600-cec4e6bb94",
