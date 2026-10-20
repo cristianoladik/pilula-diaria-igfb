@@ -5365,7 +5365,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0120 - É sobre quem é o dono da obra! Deive leonardo.mp4",
         "sha256": "1b5ad6340348e9c3adbec621dfae165dca832f8d5be38b415fdc184f95b3f14e"
@@ -5398,7 +5398,8 @@
         "id": "1610528663899905",
         "publicado_em": "2026-10-20T12:38:24.738596-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T12:38:26.586159-03:00"
     },
     {
       "id": "reel-20261020-1200-8a1e6265ae",
