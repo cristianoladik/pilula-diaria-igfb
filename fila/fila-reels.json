@@ -5230,7 +5230,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0111 - Somos multimilionários! Deive leonardo.mp4",
         "sha256": "6dd11dce200195b0e12f640dced5ed4cc097c1543774480c0a8c686547c6a4ff"
@@ -5263,7 +5263,8 @@
         "id": "1440096730871905",
         "publicado_em": "2026-10-19T22:05:26.263475-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-19T22:05:27.921751-03:00"
     },
     {
       "id": "reel-20261019-2100-e891d4a9c3",
