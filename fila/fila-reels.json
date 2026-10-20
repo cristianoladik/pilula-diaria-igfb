@@ -5275,7 +5275,7 @@
       "aprovado": true,
       "data": "2026-10-19",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0113 - Tem diamantes debaixo de você! Deive leonardo.mp4",
         "sha256": "e891d4a9c31cef98cb153bbf4b3f180a784b8335747677e424f2aa4d98e7540f"
@@ -5308,7 +5308,8 @@
         "id": "1109325618487440",
         "publicado_em": "2026-10-20T01:39:07.800810-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T01:39:09.591363-03:00"
     },
     {
       "id": "reel-20261020-0600-d6dfdc992a",
