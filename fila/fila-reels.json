@@ -5500,7 +5500,7 @@
       "aprovado": true,
       "data": "2026-10-20",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0117 - Você não é uma máquina de vencer! Deive leonardo.mp4",
         "sha256": "de20bdc51cb14ffb1f54898d6ade6ecd17599ac43f7b2cfd88a0038537909531"
@@ -5533,7 +5533,8 @@
         "id": "1846340323191644",
         "publicado_em": "2026-10-20T21:36:23.885033-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-20T21:36:25.247464-03:00"
     },
     {
       "id": "reel-20261020-2100-8c6028f3c8",
