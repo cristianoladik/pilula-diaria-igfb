@@ -2331,7 +2331,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1459 - Qual é o objetivo do seu trabalho.mp4",
         "sha256": "20627aa85b3a7c4665705a6b9d75bf3b8984c2989551ba7d681590a35bd218c1"
@@ -2367,7 +2367,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-21T13:30:34.837312-03:00"
     },
     {
       "id": "story-20261022-b0e4d953fd",
