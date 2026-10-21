@@ -5725,7 +5725,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0127 - O mundo tem bilhões de pessoas!.mp4",
         "sha256": "213de134858ddc1c91d712363930bb2aed4a19e928abc3b3d2b1121d471a92b2"
@@ -5758,7 +5758,8 @@
         "id": "1560788112758395",
         "publicado_em": "2026-10-21T19:17:14.569877-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-21T19:17:16.471320-03:00"
     },
     {
       "id": "reel-20261021-1900-1cdd71c75b",
