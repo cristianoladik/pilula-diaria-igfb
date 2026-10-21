@@ -5635,7 +5635,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0126 - O que o dinheiro não compra.mp4",
         "sha256": "24ec8f5ec2b3234585afc4a7ae53099163478fd11c62da57f40c84ea4206061b"
@@ -5668,7 +5668,8 @@
         "id": "1019438290556197",
         "publicado_em": "2026-10-21T12:55:54.071577-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-21T12:55:56.794854-03:00"
     },
     {
       "id": "reel-20261021-1200-f5f62b3a50",
