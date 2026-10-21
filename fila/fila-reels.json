@@ -5590,7 +5590,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0128 - O Não merecimento É grave. Você tem isso.mp4",
         "sha256": "3ddc0eeb771265752d4d0af8358307bcc01987a95f2335bd06a5844c048a092e"
@@ -5623,7 +5623,8 @@
         "id": "1843668623296359",
         "publicado_em": "2026-10-21T11:28:27.169417-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-21T11:28:30.085534-03:00"
     },
     {
       "id": "reel-20261021-0800-24ec8f5ec2",
