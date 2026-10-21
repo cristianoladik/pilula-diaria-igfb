@@ -5680,7 +5680,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0124 - Falta de caráter.mp4",
         "sha256": "f5f62b3a50e5ea07f9e9b4ab5caaa536024c4184385bd354319219be604792df"
@@ -5713,7 +5713,8 @@
         "id": "2521684081694647",
         "publicado_em": "2026-10-21T16:17:46.203446-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-21T16:17:47.993036-03:00"
     },
     {
       "id": "reel-20261021-1600-213de13485",
