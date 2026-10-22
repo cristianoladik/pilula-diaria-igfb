@@ -5770,7 +5770,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0123 - E não se esqueça do aniversariante ♥️.mp4",
         "sha256": "1cdd71c75b5186c41d27fb99a31ef51a41b19c90807d8e41089822b37145f943"
@@ -5803,7 +5803,8 @@
         "id": "1679658157078092",
         "publicado_em": "2026-10-21T21:40:38.640606-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-21T21:40:40.340699-03:00"
     },
     {
       "id": "reel-20261021-2100-79caa739bd",
