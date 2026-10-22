@@ -5860,7 +5860,7 @@
       "aprovado": true,
       "data": "2026-10-22",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0134 - Cafeína ou cortisol o que atrapalha mais o sono.mp4",
         "sha256": "2655f59d3605cbb0e101bc39737b857d8e672d2affe52638759c6d7e2e306663"
@@ -5893,7 +5893,8 @@
         "id": "2610580026033025",
         "publicado_em": "2026-10-22T11:29:37.027781-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-22T11:29:38.764532-03:00"
     },
     {
       "id": "reel-20261022-0800-44e729b8a1",
