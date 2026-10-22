@@ -5815,7 +5815,7 @@
       "aprovado": true,
       "data": "2026-10-21",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0125 - Nascer num lar tóxico pode te deixar tóxico.mp4",
         "sha256": "79caa739bd951ee98022c77f95951368f73f3c871cd0875119f85d5625a05cc3"
@@ -5848,7 +5848,8 @@
         "id": "1441598294099716",
         "publicado_em": "2026-10-22T01:31:04.238333-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-22T01:31:05.796405-03:00"
     },
     {
       "id": "reel-20261022-0600-2655f59d36",
