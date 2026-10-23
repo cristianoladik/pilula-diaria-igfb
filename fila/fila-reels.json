@@ -6265,7 +6265,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0139 - Deus é o maior servo que existe.mp4",
         "sha256": "28e42c284b35a1c8fccbb0cc8776e3221b3c9ba33be6b94635a7c5a30a625596"
@@ -6298,7 +6298,8 @@
         "id": "28690365697299145",
         "publicado_em": "2026-10-23T19:02:55.660163-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T19:02:57.107292-03:00"
     },
     {
       "id": "reel-20261023-1900-4a6534af4a",
