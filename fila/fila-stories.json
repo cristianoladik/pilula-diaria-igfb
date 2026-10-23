@@ -2443,10 +2443,13 @@
             "duracao_segundos": 38.64
           },
           "instagram": {
-            "status": "processando",
+            "status": "publicado",
             "tentativas": 1,
-            "fase": "publicacao_solicitada",
-            "container_id": "18119601112950888"
+            "fase": "publicacao_confirmada",
+            "container_id": "18119601112950888",
+            "id": "18095736536660587",
+            "publicado_em": "2026-10-23T13:20:28.058400-03:00",
+            "confirmacao": "media_publish"
           },
           "facebook": {
             "status": "pendente"
