@@ -6040,7 +6040,7 @@
       "aprovado": true,
       "data": "2026-10-22",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0129 - Por que o diabo tenta te parar agora O que ele não quer que você saiba.mp4",
         "sha256": "1aa69270a75a12a67798ae3ded7f6220f95e7dccc304a2ba54a05c4b5364c84e"
@@ -6073,7 +6073,8 @@
         "id": "1798951654680068",
         "publicado_em": "2026-10-22T21:38:54.114701-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-22T21:38:56.009023-03:00"
     },
     {
       "id": "reel-20261022-2100-47dc9dfa66",
