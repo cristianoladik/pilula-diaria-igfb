@@ -6130,7 +6130,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0140 - O inimigo não é tão insistente quanto você pensa.mp4",
         "sha256": "481d91794ebc257ff4f19a519eeddbf517aeb508d359c92b4b5ed4213f49e8ae"
@@ -6163,7 +6163,8 @@
         "id": "1661839575347378",
         "publicado_em": "2026-10-23T11:12:47.307167-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T11:12:49.280820-03:00"
     },
     {
       "id": "reel-20261023-0800-2d4c004953",
