@@ -6175,7 +6175,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0138 - Sua vergonha será seu testemunho e vai mudar sua história!.mp4",
         "sha256": "2d4c0049532061e4117b289f8590e669e70c3fac1e73d5e1bd956227ef669889"
@@ -6208,7 +6208,8 @@
         "id": "2367505140453753",
         "publicado_em": "2026-10-23T12:44:18.252130-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T12:44:19.932579-03:00"
     },
     {
       "id": "reel-20261023-1200-c8db638034",
