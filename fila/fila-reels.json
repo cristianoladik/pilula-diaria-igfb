@@ -6220,7 +6220,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0136 - Para seu nome ser lembrado, você precisa vencer grandes desafios.mp4",
         "sha256": "c8db638034514241d0c2b08cb317c22202b70a0d56e80acf2f4c2e82b837aadf"
@@ -6253,7 +6253,8 @@
         "id": "2467842370405606",
         "publicado_em": "2026-10-23T16:08:44.174497-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T16:08:45.693192-03:00"
     },
     {
       "id": "reel-20261023-1600-28e42c284b",
