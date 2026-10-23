@@ -2443,7 +2443,10 @@
             "duracao_segundos": 38.64
           },
           "instagram": {
-            "status": "pendente"
+            "status": "processando",
+            "tentativas": 1,
+            "fase": "container_criado",
+            "container_id": "18119601112950888"
           },
           "facebook": {
             "status": "pendente"
