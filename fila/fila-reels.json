@@ -6085,7 +6085,7 @@
       "aprovado": true,
       "data": "2026-10-22",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0131 - Uma pessoa que é deixada pela mãe, independente, foi por morte, foi pelo quê.mp4",
         "sha256": "47dc9dfa66344575d4a15ef2532ab8e6b463746477b619b8e4c0e39dfd77a609"
@@ -6118,7 +6118,8 @@
         "id": "1572509261314733",
         "publicado_em": "2026-10-23T01:35:58.473342-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T01:36:00.428653-03:00"
     },
     {
       "id": "reel-20261023-0600-481d91794e",
