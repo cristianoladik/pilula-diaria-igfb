@@ -6445,7 +6445,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0144 - Precisamos falar sobre isso.mp4",
         "sha256": "4508a61ce8890aa5bdfebf265cf8d9ace291bc6b86152a4cce5e548257ec6fa2"
@@ -6478,7 +6478,8 @@
         "id": "1944951196669750",
         "publicado_em": "2026-10-24T11:26:51.686477-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T11:26:53.323725-03:00"
     },
     {
       "id": "reel-20261024-1200-fc07b9d433",
