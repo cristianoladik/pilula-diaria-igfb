@@ -6310,7 +6310,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0135 - O segredo do futebol é esse.mp4",
         "sha256": "4a6534af4aea3d203cc4a14d6805cd11301c08a4c14845b4bc43d08d0ccc7788"
@@ -6343,7 +6343,8 @@
         "id": "916572711390724",
         "publicado_em": "2026-10-23T21:36:51.028036-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-23T21:36:52.563768-03:00"
     },
     {
       "id": "reel-20261023-2100-c888f18a9a",
