@@ -6400,7 +6400,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0146 - Minha filha me ensinou a amar.mp4",
         "sha256": "99b8a71f2f869bf2afc49ad1015f4dfc6e51ce52a6d0a3b74cb7e3591f3d45dd"
@@ -6433,7 +6433,8 @@
         "id": "1132111975881623",
         "publicado_em": "2026-10-24T10:16:17.467150-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T10:16:19.663602-03:00"
     },
     {
       "id": "reel-20261024-0800-4508a61ce8",
