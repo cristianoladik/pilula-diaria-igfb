@@ -2475,7 +2475,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1456 - Deus sabe de coisas que você nunca vai saber.mp4",
         "sha256": "f1756286ee204c5efdf118e36182472dc87ab937ca7a44727604cfa5b4b3320b"
@@ -2511,7 +2511,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-24T12:17:39.860601-03:00"
     },
     {
       "id": "story-20261025-33acda0891",
