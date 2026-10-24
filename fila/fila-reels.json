@@ -6490,7 +6490,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0142 - O empreendedorismo começa antes do CNPJ.mp4",
         "sha256": "fc07b9d433fede901fde8c91681314c5a03c5d28b9a9e5ddf768d98717070248"
@@ -6523,7 +6523,8 @@
         "id": "2349927169088442",
         "publicado_em": "2026-10-24T15:05:57.218472-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T15:05:59.128572-03:00"
     },
     {
       "id": "reel-20261024-1600-7ad0f5cd95",
