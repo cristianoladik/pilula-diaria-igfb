@@ -6535,7 +6535,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0145 - Promessa de Isaías 45 2 que vai abrir portas na sua vida hoje!.mp4",
         "sha256": "7ad0f5cd9502c0e823bed82799770d03fc3de09f8f3d4756371cfc48473438d2"
@@ -6568,7 +6568,8 @@
         "id": "1836585950876138",
         "publicado_em": "2026-10-24T18:33:06.106821-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T18:33:07.643651-03:00"
     },
     {
       "id": "reel-20261024-1900-60da96104f",
