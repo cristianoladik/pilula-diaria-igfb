@@ -6355,7 +6355,7 @@
       "aprovado": true,
       "data": "2026-10-23",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0137 - Por trás de uma empresa rumo ao primeiro bilhão.mp4",
         "sha256": "c888f18a9abf756e50b28b287c7598a57e5fd48e77e4da2396acd101b415a79f"
@@ -6388,7 +6388,8 @@
         "id": "3049456632060859",
         "publicado_em": "2026-10-24T01:26:01.900415-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T01:26:03.480521-03:00"
     },
     {
       "id": "reel-20261024-0600-99b8a71f2f",
