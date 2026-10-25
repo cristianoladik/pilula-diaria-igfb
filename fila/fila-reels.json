@@ -6805,7 +6805,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0151 - O segredo da vida espiritual não é nunca errar.mp4",
         "sha256": "f812cce96cd5a52291a032fe097753e49d67209976378015e1682b5ffebba480"
@@ -6838,7 +6838,8 @@
         "id": "1460421322668595",
         "publicado_em": "2026-10-25T18:41:02.349822-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T18:41:03.909846-03:00"
     },
     {
       "id": "reel-20261025-1800-f1d57aa101",
