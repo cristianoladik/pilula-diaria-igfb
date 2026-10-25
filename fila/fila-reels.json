@@ -6625,7 +6625,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0143 - O poder de pequenos momentos.mp4",
         "sha256": "91b9b800f15ecb2f025251db597eb633bda491bd44e13e18fa68042d75c1051c"
@@ -6658,7 +6658,8 @@
         "id": "2170156566919605",
         "publicado_em": "2026-10-25T01:30:20.099876-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T01:30:21.436049-03:00"
     },
     {
       "id": "reel-20261025-0600-258af1f0b5",
