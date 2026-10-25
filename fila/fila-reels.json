@@ -6850,7 +6850,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0153 - Viver é desenhar sem borracha.mp4",
         "sha256": "f1d57aa1016066d2403ea7eb262d5258a033a017eff42369f59417e045ae44e8"
@@ -6883,7 +6883,8 @@
         "id": "1108567562056792",
         "publicado_em": "2026-10-25T20:10:07.387609-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T20:10:09.149331-03:00"
     },
     {
       "id": "reel-20261025-1900-cb387e0940",
