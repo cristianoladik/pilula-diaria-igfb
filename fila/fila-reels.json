@@ -6670,7 +6670,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0152 - Simplicidade não impede o agir de Deus.mp4",
         "sha256": "258af1f0b55c916bdd78dd6f0f223a6b9ccdf85b7f1e06d0d38e21cc090efb09"
@@ -6703,7 +6703,8 @@
         "id": "1760383738840867",
         "publicado_em": "2026-10-25T10:41:55.233598-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T10:41:56.873656-03:00"
     },
     {
       "id": "reel-20261025-0800-0a70e161e9",
