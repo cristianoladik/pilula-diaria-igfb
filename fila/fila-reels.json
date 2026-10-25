@@ -6715,7 +6715,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0150 - O líder deve fazer seus liderados pensar.mp4",
         "sha256": "0a70e161e91075d59c54ffb0479f0c99916dca3b3c986802e8ecfdf0ddfa9ccf"
@@ -6748,7 +6748,8 @@
         "id": "1144829204646356",
         "publicado_em": "2026-10-25T11:57:05.223289-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T11:57:06.949240-03:00"
     },
     {
       "id": "reel-20261025-1200-44bd61d63d",
