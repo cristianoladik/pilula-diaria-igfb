@@ -6760,7 +6760,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0148 - Nascer em um lar tóxico pode tornar a pessoa tóxica também.mp4",
         "sha256": "44bd61d63d1ddaa3ccb8a526b1e1ec4ea78761ee3ab677cc3b94a2923b34c159"
@@ -6793,7 +6793,8 @@
         "id": "1823299442206020",
         "publicado_em": "2026-10-25T15:23:24.045584-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T15:23:25.855948-03:00"
     },
     {
       "id": "reel-20261025-1600-f812cce96c",
