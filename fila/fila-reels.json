@@ -6580,7 +6580,7 @@
       "aprovado": true,
       "data": "2026-10-24",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0141 - O que você escreveria na sua lápide.mp4",
         "sha256": "60da96104f7f084e39976a5d9392098098d056f7c476dc772965b8fbd94693f3"
@@ -6613,7 +6613,8 @@
         "id": "971961945431487",
         "publicado_em": "2026-10-24T21:18:38.331795-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-24T21:18:39.873095-03:00"
     },
     {
       "id": "reel-20261024-2100-91b9b800f1",
