@@ -2523,7 +2523,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1455 - A verdade chocante sobre comer com talher.mp4",
         "sha256": "33acda089137b94ccc6980b130d1f2013614d12090ac4eb6cb2696d793f46c7d"
@@ -2589,7 +2589,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-25T12:28:44.558124-03:00"
     },
     {
       "id": "story-20261026-87b34280d7",
