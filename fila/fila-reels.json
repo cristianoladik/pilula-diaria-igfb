@@ -7075,7 +7075,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0155 - Você precisa levantar primeiro.mp4",
         "sha256": "f487c42f9af4c70639ac2a6c7509b585480ca93ae846cc4e224dcbb88f9738ca"
@@ -7108,7 +7108,8 @@
         "id": "1811286200200016",
         "publicado_em": "2026-10-26T17:27:32.989269-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T17:27:34.966441-03:00"
     },
     {
       "id": "reel-20261026-1600-9b2dd58375",
