@@ -6940,7 +6940,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0149 - Não consegue empreender.mp4",
         "sha256": "4db87e2c1dafe24c2b761b5940b8731aa9add6fdf6586658a79bce13f325b5a8"
@@ -6973,7 +6973,8 @@
         "id": "966287966067085",
         "publicado_em": "2026-10-26T01:34:01.668938-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T01:34:03.449818-03:00"
     },
     {
       "id": "reel-20261026-0600-988196952e",
