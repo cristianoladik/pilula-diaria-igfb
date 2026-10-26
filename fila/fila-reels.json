@@ -7030,7 +7030,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0157 - Como transformar audiência em negócio.mp4",
         "sha256": "36fac067ae1fa1a870a9535fbff02c7eb63e6dc201ff378392afb5cc5a247933"
@@ -7063,7 +7063,8 @@
         "id": "2209079036337328",
         "publicado_em": "2026-10-26T14:17:34.673707-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T14:17:36.318724-03:00"
     },
     {
       "id": "reel-20261026-1200-f487c42f9a",
