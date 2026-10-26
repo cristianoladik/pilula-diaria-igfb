@@ -7120,7 +7120,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0158 - Dinheiro resolve problemas.mp4",
         "sha256": "9b2dd583759b5ed08678de91ba3976458b15d43814235582502bcb32332d87b3"
@@ -7153,7 +7153,8 @@
         "id": "1593704072672276",
         "publicado_em": "2026-10-26T20:06:45.290950-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T20:06:47.010124-03:00"
     },
     {
       "id": "reel-20261026-1800-7ed711d3e7",
