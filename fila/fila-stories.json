@@ -2605,7 +2605,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1454 - O livro que o Ninja indica!.mp4",
         "sha256": "87b34280d7ae6d403b62382ba468f5d34a0ae7bfa3c39c0b8b03011d67cef167"
@@ -2641,7 +2641,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-26T15:08:45.645265-03:00"
     },
     {
       "id": "story-20261027-7d8383b9a8",
