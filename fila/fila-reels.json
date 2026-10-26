@@ -6985,7 +6985,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0159 - Poder e falta de caráter.mp4",
         "sha256": "988196952e42c86d2952f286139f5ac75b11d2afb35b0548633f653937538605"
@@ -7018,7 +7018,8 @@
         "id": "2503952790128838",
         "publicado_em": "2026-10-26T13:05:45.343760-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T13:05:47.231500-03:00"
     },
     {
       "id": "reel-20261026-0800-36fac067ae",
