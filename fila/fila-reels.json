@@ -6895,7 +6895,7 @@
       "aprovado": true,
       "data": "2026-10-25",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0147 - Você viu esse cara que deu um tapa na cara de um morador de rua.mp4",
         "sha256": "cb387e09405d4c51e0d197266dfd89ced6463b2551d9b6b73927d536d3121a99"
@@ -6928,7 +6928,8 @@
         "id": "1121665090248051",
         "publicado_em": "2026-10-25T21:17:41.606812-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-25T21:17:43.139367-03:00"
     },
     {
       "id": "reel-20261025-2100-4db87e2c1d",
