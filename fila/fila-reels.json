@@ -7165,7 +7165,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0160 - Por que as pessoas gostam de reality show.mp4",
         "sha256": "7ed711d3e7c4a880570751f7671a09d8f9523b80a7c2d09900a1370ab1483644"
@@ -7198,7 +7198,8 @@
         "id": "2135972837311541",
         "publicado_em": "2026-10-26T21:21:58.886621-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T21:22:00.381744-03:00"
     },
     {
       "id": "reel-20261026-1900-3a9ac5b0bc",
