@@ -7210,7 +7210,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0154 - Você precisa aprender inglês.mp4",
         "sha256": "3a9ac5b0bc1eb0f0474730e178ffa2687ce7f03bb5d8e621244f718451f8817a"
@@ -7243,7 +7243,8 @@
         "id": "2070903296900633",
         "publicado_em": "2026-10-26T22:27:59.167723-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-26T22:28:00.605392-03:00"
     },
     {
       "id": "reel-20261026-2100-9841562955",
