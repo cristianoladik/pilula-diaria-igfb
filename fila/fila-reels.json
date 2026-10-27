@@ -7255,7 +7255,7 @@
       "aprovado": true,
       "data": "2026-10-26",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0156 - A oposição é sinal de que você está avançando.mp4",
         "sha256": "9841562955f75f5d2fe809eeeca7525e1809e3426e038a25d1d3b94d44dec1c2"
@@ -7288,7 +7288,8 @@
         "id": "1445883607505090",
         "publicado_em": "2026-10-27T01:52:21.447808-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-27T01:52:23.148835-03:00"
     },
     {
       "id": "reel-20261027-0600-c520140bf7",
