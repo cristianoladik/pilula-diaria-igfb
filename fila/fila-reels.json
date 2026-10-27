@@ -7300,7 +7300,7 @@
       "aprovado": true,
       "data": "2026-10-27",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0166 - Eu não ando com medrosos.mp4",
         "sha256": "c520140bf78e859ca52541c0ffc04b1351e78835d0e6649b048428edeeba4806"
@@ -7333,7 +7333,8 @@
         "id": "1864345007930352",
         "publicado_em": "2026-10-27T12:18:40.767588-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-27T12:18:42.843675-03:00"
     },
     {
       "id": "reel-20261027-0800-1045486ce6",
