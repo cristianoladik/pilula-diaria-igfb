@@ -7435,7 +7435,7 @@
       "aprovado": true,
       "data": "2026-10-27",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0165 - Aprenda a se comunicar.mp4",
         "sha256": "e1ee83075d73e6539db719eab23e833efb4d4de7f6f77630c7e517437e84a0d2"
@@ -7468,7 +7468,8 @@
         "id": "2262530928013785",
         "publicado_em": "2026-10-27T19:55:56.209080-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-27T19:55:57.764369-03:00"
     },
     {
       "id": "reel-20261027-1800-7c01cf1eea",
