@@ -7480,7 +7480,7 @@
       "aprovado": true,
       "data": "2026-10-27",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0167 - O que todo empresário precisa saber para reduzir riscos.mp4",
         "sha256": "7c01cf1eea2daa802ec05e95eb421ff5beee96be391619d984f3c6f6ee8f2762"
@@ -7513,7 +7513,8 @@
         "id": "1628653692079838",
         "publicado_em": "2026-10-27T21:26:23.741649-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-27T21:26:26.061243-03:00"
     },
     {
       "id": "reel-20261027-1900-082fe41ae3",
