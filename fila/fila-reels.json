@@ -7705,7 +7705,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0169 - Sua vergonha será seu maior testemunho.mp4",
         "sha256": "36535b7dc2f4bb02df3f2988ed320fae282fc2b9be565b59a3c5ec8c9e580728"
@@ -7738,7 +7738,8 @@
         "id": "1133342855844549",
         "publicado_em": "2026-10-28T17:14:47.643051-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T17:14:50.175421-03:00"
     },
     {
       "id": "reel-20261028-1600-fdfb07f89f",
