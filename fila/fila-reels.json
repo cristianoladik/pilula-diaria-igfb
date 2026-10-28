@@ -7615,7 +7615,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0173 - Como melhorar sua memória.mp4",
         "sha256": "949b05bcf7bd56ac0c6ca35cb1e95bc411dc580e4f39aedbbd9b0b358fe964db"
@@ -7648,7 +7648,8 @@
         "id": "1108767195462397",
         "publicado_em": "2026-10-28T12:56:16.121058-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T12:56:18.508862-03:00"
     },
     {
       "id": "reel-20261028-0800-be16e4ca14",
