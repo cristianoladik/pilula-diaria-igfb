@@ -7570,7 +7570,7 @@
       "aprovado": true,
       "data": "2026-10-27",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0163 - Você não está sozinho no vale.mp4",
         "sha256": "0c957885f0ebb10dde36ba49f05b7e0251cc20e0a9a47f2d2de992053af52bf9"
@@ -7603,7 +7603,8 @@
         "id": "977681618746602",
         "publicado_em": "2026-10-28T02:26:50.646303-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T02:26:52.366441-03:00"
     },
     {
       "id": "reel-20261028-0600-949b05bcf7",
