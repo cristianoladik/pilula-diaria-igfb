@@ -7660,7 +7660,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0171 - Você tem que ser o maior fã do seu produto.mp4",
         "sha256": "be16e4ca14f761ec117a453a3c0ac7239c0fb2db2e384998bca3d6e28d4c0632"
@@ -7693,7 +7693,8 @@
         "id": "1195409786485144",
         "publicado_em": "2026-10-28T14:08:19.549958-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T14:08:22.541672-03:00"
     },
     {
       "id": "reel-20261028-1200-36535b7dc2",
