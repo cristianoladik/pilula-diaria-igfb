@@ -7840,7 +7840,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0168 - O que ninguém te conta sobre enriquecer.mp4",
         "sha256": "b10c03fc34ad902355cf00af05c322fa7b56f20688e8580cb920771bc1a85861"
@@ -7873,7 +7873,8 @@
         "id": "1686744599522037",
         "publicado_em": "2026-10-28T22:47:15.111159-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T22:47:16.703657-03:00"
     },
     {
       "id": "reel-20261028-2100-09209e186b",
