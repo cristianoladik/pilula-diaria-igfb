@@ -7930,7 +7930,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0180 - Antes de construir, você precisa enxergar.mp4",
         "sha256": "8be7a29bc551960cc3543c169a9c84b2038cc8caa74b0425c90c1e04c6e38e95"
@@ -7963,7 +7963,8 @@
         "id": "29134741386122215",
         "publicado_em": "2026-10-29T13:01:09.510568-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T13:01:11.297927-03:00"
     },
     {
       "id": "reel-20261029-0800-50cd6a3cb6",
