@@ -2783,7 +2783,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1451 - A vacina contra relacionamentos abusivos.mp4",
         "sha256": "1aa0be8f8fef2a9e0358c7ffeeda2da06873c23d1ad055cabaaeb080c1279d2a"
@@ -2849,7 +2849,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-29T14:58:16.292520-03:00"
     },
     {
       "id": "story-20261030-7ea54e1ee5",
