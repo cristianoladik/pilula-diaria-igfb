@@ -8065,7 +8065,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0179 - Ouça a voz de Deus, não o destino.mp4",
         "sha256": "181910d34171f8516431d85507daf72835eb6c7c4c0f5f5a89dfde2f2b2bae15"
@@ -8098,7 +8098,8 @@
         "id": "2101145397941019",
         "publicado_em": "2026-10-29T20:15:41.677251-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T20:15:43.095018-03:00"
     },
     {
       "id": "reel-20261029-1800-6f616ace13",
