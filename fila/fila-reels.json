@@ -8020,7 +8020,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0176 - Nem todo mundo merece saber.mp4",
         "sha256": "05a8a8f96b49ec4879cc5512a656cec190f5c91c6d8a1838cf810e1fa8d4fba8"
@@ -8053,7 +8053,8 @@
         "id": "1626135955669283",
         "publicado_em": "2026-10-29T17:15:35.038256-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T17:15:36.623446-03:00"
     },
     {
       "id": "reel-20261029-1600-181910d341",
