@@ -7885,7 +7885,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0170 - Uma brecha pode custar muito caro.mp4",
         "sha256": "09209e186b2d5137d16e8e2237f3fa3049c1bccecf4efd7ba4f5b23d2a5fc980"
@@ -7918,7 +7918,8 @@
         "id": "2039951926717060",
         "publicado_em": "2026-10-29T02:35:55.511731-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T02:35:57.074067-03:00"
     },
     {
       "id": "reel-20261029-0600-8be7a29bc5",
