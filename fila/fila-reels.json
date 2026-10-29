@@ -7795,7 +7795,7 @@
       "aprovado": true,
       "data": "2026-10-28",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0174 - Depois desse vídeo, esse menino disse, pai, essa memória vai durar pra sempre.mp4",
         "sha256": "bafb0e85ab6ee62e333e30056f3bb657f4253bd7554d187d85e98aabe5be8aa3"
@@ -7828,7 +7828,8 @@
         "id": "1692119282395380",
         "publicado_em": "2026-10-28T21:47:55.583656-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-28T21:47:57.046008-03:00"
     },
     {
       "id": "reel-20261028-1900-b10c03fc34",
