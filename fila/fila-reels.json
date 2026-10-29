@@ -7975,7 +7975,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0178 - O seu projeto de vida não é isso.mp4",
         "sha256": "50cd6a3cb6253e79d251b4b705a754ddf4f373ea69b026d1562929c75b093d8b"
@@ -8008,7 +8008,8 @@
         "id": "2060945334582631",
         "publicado_em": "2026-10-29T14:24:05.066827-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T14:24:07.805849-03:00"
     },
     {
       "id": "reel-20261029-1200-05a8a8f96b",
