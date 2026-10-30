@@ -8110,7 +8110,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0181 - Bom, o vídeo, pessoal, pra quem não sabe, obviamente, vocês sabem o que significa, né.mp4",
         "sha256": "6f616ace1385043a6d37ef3d64815690771bba6d8447ae631cde0939dc6b2973"
@@ -8143,7 +8143,8 @@
         "id": "976629778298902",
         "publicado_em": "2026-10-29T21:48:31.080237-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T21:48:32.631261-03:00"
     },
     {
       "id": "reel-20261029-1900-a9e9c180e7",
