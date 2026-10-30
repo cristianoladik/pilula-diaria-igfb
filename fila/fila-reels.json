@@ -8380,7 +8380,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0186 - Você viverá o melhor de Deus o que ele reservou para a sua vida!.mp4",
         "sha256": "51d0823b33f8bb36bde4ef36472bf5d538e204389db487172733f9222a300eed"
@@ -8413,7 +8413,8 @@
         "id": "1697541875153603",
         "publicado_em": "2026-10-30T19:57:24.419832-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T19:57:25.990954-03:00"
     },
     {
       "id": "reel-20261030-1800-879366d0a9",
