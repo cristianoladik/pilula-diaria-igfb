@@ -8165,7 +8165,10 @@
         "url_publica": "https://github.com/cristianoladik/pilula-diaria-igfb/releases/download/fila-instagram-facebook/sha256-a9e9c180e7f6ade22a76c214c8d56e1ea6c8c42786e27d3b7a14736e6bb1b5ec.mp4",
         "sha256": "a9e9c180e7f6ade22a76c214c8d56e1ea6c8c42786e27d3b7a14736e6bb1b5ec",
         "tamanho_bytes": 5333510,
-        "duracao_segundos": 24.32
+        "duracao_segundos": 24.32,
+        "remocao_solicitada_em": "2026-10-29T22:55:51.107074-03:00",
+        "remocao_repositorio": "cristianoladik/pilula-diaria-igfb",
+        "remocao_release_tag": "fila-instagram-facebook"
       },
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
