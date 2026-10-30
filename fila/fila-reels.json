@@ -8200,7 +8200,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0177 - Não acabe com os sonhos do seu filho.mp4",
         "sha256": "0224258ef3fec661d532634fe44931362c537b28ccf4441aad2ebf257c5ce45d"
@@ -8233,7 +8233,8 @@
         "id": "1639310887701025",
         "publicado_em": "2026-10-30T02:35:55.240890-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T02:35:56.762079-03:00"
     },
     {
       "id": "reel-20261030-0600-485a78a11a",
