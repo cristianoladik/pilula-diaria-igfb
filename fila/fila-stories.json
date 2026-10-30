@@ -2865,7 +2865,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1450 - Um verdadeiro amigo não te zoa!.mp4",
         "sha256": "7ea54e1ee5d8487d0afd0b678783be3cc571b3fe601fea9c0c6a4e9f62f7fc44"
@@ -2901,7 +2901,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-30T14:39:48.737544-03:00"
     },
     {
       "id": "story-20261031-aef2dd8520",
