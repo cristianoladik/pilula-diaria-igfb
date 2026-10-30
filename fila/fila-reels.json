@@ -8155,7 +8155,7 @@
       "aprovado": true,
       "data": "2026-10-29",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0175 - Liderança é um cargo de confiança.mp4",
         "sha256": "a9e9c180e7f6ade22a76c214c8d56e1ea6c8c42786e27d3b7a14736e6bb1b5ec"
@@ -8188,7 +8188,8 @@
         "id": "4189401174691116",
         "publicado_em": "2026-10-29T22:55:46.516881-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-29T22:55:48.054842-03:00"
     },
     {
       "id": "reel-20261029-2100-0224258ef3",
