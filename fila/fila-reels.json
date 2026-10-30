@@ -8245,7 +8245,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0187 - Você fica assim quando recebe uma multa.mp4",
         "sha256": "485a78a11ad9da0ddcd183b2b3af58c9831a347b79758705dc3d29dec2209fc1"
@@ -8278,7 +8278,8 @@
         "id": "1602883754858574",
         "publicado_em": "2026-10-30T12:50:43.738404-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T12:50:45.501865-03:00"
     },
     {
       "id": "reel-20261030-0800-29ce6f7feb",
