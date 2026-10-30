@@ -8335,7 +8335,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0183 - Por que não me associo com quem trai 🚫.mp4",
         "sha256": "c6b78c556158748f73bd54f8bdb8cd51f8bf48bc124e48f38837504ec068425f"
@@ -8368,7 +8368,8 @@
         "id": "1644515967047472",
         "publicado_em": "2026-10-30T16:55:43.450503-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T16:55:45.368413-03:00"
     },
     {
       "id": "reel-20261030-1600-51d0823b33",
