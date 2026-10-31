@@ -8605,7 +8605,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0192 - O que todo empresário precisa saber antes de crescer.mp4",
         "sha256": "52a6ac82390e4f805061381b8053be32415327b9999188278d30343e49dc6207"
@@ -8638,7 +8638,8 @@
         "id": "1143173088284533",
         "publicado_em": "2026-10-31T13:02:56.085637-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T13:02:57.741347-03:00"
     },
     {
       "id": "reel-20261031-1200-7e05395db2",
