@@ -8470,7 +8470,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0182 - Cuidado com dublê de rico.mp4",
         "sha256": "4d3179ecf131da656fe70506b64088c8717bb976e63114291116fe0fcb2e799d"
@@ -8503,7 +8503,8 @@
         "id": "2950845041967017",
         "publicado_em": "2026-10-30T22:35:14.088927-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T22:35:15.553453-03:00"
     },
     {
       "id": "reel-20261030-2100-048b5f9049",
