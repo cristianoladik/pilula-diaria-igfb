@@ -8425,7 +8425,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0188 - É muito fácil falar de Deus, o desafio é demonstrar isso na forma como tratamos as pessoas.mp4",
         "sha256": "879366d0a929b372da584193dbe50cf7bd0a44279e7b99f95865840234cc3456"
@@ -8458,7 +8458,8 @@
         "id": "4611059845838014",
         "publicado_em": "2026-10-30T21:41:07.312264-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-30T21:41:08.871836-03:00"
     },
     {
       "id": "reel-20261030-1900-4d3179ecf1",
