@@ -8650,7 +8650,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0190 - Natureza do mover de Deus ele se manifesta onde há fome espiritual!.mp4",
         "sha256": "7e05395db26cd8628089501f8c3255f4211144d49e16fa7ece31eac33c00410a"
@@ -8683,7 +8683,8 @@
         "id": "1041989415568620",
         "publicado_em": "2026-10-31T16:15:54.307090-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T16:15:55.972467-03:00"
     },
     {
       "id": "reel-20261031-1600-63917bb894",
