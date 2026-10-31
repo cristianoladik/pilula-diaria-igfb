@@ -2913,7 +2913,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1449 - Quem está em paz não quer guerra.mp4",
         "sha256": "aef2dd8520683dc40d79e2a337246459098f992def3aa78df668b725d5b4c460"
@@ -2949,7 +2949,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-31T13:43:39.574273-03:00"
     },
     {
       "id": "story-20261101-ca8cda70a6",
