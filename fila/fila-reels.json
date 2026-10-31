@@ -8695,7 +8695,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0193 - O poder da natureza no cérebro.mp4",
         "sha256": "63917bb89475ac9495ecd12d1a9eaeab0d7e257fec196606f82ac0823b8b272e"
@@ -8728,7 +8728,8 @@
         "id": "1740770673652664",
         "publicado_em": "2026-10-31T19:26:38.608914-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T19:26:40.156683-03:00"
     },
     {
       "id": "reel-20261031-1800-76051312ce",
