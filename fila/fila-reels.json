@@ -8515,7 +8515,7 @@
       "aprovado": true,
       "data": "2026-10-30",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0184 - Sua empresa explora as pessoas para dar lucro Algo está errado.mp4",
         "sha256": "048b5f90496ebb7e25d818d6b183c7b2473d0fe1791da21f1a8701c28377a931"
@@ -8548,7 +8548,8 @@
         "id": "1310559354475926",
         "publicado_em": "2026-10-31T02:23:47.755013-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T02:23:49.178588-03:00"
     },
     {
       "id": "reel-20261031-0600-d1fc823609",
