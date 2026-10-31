@@ -8560,7 +8560,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0194 - Tem gente que passa anos estudando como vender.mp4",
         "sha256": "d1fc823609a89ae6eeb43ac2f507d4b1b3e66df3477ca573b9f943f790594aff"
@@ -8593,7 +8593,8 @@
         "id": "1102275959101260",
         "publicado_em": "2026-10-31T12:16:34.654369-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T12:16:36.098970-03:00"
     },
     {
       "id": "reel-20261031-0800-52a6ac8239",
