@@ -8920,7 +8920,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0199 - O esgoto que as pessoas consomem.mp4",
         "sha256": "315dd23e275e0e3d7f6113e030f8fc9632d3f3a85d43d4de4916798e4f094269"
@@ -8953,7 +8953,8 @@
         "id": "2418270825248278",
         "publicado_em": "2026-11-01T14:05:50.462973-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T14:05:52.058351-03:00"
     },
     {
       "id": "reel-20261101-1000-bd8077a2da",
