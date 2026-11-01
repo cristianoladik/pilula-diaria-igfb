@@ -9010,7 +9010,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0197 - As 3 chaves do resultado. 🔑.mp4",
         "sha256": "d0df18ea4abf73add93575dd374baa6a59646330fcc757760a6215f63e754470"
@@ -9043,7 +9043,8 @@
         "id": "1302043882047272",
         "publicado_em": "2026-11-01T16:36:18.361957-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T16:36:20.147309-03:00"
     },
     {
       "id": "reel-20261101-1600-e525be9c63",
