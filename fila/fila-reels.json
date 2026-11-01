@@ -8830,7 +8830,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0191 - Não existe herói.mp4",
         "sha256": "684983f5a9483db915a610b3d24b4c0db3a08928e931be785016caf7d2359158"
@@ -8863,7 +8863,8 @@
         "id": "3452791401694218",
         "publicado_em": "2026-11-01T02:50:52.769260-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T02:50:54.424865-03:00"
     },
     {
       "id": "reel-20261101-0600-a71ace40d9",
