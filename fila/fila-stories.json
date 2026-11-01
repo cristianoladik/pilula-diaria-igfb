@@ -2961,7 +2961,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1448 - Papo reto do Ninja que vai mudar sua mente!.mp4",
         "sha256": "ca8cda70a677131086d2dc6a7fba95e8edda85a359414f2ef7437076b54aac7e"
@@ -2997,7 +2997,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-01T14:33:12.052203-03:00"
     },
     {
       "id": "story-20261102-17caebacce",
