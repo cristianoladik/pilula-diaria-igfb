@@ -8785,7 +8785,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0189 - Faz essa atividade ainda hoje.mp4",
         "sha256": "8145b8928ef0f1554280ca42a318f2868efa0299d20840e1ae425c9bbaadd2bc"
@@ -8818,7 +8818,8 @@
         "id": "1094843826723028",
         "publicado_em": "2026-10-31T22:06:01.130287-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T22:06:02.924589-03:00"
     },
     {
       "id": "reel-20261031-2100-684983f5a9",
