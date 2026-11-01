@@ -8740,7 +8740,7 @@
       "aprovado": true,
       "data": "2026-10-31",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0195 - Você precisa aprender inglês para ontem.mp4",
         "sha256": "76051312cec31f8b7ba21d19b49efae3db57a773f7f2d8c57f40737a22b8d13e"
@@ -8773,7 +8773,8 @@
         "id": "1606672471147497",
         "publicado_em": "2026-10-31T21:01:36.773486-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-10-31T21:01:38.529792-03:00"
     },
     {
       "id": "reel-20261031-1900-8145b8928e",
