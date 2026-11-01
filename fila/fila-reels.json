@@ -8875,7 +8875,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0201 - Quem descobre o propósito para de desistir.mp4",
         "sha256": "a71ace40d906edd7255ee8c4c09b657d896f32bda26c9527fd429661909ba7f3"
@@ -8908,7 +8908,8 @@
         "id": "1923719618590203",
         "publicado_em": "2026-11-01T12:58:20.849401-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T12:58:22.306499-03:00"
     },
     {
       "id": "reel-20261101-0800-315dd23e27",
