@@ -9035,11 +9035,14 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 1,
-        "fase": "publicacao_aceita",
+        "fase": "publicacao_confirmada",
         "video_id": "1302043882047272",
-        "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1302043882047272"
+        "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1302043882047272",
+        "id": "1302043882047272",
+        "publicado_em": "2026-11-01T16:36:18.361957-03:00",
+        "confirmacao": "finish_facebook"
       }
     },
     {
