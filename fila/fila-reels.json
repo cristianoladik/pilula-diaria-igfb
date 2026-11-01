@@ -9055,7 +9055,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0200 - Prospere a empresa primeiro e depois pense em um plano de carreira.mp4",
         "sha256": "e525be9c639a62582d547deccd3f56278877860a089e9b057437a52a171b6727"
@@ -9088,7 +9088,8 @@
         "id": "1200527799013092",
         "publicado_em": "2026-11-01T19:44:00.919524-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T19:44:02.753022-03:00"
     },
     {
       "id": "reel-20261101-1800-9d6537e1db",
