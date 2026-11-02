@@ -9280,7 +9280,7 @@
       "aprovado": true,
       "data": "2026-11-02",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0207 - O que traz felicidade.mp4",
         "sha256": "3e7b180e9e8d8ecf199752286fb9095f21a15f03cde29cfb677942ce1e5026fe"
@@ -9313,7 +9313,8 @@
         "id": "1423285346489718",
         "publicado_em": "2026-11-02T17:45:13.046363-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-02T17:45:14.837702-03:00"
     },
     {
       "id": "reel-20261102-1000-87dd64af95",
