@@ -9100,7 +9100,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0202 - Somos o povo do jeitinho brasileiro.mp4",
         "sha256": "9d6537e1db96863971c701ee9649b6286bd0eae385b820b839101e76fb7b1f62"
@@ -9133,7 +9133,8 @@
         "id": "1135358025539137",
         "publicado_em": "2026-11-01T21:33:05.051682-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T21:33:06.612216-03:00"
     },
     {
       "id": "reel-20261101-1900-c3da18951a",
