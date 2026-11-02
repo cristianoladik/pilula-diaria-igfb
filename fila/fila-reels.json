@@ -9190,7 +9190,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0198 - Como tratar o impossível com fé mesmo nas maiores tribulações!.mp4",
         "sha256": "331f8f2e0a4c9f5d89e854ad17334b2db031555e9ab0213d74921374ff1338e5"
@@ -9223,7 +9223,8 @@
         "id": "1713562860379728",
         "publicado_em": "2026-11-02T02:50:32.040700-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-02T02:50:34.088102-03:00"
     },
     {
       "id": "reel-20261102-0600-aed46959c1",
