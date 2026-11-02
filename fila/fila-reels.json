@@ -9145,7 +9145,7 @@
       "aprovado": true,
       "data": "2026-11-01",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0196 - A família é onde construímos nossos valores!.mp4",
         "sha256": "c3da18951ad90b9388ed616ceb95db2380a8d44fc9bf26e0d6498f5c27192f4b"
@@ -9178,7 +9178,8 @@
         "id": "1823747612294032",
         "publicado_em": "2026-11-01T22:30:14.495888-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-01T22:30:16.537120-03:00"
     },
     {
       "id": "reel-20261101-2100-331f8f2e0a",
