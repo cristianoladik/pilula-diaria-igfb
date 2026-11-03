@@ -9595,7 +9595,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0218 - Saber se comunicar te dá malandragem.mp4",
         "sha256": "9a7fe5c4a7c91919ddc4ee41ee1dfcaa32a8fe9683bba77b64a974b7c6f456f9"
@@ -9628,7 +9628,8 @@
         "id": "2379293906176756",
         "publicado_em": "2026-11-03T13:59:06.409256-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T13:59:08.644288-03:00"
     },
     {
       "id": "reel-20261103-0800-3ccbb9462b",
