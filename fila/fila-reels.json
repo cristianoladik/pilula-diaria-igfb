@@ -9800,11 +9800,14 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 1,
-        "fase": "publicacao_aceita",
+        "fase": "publicacao_confirmada",
         "video_id": "1805207143964349",
-        "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1805207143964349"
+        "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1805207143964349",
+        "id": "1805207143964349",
+        "publicado_em": "2026-11-03T20:57:49.197163-03:00",
+        "confirmacao": "finish_facebook"
       }
     },
     {
