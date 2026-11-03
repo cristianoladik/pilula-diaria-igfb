@@ -9685,7 +9685,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0220 - Você tem uma palavra de Deus.mp4",
         "sha256": "df90b598e1f3587c25f389ed45e85c026eec5317173cfdbc5dd2171910ff4ad7"
@@ -9718,7 +9718,8 @@
         "id": "1654439099475174",
         "publicado_em": "2026-11-03T17:03:47.823041-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T17:03:51.270125-03:00"
     },
     {
       "id": "reel-20261103-1200-f77ddf3044",
