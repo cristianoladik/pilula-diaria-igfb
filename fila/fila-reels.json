@@ -9415,7 +9415,7 @@
       "aprovado": true,
       "data": "2026-11-02",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0209 - Se você tem um sonho não escute os outros.mp4",
         "sha256": "36f1e7fdcdffb03ab51d043c667ddfcc38f2eb7f43291d3fbd242be1bbd373b6"
@@ -9448,7 +9448,8 @@
         "id": "1128828850080202",
         "publicado_em": "2026-11-02T22:32:54.583084-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-02T22:32:56.555215-03:00"
     },
     {
       "id": "reel-20261102-1800-d8d4c1cff8",
