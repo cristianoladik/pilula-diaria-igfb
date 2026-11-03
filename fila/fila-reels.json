@@ -9640,7 +9640,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0216 - O que toda pessoa precisa aprender para crescer.mp4",
         "sha256": "3ccbb9462bf010fa72d1db045f2045ed4b11170f07689318654381a1f8537a26"
@@ -9673,7 +9673,8 @@
         "id": "2126830421300263",
         "publicado_em": "2026-11-03T15:23:57.149926-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T15:24:03.221569-03:00"
     },
     {
       "id": "reel-20261103-1000-df90b598e1",
