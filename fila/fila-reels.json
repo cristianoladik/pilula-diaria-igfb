@@ -9460,7 +9460,7 @@
       "aprovado": true,
       "data": "2026-11-02",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0211 - Você está plantando vida ou destruição.mp4",
         "sha256": "d8d4c1cff8333c3b7172066dd68cf183526ca730c9b918db53a2b68f0de3ef9c"
@@ -9493,7 +9493,8 @@
         "id": "1615937436937478",
         "publicado_em": "2026-11-02T23:53:20.370655-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-02T23:53:22.010365-03:00"
     },
     {
       "id": "reel-20261102-1900-af609d49ff",
