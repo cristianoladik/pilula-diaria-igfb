@@ -9505,7 +9505,7 @@
       "aprovado": true,
       "data": "2026-11-02",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0204 - Autoridade profética que muda ambientes com a voz de Deus.mp4",
         "sha256": "af609d49ff15a4a40077fcec97ec564dc140093911442ef7ee234122665eb5a1"
@@ -9538,7 +9538,8 @@
         "id": "1681876269948319",
         "publicado_em": "2026-11-03T00:27:52.016605-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T00:27:53.395770-03:00"
     },
     {
       "id": "reel-20261102-2100-37a3159e64",
