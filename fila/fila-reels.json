@@ -9550,7 +9550,7 @@
       "aprovado": true,
       "data": "2026-11-02",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0206 - Não seja mais uma pessoa programada.mp4",
         "sha256": "37a3159e64539874eb782294cdc66c8790e714e0c851eb038169478d47776b18"
@@ -9583,7 +9583,8 @@
         "id": "29382411711352166",
         "publicado_em": "2026-11-03T03:33:10.263793-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T03:33:12.046403-03:00"
     },
     {
       "id": "reel-20261103-0600-9a7fe5c4a7",
