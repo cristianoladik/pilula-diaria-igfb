@@ -9730,7 +9730,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0214 - Deus jamais se esquecerá de você.mp4",
         "sha256": "f77ddf3044a697e23df6316e25129c7b0e25c60a05b0c644fd4cbccb461641a8"
@@ -9763,7 +9763,8 @@
         "id": "1145468604529324",
         "publicado_em": "2026-11-03T17:58:45.335858-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T17:58:51.251573-03:00"
     },
     {
       "id": "reel-20261103-1600-1c0d80b523",
