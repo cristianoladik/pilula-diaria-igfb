@@ -10090,7 +10090,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0222 - Cuidado com quem você admira.mp4",
         "sha256": "839ff65f51663a5c3d829f0ed11a494d59faa735f96e14906a9d16dc9ded4b07"
@@ -10123,7 +10123,8 @@
         "id": "2127914611163807",
         "publicado_em": "2026-11-04T18:17:56.705031-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T18:17:58.443812-03:00"
     },
     {
       "id": "reel-20261104-1600-e030ce8d8d",
