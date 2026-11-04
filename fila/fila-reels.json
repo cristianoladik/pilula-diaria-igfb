@@ -9910,7 +9910,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0215 - Não se distraia com o celular.mp4",
         "sha256": "e861c4c81d3ecfc076cc2451d11f268d4cd25da5c91cc3abbfff8989567a67b9"
@@ -9943,7 +9943,8 @@
         "id": "2159125041358146",
         "publicado_em": "2026-11-04T03:03:10.160125-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T03:03:11.969377-03:00"
     },
     {
       "id": "reel-20261104-0600-ffa2d89cfb",
