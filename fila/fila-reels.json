@@ -9820,7 +9820,7 @@
       "aprovado": true,
       "data": "2026-11-03",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0219 - Uso de drogas.mp4",
         "sha256": "91a7fd3246c7e9063159b61cb8daf9bbe145f741f866f39b1b5d6429e2f63813"
@@ -9853,7 +9853,8 @@
         "id": "3099156160417047",
         "publicado_em": "2026-11-03T22:13:30.451805-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-03T22:13:32.404268-03:00"
     },
     {
       "id": "reel-20261103-1900-5e60228891",
