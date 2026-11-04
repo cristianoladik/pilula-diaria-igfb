@@ -10000,7 +10000,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0224 - O que você pensa sobre isso.mp4",
         "sha256": "313d09567c803309e7386f1e5332e0f2fc3dad8a8ede4be10d292efba52a28c7"
@@ -10033,7 +10033,8 @@
         "id": "29006868692289302",
         "publicado_em": "2026-11-04T15:36:12.493709-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T15:36:14.298595-03:00"
     },
     {
       "id": "reel-20261104-1000-d71a875eb0",
