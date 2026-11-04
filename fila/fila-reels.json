@@ -9955,7 +9955,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0226 - Por que você ainda não viveu o milagre.mp4",
         "sha256": "ffa2d89cfb484f3a7b70743ce4c5a26f99b51f924d5506f93ab93fcdc047bd3c"
@@ -9988,7 +9988,8 @@
         "id": "2044884773135423",
         "publicado_em": "2026-11-04T14:05:54.159470-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T14:05:55.997911-03:00"
     },
     {
       "id": "reel-20261104-0800-313d09567c",
