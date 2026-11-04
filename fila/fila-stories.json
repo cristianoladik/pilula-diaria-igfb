@@ -3130,7 +3130,11 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "enviando",
+            "tentativas": 1,
+            "fase": "sessao_criada",
+            "video_id": "2288271595077605",
+            "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2288271595077605"
           }
         }
       ]
