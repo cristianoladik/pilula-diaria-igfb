@@ -3105,7 +3105,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1445 - A gente vive pra isso.mp4",
         "sha256": "d777a742be931e3f64e40e3b31cb310e7fc251e543f81838f42487ba54c8c2cc"
@@ -3141,7 +3141,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-04T16:16:09.180381-03:00"
     },
     {
       "id": "story-20261105-44576d3e78",
