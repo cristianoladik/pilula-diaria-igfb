@@ -10045,7 +10045,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0228 - Não sofra mais com o toc.mp4",
         "sha256": "d71a875eb0b8c38d2330a7de0e49c43edf1eb1186daf8b316ec2f51595118a04"
@@ -10078,7 +10078,8 @@
         "id": "1420770933552798",
         "publicado_em": "2026-11-04T17:23:26.194741-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T17:23:27.708364-03:00"
     },
     {
       "id": "reel-20261104-1200-839ff65f51",
