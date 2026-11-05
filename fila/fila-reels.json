@@ -10405,7 +10405,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0236 - Comece o dia dando bom dia para Deus!.mp4",
         "sha256": "336330629c1920c90d82e189ffab25a0d76f666e99f133f917bb92291d13f20a"
@@ -10438,7 +10438,8 @@
         "id": "1438162875198266",
         "publicado_em": "2026-11-05T17:34:20.900184-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T17:34:22.461273-03:00"
     },
     {
       "id": "reel-20261105-1200-382a326d5d",
