@@ -3153,7 +3153,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1444 - Tá vivo Então dá pra melhorar!.mp4",
         "sha256": "44576d3e783d87b015a040c8e3d24277e2ba5234ca37802bc7d480f92a846061"
@@ -3189,7 +3189,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-05T16:25:30.458360-03:00"
     },
     {
       "id": "story-20261106-dd86c67d78",
