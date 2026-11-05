@@ -10315,7 +10315,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0234 - Quebre esses ciclos.mp4",
         "sha256": "b2b316f221be915f0e3bbe856ee312cd8a9c18c9ab7f6f88b19f02c109115864"
@@ -10348,7 +10348,8 @@
         "id": "1855361002546937",
         "publicado_em": "2026-11-05T14:20:00.722637-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T14:20:03.238840-03:00"
     },
     {
       "id": "reel-20261105-0800-ed60423528",
