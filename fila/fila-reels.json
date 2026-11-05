@@ -10450,7 +10450,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0230 - O sucesso é solitário Felipe Titto responde 🚀.mp4",
         "sha256": "382a326d5ddda51d09e20eee8c591a1eb52afe9fc8c846c8ca38e916d86bf1e7"
@@ -10483,7 +10483,8 @@
         "id": "1597709318264364",
         "publicado_em": "2026-11-05T18:28:31.803621-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T18:28:33.254647-03:00"
     },
     {
       "id": "reel-20261105-1600-991c46220e",
