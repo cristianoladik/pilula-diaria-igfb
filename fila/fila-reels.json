@@ -10360,7 +10360,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0232 - Pare de ver o lado bom de quem não merece você.mp4",
         "sha256": "ed604235284e7805d80f3392754e3392489d1b28e1f33be97945bac3fd32c315"
@@ -10393,7 +10393,8 @@
         "id": "949064944705253",
         "publicado_em": "2026-11-05T15:40:57.197084-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T15:40:59.020390-03:00"
     },
     {
       "id": "reel-20261105-1000-336330629c",
