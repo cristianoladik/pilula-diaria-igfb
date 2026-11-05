@@ -10180,7 +10180,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0227 - Quem controla suas emoções, controla você.mp4",
         "sha256": "ca8daf941487e3931396c873983d6ca31eed1c2fb2a23544dc678afba62d7532"
@@ -10213,7 +10213,8 @@
         "id": "1817471392672031",
         "publicado_em": "2026-11-04T22:26:58.425342-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T22:27:00.130209-03:00"
     },
     {
       "id": "reel-20261104-1900-20b446ee9c",
