@@ -10225,7 +10225,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0221 - Adolescente não pode usar cannabis.mp4",
         "sha256": "20b446ee9ce13618a2d2a5d81b9456da0d78006c8c1164d52c96e69daf5ae81e"
@@ -10258,7 +10258,8 @@
         "id": "1147261284910391",
         "publicado_em": "2026-11-04T23:21:59.484185-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-04T23:22:01.061045-03:00"
     },
     {
       "id": "reel-20261104-2100-684f1fd135",
