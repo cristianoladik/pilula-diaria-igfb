@@ -10270,7 +10270,7 @@
       "aprovado": true,
       "data": "2026-11-04",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0223 - Liderença não é cargo, é postura! - Érika Linhares.mp4",
         "sha256": "684f1fd135bf0732a1332add60cbe181969274cba479ce1fab5bda4a695ad5ee"
@@ -10303,7 +10303,8 @@
         "id": "1507780638120267",
         "publicado_em": "2026-11-05T03:30:35.005420-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T03:30:36.370949-03:00"
     },
     {
       "id": "reel-20261105-0600-b2b316f221",
