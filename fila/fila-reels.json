@@ -10585,7 +10585,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0229 - O pouco, quando é tudo, vale muito.mp4",
         "sha256": "b68c2a36c3318d50a7a314ef84513abf4e824e386881228a82d4a67326e69fda"
@@ -10618,7 +10618,8 @@
         "id": "1765143208107901",
         "publicado_em": "2026-11-05T23:22:15.021357-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T23:22:16.702654-03:00"
     },
     {
       "id": "reel-20261105-2100-44b2a2ed22",
