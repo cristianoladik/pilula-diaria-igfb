@@ -10540,7 +10540,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0235 - Tudo chega a você na hora certa.mp4",
         "sha256": "20b366750398ad3a8e1c24e107345bc4f0174ca2f09736881bd78f6e53e12006"
@@ -10573,7 +10573,8 @@
         "id": "1779961376560690",
         "publicado_em": "2026-11-05T22:29:59.224752-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T22:30:00.906180-03:00"
     },
     {
       "id": "reel-20261105-1900-b68c2a36c3",
