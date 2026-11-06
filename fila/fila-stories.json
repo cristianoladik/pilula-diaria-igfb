@@ -3201,7 +3201,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1443 - Quem é o seu maior inimigo.mp4",
         "sha256": "dd86c67d783ba6cc7c0c99811f9e146815bd9807ef5cf51d84fef4800652b057"
@@ -3237,7 +3237,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-06T15:48:47.662798-03:00"
     },
     {
       "id": "story-20261107-3a20b57f02",
