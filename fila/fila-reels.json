@@ -10675,7 +10675,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0242 - Pare de se sujeitar a isso.mp4",
         "sha256": "69bd18fd8ef0b63e4bf89e44c591be63f121a0b57ba96ef3c8b8a4a5183edb72"
@@ -10708,7 +10708,8 @@
         "id": "2559706981192227",
         "publicado_em": "2026-11-06T13:42:57.200755-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T13:42:58.847607-03:00"
     },
     {
       "id": "reel-20261106-0800-d956caab39",
