@@ -10720,7 +10720,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0240 - O intestino é o primeiro cérebro.mp4",
         "sha256": "d956caab39fa329f13cb7e5b2bd8b8215d62645e6d0d87937a949f3f9b85e67a"
@@ -10753,7 +10753,8 @@
         "id": "1473705538058352",
         "publicado_em": "2026-11-06T14:55:08.094156-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T14:55:09.757378-03:00"
     },
     {
       "id": "reel-20261106-1000-b785dcc176",
