@@ -10765,7 +10765,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0244 - A depressão vem do intestino.mp4",
         "sha256": "b785dcc176b9760ab2ea6e9391a7faaea9f739a8789ad8c6d320bf8daea5e609"
@@ -10798,7 +10798,8 @@
         "id": "1141363301712099",
         "publicado_em": "2026-11-06T16:56:02.857543-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T16:56:04.400692-03:00"
     },
     {
       "id": "reel-20261106-1200-c55e8c31d9",
