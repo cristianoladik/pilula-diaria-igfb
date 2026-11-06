@@ -10630,7 +10630,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0231 - Por isso está triste e cansado (a disbiose explica tudo).mp4",
         "sha256": "44b2a2ed224b9d49b406801f8547bdf4c47f6486cde1bb8a075dabc9f606debd"
@@ -10663,7 +10663,8 @@
         "id": "1122478853526930",
         "publicado_em": "2026-11-06T03:25:06.784830-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T03:25:08.358437-03:00"
     },
     {
       "id": "reel-20261106-0600-69bd18fd8e",
