@@ -10495,7 +10495,7 @@
       "aprovado": true,
       "data": "2026-11-05",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0233 - Quem ouve o céu governa na terra.mp4",
         "sha256": "991c46220e2c4d52a4338e359fa41bfb8e8982d7b120426810475c47b6605c96"
@@ -10528,7 +10528,8 @@
         "id": "1820548708971464",
         "publicado_em": "2026-11-05T21:07:43.393344-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-05T21:07:44.898297-03:00"
     },
     {
       "id": "reel-20261105-1800-20b3667503",
