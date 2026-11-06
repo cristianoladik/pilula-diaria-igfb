@@ -10810,7 +10810,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0238 - Nosso cérebro é plástico.mp4",
         "sha256": "c55e8c31d9e088e242ed5c1f3b3872cce55c400a64c0ea84d53677e8b8455569"
@@ -10843,7 +10843,8 @@
         "id": "1096870493162325",
         "publicado_em": "2026-11-06T17:51:36.058974-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T17:51:37.654879-03:00"
     },
     {
       "id": "reel-20261106-1600-4e648c2f56",
