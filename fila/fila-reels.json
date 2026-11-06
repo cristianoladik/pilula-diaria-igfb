@@ -10855,7 +10855,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0241 - O preço invisível de ser conhecido.mp4",
         "sha256": "4e648c2f5614aa441466cebc404956b3dfae1b2c08d58c275e4e502d6217c79b"
@@ -10888,7 +10888,8 @@
         "id": "29198349563157605",
         "publicado_em": "2026-11-06T20:43:36.051648-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T20:43:37.560565-03:00"
     },
     {
       "id": "reel-20261106-1800-87f3a3f490",
