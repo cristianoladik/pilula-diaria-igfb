@@ -10945,7 +10945,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0237 - Esse é o segredo da vida.mp4",
         "sha256": "97cf78f70998570151f9149f2709565cf97efd68493378f748c14807a6b8c74a"
@@ -10978,7 +10978,8 @@
         "id": "1402394515214744",
         "publicado_em": "2026-11-06T22:52:53.012377-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T22:52:54.503398-03:00"
     },
     {
       "id": "reel-20261106-2100-7db5b348c0",
