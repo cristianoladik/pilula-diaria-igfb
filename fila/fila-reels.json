@@ -11080,7 +11080,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0248 - Não deixe que o medo seja maior do que o seu propósito!.mp4",
         "sha256": "bf513d1bc863bca27b646b85204cf590b735fbf883d976c9dedaa6730cae2061"
@@ -11113,7 +11113,8 @@
         "id": "1886198422382292",
         "publicado_em": "2026-11-07T13:49:45.554817-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T13:49:47.069149-03:00"
     },
     {
       "id": "reel-20261107-1000-69c4e48004",
