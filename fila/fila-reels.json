@@ -11170,7 +11170,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0246 - A rocha exige decisões difíceis.mp4",
         "sha256": "2e97a7a00ba17c76d97767c8acbbf2fb58e70b4dc3170fcb13021f7eadd28f81"
@@ -11203,7 +11203,8 @@
         "id": "2639918913089015",
         "publicado_em": "2026-11-07T16:23:30.510585-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T16:23:32.128523-03:00"
     },
     {
       "id": "reel-20261107-1600-3281313c1f",
