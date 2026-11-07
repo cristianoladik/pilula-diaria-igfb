@@ -3249,7 +3249,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "1442 - O livro que vai mudar sua visão da vida!.mp4",
         "sha256": "3a20b57f02058f0f2573ce74f022b7f32436750f9c1842ca50f03491e96bb9f5"
@@ -3285,7 +3285,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-07T14:20:06.471040-03:00"
     },
     {
       "id": "story-20261108-7ac2cc704b",
