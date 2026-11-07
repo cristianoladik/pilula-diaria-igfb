@@ -10990,7 +10990,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0239 - O diabo só ataca quando sabe da promessa de Deus em você.mp4",
         "sha256": "7db5b348c0a286270bfeeecc8cdba2c6bc99c86185a02a06e5405c6991b021ab"
@@ -11023,7 +11023,8 @@
         "id": "1116176888001035",
         "publicado_em": "2026-11-07T02:48:44.327230-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T02:48:45.726353-03:00"
     },
     {
       "id": "reel-20261107-0600-5005672911",
