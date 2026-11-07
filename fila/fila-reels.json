@@ -10900,7 +10900,7 @@
       "aprovado": true,
       "data": "2026-11-06",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0243 - Você está valorizando o seu tempo.mp4",
         "sha256": "87f3a3f49071854a66e8bc872c0f394f72d3357dfe5b9e6c16465b7b370db84c"
@@ -10933,7 +10933,8 @@
         "id": "2278521029425951",
         "publicado_em": "2026-11-06T21:51:29.299076-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-06T21:51:30.900510-03:00"
     },
     {
       "id": "reel-20261106-1900-97cf78f709",
