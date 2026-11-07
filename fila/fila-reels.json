@@ -11035,7 +11035,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0250 - Por que o sucesso nunca será fácil.mp4",
         "sha256": "500567291104d63711bae83c2929ab2f716a408159afd8080d9af971f44da6ca"
@@ -11068,7 +11068,8 @@
         "id": "1697894141865310",
         "publicado_em": "2026-11-07T12:38:43.249506-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T12:38:44.920267-03:00"
     },
     {
       "id": "reel-20261107-0800-bf513d1bc8",
