@@ -11215,7 +11215,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0249 - O destino profético de José.mp4",
         "sha256": "3281313c1f8a853489eb84f576ff23d4ec40437bce8370a21d08154b8d6d80c2"
@@ -11248,7 +11248,8 @@
         "id": "2555793048223250",
         "publicado_em": "2026-11-07T19:41:44.715623-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T19:41:46.179443-03:00"
     },
     {
       "id": "reel-20261107-1800-c48a505569",
