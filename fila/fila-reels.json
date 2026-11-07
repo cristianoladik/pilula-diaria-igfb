@@ -11125,7 +11125,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0252 - O Deus do impossível abre portas que ninguém fecha!.mp4",
         "sha256": "69c4e48004c8736336da1ae5db87ebab3b6c68ca15f0239ae8067846961a9bba"
@@ -11158,7 +11158,8 @@
         "id": "1657331252407146",
         "publicado_em": "2026-11-07T14:59:59.141078-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T15:00:00.949163-03:00"
     },
     {
       "id": "reel-20261107-1200-2e97a7a00b",
