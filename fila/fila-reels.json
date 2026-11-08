@@ -11420,11 +11420,13 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "processando",
+        "status": "erro",
         "tentativas": 1,
         "fase": "publicacao_solicitada",
         "video_id": "1604287877511262",
-        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1604287877511262"
+        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1604287877511262",
+        "erro": "Git push falhou sem condição segura de retry: To https://github.com/cristianoladik/pilula-diaria-igfb\n ! [remote rejected] main -> main (failed)\nerror: failed to push some refs to 'https://github.com/cristianoladik/pilula-diaria-igfb'",
+        "ultima_tentativa_em": "2026-11-08T12:55:49.259487-03:00"
       }
     },
     {
