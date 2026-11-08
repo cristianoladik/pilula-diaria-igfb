@@ -11395,7 +11395,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0258 - Você moraria fora do Brasil.mp4",
         "sha256": "2ea0c15612d168937a3f1cb75401dfc63763271e2ba269d10c0ada0f0de110c4"
@@ -11428,7 +11428,8 @@
         "id": "1604287877511262",
         "publicado_em": "2026-11-08T12:59:57.080658-03:00",
         "confirmacao": "video_facebook_reconciliado"
-      }
+      },
+      "concluido_em": "2026-11-08T12:59:58.670400-03:00"
     },
     {
       "id": "reel-20261108-0800-3bf3b245ff",
