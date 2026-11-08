@@ -11440,7 +11440,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0256 - Todas doenças vem do intestino.mp4",
         "sha256": "3bf3b245ff2ab1ac838a1ec32d27669b50c0b1b210f32b22a583261ffafeabec"
@@ -11473,7 +11473,8 @@
         "id": "1124272417200750",
         "publicado_em": "2026-11-08T14:00:59.122303-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-08T14:01:00.554437-03:00"
     },
     {
       "id": "reel-20261108-1000-02495693e4",
