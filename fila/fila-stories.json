@@ -3322,12 +3322,14 @@
             "confirmacao": "media_publish"
           },
           "facebook": {
-            "status": "processando",
+            "status": "erro",
             "tentativas": 1,
             "fase": "publicacao_solicitada",
             "video_id": "1116179594644631",
             "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1116179594644631",
-            "finish_solicitado_em": "2026-11-08T14:32:48.491222-03:00"
+            "finish_solicitado_em": "2026-11-08T14:32:48.491222-03:00",
+            "erro": "Git push falhou sem condição segura de retry: To https://github.com/cristianoladik/pilula-diaria-igfb\n ! [remote rejected] main -> main (failed)\nerror: failed to push some refs to 'https://github.com/cristianoladik/pilula-diaria-igfb'",
+            "ultima_tentativa_em": "2026-11-08T14:32:55.159506-03:00"
           }
         }
       ]
