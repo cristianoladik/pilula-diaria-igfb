@@ -11350,7 +11350,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0247 - Lembre-se disso em momentos caóticos.mp4",
         "sha256": "af977f92d78ca46d782544092572230982e9d6e974cd183d648d8513d4e69147"
@@ -11383,7 +11383,8 @@
         "id": "1591540415597360",
         "publicado_em": "2026-11-08T02:51:23.401262-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-08T02:51:25.063220-03:00"
     },
     {
       "id": "reel-20261108-0600-2ea0c15612",
