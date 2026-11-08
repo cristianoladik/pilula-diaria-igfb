@@ -11260,7 +11260,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0251 - É bom ser líder.mp4",
         "sha256": "c48a5055696bd64661e340c482bec4741f613804f44260706f1eda4b83d3ff10"
@@ -11293,7 +11293,8 @@
         "id": "1782747342957642",
         "publicado_em": "2026-11-07T21:25:11.177675-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T21:25:12.720369-03:00"
     },
     {
       "id": "reel-20261107-1900-293ab15e00",
