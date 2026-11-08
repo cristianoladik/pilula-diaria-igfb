@@ -11305,7 +11305,7 @@
       "aprovado": true,
       "data": "2026-11-07",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0245 - A farsa da força de vontade.mp4",
         "sha256": "293ab15e0003c92320e1355f4839bf187c010dadb3851b009d4e085760d430f3"
@@ -11338,7 +11338,8 @@
         "id": "1659725195704669",
         "publicado_em": "2026-11-07T22:24:27.793073-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-07T22:24:29.188264-03:00"
     },
     {
       "id": "reel-20261107-2100-af977f92d7",
