@@ -11575,7 +11575,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0257 - Você está levando seu tempo a sério.mp4",
         "sha256": "4395c3e1da48fa875ee94b621759b7a6ab8d4b5e024233be33905508e77a4529"
@@ -11608,7 +11608,8 @@
         "id": "1129007026651734",
         "publicado_em": "2026-11-08T19:48:49.195547-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-08T19:48:50.588602-03:00"
     },
     {
       "id": "reel-20261108-1800-bfb150bcfd",
