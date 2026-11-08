@@ -11530,7 +11530,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0254 - O perigo de ser um lunático ⚠️.mp4",
         "sha256": "0cd2f30b256c6237baed4e8949b3444637dff207424ecf1b3674da9fb40838d7"
@@ -11563,7 +11563,8 @@
         "id": "1097679476400551",
         "publicado_em": "2026-11-08T16:37:31.126658-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-08T16:37:32.514588-03:00"
     },
     {
       "id": "reel-20261108-1600-4395c3e1da",
