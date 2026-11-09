@@ -11809,7 +11809,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0267 - Atenção Deus não se esqueceu de você! O silêncio tem um propósito - descubra agora.mp4",
         "sha256": "0bef7eb14fbca6c3cc1ae2e71209e707a686f0a69ba9e7928a09af03d242cb8c"
@@ -11842,7 +11842,8 @@
         "id": "1678749024037840",
         "publicado_em": "2026-11-09T16:44:36.147938-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T16:44:37.648382-03:00"
     },
     {
       "id": "reel-20261109-0800-45bd35ea37",
