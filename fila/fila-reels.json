@@ -11944,7 +11944,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0263 - Não desista da sua vida e dos seus sonhos, ainda há tempo! - Paulo vieira.mp4",
         "sha256": "76524a23f5e5aad3f1b0ab7dd13613295133de6f402ae78ba8684010bb0c6db8"
@@ -11977,7 +11977,8 @@
         "id": "1875792476755206",
         "publicado_em": "2026-11-09T20:46:16.840336-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T20:46:18.273329-03:00"
     },
     {
       "id": "reel-20261109-1600-a7e67e09c6",
