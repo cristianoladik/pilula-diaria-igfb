@@ -11725,9 +11725,9 @@
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "share_to_feed": true,
-        "status": "erro",
-        "tentativas": 1,
-        "fase": "identificador_abandonado",
+        "status": "processando",
+        "tentativas": 2,
+        "fase": "container_criado",
         "containers_abandonados": [
           {
             "id": "18123594706950888",
@@ -11737,7 +11737,8 @@
           }
         ],
         "erro": "O novo container do Instagram falhou conclusivamente; uma execução posterior poderá criar outra sessão.",
-        "ultima_tentativa_em": "2026-11-09T03:02:31.908346-03:00"
+        "ultima_tentativa_em": "2026-11-09T03:02:31.908346-03:00",
+        "container_id": "18123599923950888"
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
