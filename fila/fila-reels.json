@@ -11794,13 +11794,14 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 2,
-        "erro": "Não foi possível baixar sha256-242b712d1c68a0fb6596cd7553edaa371101b28209e5423685408d144b5c5e18.mp4: HTTP 504",
-        "ultima_tentativa_em": "2026-11-09T04:53:36.119682-03:00",
-        "fase": "publicacao_aceita",
+        "fase": "publicacao_confirmada",
         "video_id": "2176951569926602",
-        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2176951569926602"
+        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2176951569926602",
+        "id": "2176951569926602",
+        "publicado_em": "2026-11-09T05:09:28.027245-03:00",
+        "confirmacao": "finish_facebook"
       }
     },
     {
