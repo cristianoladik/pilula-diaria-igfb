@@ -11736,8 +11736,8 @@
             "estado_meta": "{\"id\": \"18123594706950888\", \"status\": \"Error: Media upload has failed with error code 2207077\", \"status_code\": \"ERROR\"}"
           }
         ],
-        "erro": "Instagram ERROR; identificador arquivado antes de nova sessão",
-        "ultima_tentativa_em": "2026-11-09T03:02:30.758799-03:00"
+        "erro": "O novo container do Instagram falhou conclusivamente; uma execução posterior poderá criar outra sessão.",
+        "ultima_tentativa_em": "2026-11-09T03:02:31.908346-03:00"
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
