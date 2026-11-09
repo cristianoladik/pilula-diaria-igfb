@@ -11854,7 +11854,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0265 - A porta só abre depois do primeiro passo.mp4",
         "sha256": "45bd35ea3735f8eab4b6e9f24c4bb265645cf7e579d0f6b4c6bc0f53bf5c0b40"
@@ -11887,7 +11887,8 @@
         "id": "1475169184541799",
         "publicado_em": "2026-11-09T18:24:53.896918-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T18:24:55.697774-03:00"
     },
     {
       "id": "reel-20261109-1000-3adbbd784a",
