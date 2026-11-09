@@ -11778,12 +11778,19 @@
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "share_to_feed": true,
-        "status": "processando",
+        "status": "erro",
         "tentativas": 2,
-        "erro": "Não foi possível baixar sha256-242b712d1c68a0fb6596cd7553edaa371101b28209e5423685408d144b5c5e18.mp4: HTTP 504",
-        "ultima_tentativa_em": "2026-11-09T04:53:34.177243-03:00",
-        "fase": "container_criado",
-        "container_id": "18123612463950888"
+        "erro": "Instagram ERROR; identificador arquivado antes de nova sessão",
+        "ultima_tentativa_em": "2026-11-09T05:09:06.101377-03:00",
+        "fase": "identificador_abandonado",
+        "containers_abandonados": [
+          {
+            "id": "18123612463950888",
+            "abandonado_em": "2026-11-09T05:09:06.101377-03:00",
+            "motivo": "Instagram ERROR",
+            "estado_meta": "{\"id\": \"18123612463950888\", \"status\": \"Error: Media upload has failed with error code 2207077\", \"status_code\": \"ERROR\"}"
+          }
+        ]
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
