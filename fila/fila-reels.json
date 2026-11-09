@@ -11785,7 +11785,10 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "pendente"
+        "status": "erro",
+        "tentativas": 1,
+        "erro": "Não foi possível baixar sha256-242b712d1c68a0fb6596cd7553edaa371101b28209e5423685408d144b5c5e18.mp4: HTTP 504",
+        "ultima_tentativa_em": "2026-11-09T04:53:36.119682-03:00"
       }
     },
     {
