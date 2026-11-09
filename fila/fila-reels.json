@@ -11780,8 +11780,8 @@
         "share_to_feed": true,
         "status": "erro",
         "tentativas": 2,
-        "erro": "Instagram ERROR; identificador arquivado antes de nova sessão",
-        "ultima_tentativa_em": "2026-11-09T05:09:06.101377-03:00",
+        "erro": "O novo container do Instagram falhou conclusivamente; uma execução posterior poderá criar outra sessão.",
+        "ultima_tentativa_em": "2026-11-09T05:09:07.458224-03:00",
         "fase": "identificador_abandonado",
         "containers_abandonados": [
           {
