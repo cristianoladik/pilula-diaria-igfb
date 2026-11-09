@@ -11710,7 +11710,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0255 - Por que o cérebro das crianças é tão especial.mp4",
         "sha256": "71474541221036722d70223df2f79691ae7c7e13e999dedbd3d02ee746c2ffc8"
@@ -11751,7 +11751,8 @@
         "id": "1141582325081463",
         "publicado_em": "2026-11-09T03:02:52.677021-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T03:44:32.110497-03:00"
     },
     {
       "id": "reel-20261108-2200-242b712d1c",
