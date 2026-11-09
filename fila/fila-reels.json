@@ -11620,7 +11620,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0259 - A maior loucura do Evangelho.mp4",
         "sha256": "bfb150bcfd3dfa3c771584b3bf6e0d641d04d54b0e5d17a9453b6b65f6688499"
@@ -11653,7 +11653,8 @@
         "id": "984857481369130",
         "publicado_em": "2026-11-08T21:44:47.116680-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-08T21:44:48.530365-03:00"
     },
     {
       "id": "reel-20261108-1900-781db6addb",
