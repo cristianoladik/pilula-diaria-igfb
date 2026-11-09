@@ -11665,7 +11665,7 @@
       "aprovado": true,
       "data": "2026-11-08",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0253 - O para-brisa é muito maior que o retrovisor por um motivo é para frente que a vida acontece.mp4",
         "sha256": "781db6addbe666e438d15f6ed4536964cc4e43ffa3c9b7a6055d95e8f5c594c2"
@@ -11698,7 +11698,8 @@
         "id": "2612465915831952",
         "publicado_em": "2026-11-08T22:46:52.926065-03:00",
         "confirmacao": "video_facebook_reconciliado"
-      }
+      },
+      "concluido_em": "2026-11-08T22:46:54.441896-03:00"
     },
     {
       "id": "reel-20261108-2100-7147454122",
