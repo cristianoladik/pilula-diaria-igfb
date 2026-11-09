@@ -11778,10 +11778,12 @@
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "share_to_feed": true,
-        "status": "erro",
-        "tentativas": 1,
+        "status": "processando",
+        "tentativas": 2,
         "erro": "Não foi possível baixar sha256-242b712d1c68a0fb6596cd7553edaa371101b28209e5423685408d144b5c5e18.mp4: HTTP 504",
-        "ultima_tentativa_em": "2026-11-09T04:53:34.177243-03:00"
+        "ultima_tentativa_em": "2026-11-09T04:53:34.177243-03:00",
+        "fase": "container_criado",
+        "container_id": "18123612463950888"
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
