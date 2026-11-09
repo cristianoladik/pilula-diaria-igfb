@@ -11899,7 +11899,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0269 - Luxo de verdade não é o que você mostra!.mp4",
         "sha256": "3adbbd784aacba956855185ad7feb99255501ed37ee71eeb7b9484abf20609bf"
@@ -11932,7 +11932,8 @@
         "id": "2226348098224621",
         "publicado_em": "2026-11-09T19:57:21.837980-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T19:57:23.449386-03:00"
     },
     {
       "id": "reel-20261109-1200-76524a23f5",
