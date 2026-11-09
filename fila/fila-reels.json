@@ -11725,9 +11725,9 @@
       "instagram": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "share_to_feed": true,
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 2,
-        "fase": "publicacao_solicitada",
+        "fase": "publicacao_confirmada",
         "containers_abandonados": [
           {
             "id": "18123594706950888",
@@ -11736,9 +11736,10 @@
             "estado_meta": "{\"id\": \"18123594706950888\", \"status\": \"Error: Media upload has failed with error code 2207077\", \"status_code\": \"ERROR\"}"
           }
         ],
-        "erro": "O novo container do Instagram falhou conclusivamente; uma execução posterior poderá criar outra sessão.",
-        "ultima_tentativa_em": "2026-11-09T03:02:31.908346-03:00",
-        "container_id": "18123599923950888"
+        "container_id": "18123599923950888",
+        "id": "18074554394777929",
+        "publicado_em": "2026-11-09T03:44:30.498748-03:00",
+        "confirmacao": "media_publish"
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
