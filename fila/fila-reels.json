@@ -11690,13 +11690,14 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "erro",
-        "tentativas": 1,
-        "fase": "publicacao_solicitada",
+        "status": "publicado",
+        "tentativas": 2,
+        "fase": "publicacao_confirmada",
         "video_id": "2612465915831952",
         "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2612465915831952",
-        "erro": "Git push falhou sem condição segura de retry: remote: error: unable to write file /data/repositories/c/nw/c1/96/a0/1225128027/1367511217.git/objects/ghq_xfrxuUa66IV/pack/pack-dc1f4b33caafde1efc41868bc6082e900d42b79b.pack: No such file or directory        \nremote: fatal: unable to rename temporary '*.pack' file to '/data/repositories/c/nw/c1/96/a0/1225128027/1367511217.git/objects/ghq_xfrxuUa66IV/pack/pack-dc1f4b33caafde1efc41868bc6082e900d42b79b.pack'        \nremote: Internal Server Error        \nremote: Request ID 7AC1:66261:3A5F11:A669DD:6AF1251D        \nremote: Time 2026-11-09T01:42:54Z\nTo https://github.com/cristianoladik/pilula-diaria-igfb\n ! [remote rejected] main -> main (Internal Server Error)\nerror: failed to push some refs to 'https://github.com/cristianoladik/pilula-diaria-igfb'",
-        "ultima_tentativa_em": "2026-11-08T22:42:54.783697-03:00"
+        "id": "2612465915831952",
+        "publicado_em": "2026-11-08T22:46:52.926065-03:00",
+        "confirmacao": "video_facebook_reconciliado"
       }
     },
     {
