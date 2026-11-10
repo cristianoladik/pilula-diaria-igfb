@@ -11989,7 +11989,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0266 - Adolescentes são mais impulsivos.mp4",
         "sha256": "a7e67e09c63cea842d212cf54db96591371ddfc3bffb271e8c0dffa6ece52bb0"
@@ -12022,7 +12022,8 @@
         "id": "1836357080838173",
         "publicado_em": "2026-11-09T22:59:58.319551-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-09T22:59:59.874290-03:00"
     },
     {
       "id": "reel-20261109-1800-9608564331",
