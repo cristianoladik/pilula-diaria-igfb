@@ -12259,7 +12259,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0274 - Menino burr0 por isso que apanh ! - Paulo vieira.mp4",
         "sha256": "82b037cdbb05c3592e94a655f48fa8078e6991e0025649827484f42031bc3bb0"
@@ -12292,7 +12292,8 @@
         "id": "4636529970006323",
         "publicado_em": "2026-11-10T15:37:31.383390-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T15:37:32.937432-03:00"
     },
     {
       "id": "reel-20261110-1000-d63d45abca",
