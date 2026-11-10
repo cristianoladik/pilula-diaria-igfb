@@ -12214,7 +12214,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0276 - Nós não estamos prontos para os tempos atuais.mp4",
         "sha256": "0ae061ca68e22413536f94f50f6e6bf95b0989dc3b82d6850c5eb4478be270f1"
@@ -12247,7 +12247,8 @@
         "id": "2365345804298620",
         "publicado_em": "2026-11-10T14:00:03.278584-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T14:00:05.184965-03:00"
     },
     {
       "id": "reel-20261110-0800-82b037cdbb",
