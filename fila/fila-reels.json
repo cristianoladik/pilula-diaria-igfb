@@ -12079,7 +12079,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0262 - Ninguém pode derrubar um homem que já está de joelhos.mp4",
         "sha256": "dcdb49cc4c150c28b8f0ee47cf100e2567ea269fa543fc198ea0efa8b03ad340"
@@ -12112,7 +12112,8 @@
         "id": "1656361825942908",
         "publicado_em": "2026-11-10T01:04:52.745609-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T01:04:54.270828-03:00"
     },
     {
       "id": "reel-20261109-2100-289dc3ce89",
