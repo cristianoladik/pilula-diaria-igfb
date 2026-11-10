@@ -12349,7 +12349,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0272 - Seu pai e mãe são culpados ou vitímas - Paulo vieira.mp4",
         "sha256": "85bda1f623706211bc45cd408ab5aefa95f7762d1f866b3d81b22c3232170e3b"
@@ -12382,7 +12382,8 @@
         "id": "3752730304878055",
         "publicado_em": "2026-11-10T18:17:03.052718-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T18:17:04.499750-03:00"
     },
     {
       "id": "reel-20261110-1600-66ac6f57f7",
