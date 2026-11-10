@@ -12304,7 +12304,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0278 - O poder do desapego.mp4",
         "sha256": "d63d45abca37b20175f91bdd07af7c37057651d9d6f966d34226fd1d5bd057df"
@@ -12337,7 +12337,8 @@
         "id": "1776137261223592",
         "publicado_em": "2026-11-10T17:24:53.282715-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T17:24:54.831951-03:00"
     },
     {
       "id": "reel-20261110-1200-85bda1f623",
