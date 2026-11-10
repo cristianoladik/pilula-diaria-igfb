@@ -12034,7 +12034,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0268 - As fezes da internet.mp4",
         "sha256": "9608564331b82c94eb8199ecb3c71d27c6a125be78a5b2428163410c2acfb8e9"
@@ -12067,7 +12067,8 @@
         "id": "2553455301802713",
         "publicado_em": "2026-11-10T00:25:26.455473-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T00:25:27.931282-03:00"
     },
     {
       "id": "reel-20261109-1900-dcdb49cc4c",
