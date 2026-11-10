@@ -3387,7 +3387,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "2826 - Não se esqueça do passado - rodrigo silva arqueologia.mp4",
         "sha256": "0076e3dc0bf9fabcbda02ed035bddfc567aedf9af95efd8e95c975d64a12b385"
@@ -3423,7 +3423,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-10T16:15:00.348192-03:00"
     },
     {
       "id": "story-20261111-102dcffe84",
