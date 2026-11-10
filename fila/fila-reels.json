@@ -12169,7 +12169,7 @@
       "aprovado": true,
       "data": "2026-11-09",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0270 - Mande esse vídeo para você mesmo!.mp4",
         "sha256": "7660339c7fe5edfad37eb4a5937b4a3072f819175dc461c5884719bf0fada621"
@@ -12202,7 +12202,8 @@
         "id": "1102154562428472",
         "publicado_em": "2026-11-10T05:22:53.237361-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T05:22:54.839980-03:00"
     },
     {
       "id": "reel-20261110-0600-0ae061ca68",
