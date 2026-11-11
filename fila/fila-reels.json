@@ -12709,7 +12709,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0287 - Por isso que você não se sente satisfeito - Paulo vieira.mp4",
         "sha256": "3a18935328db1dd9019c484cdf3f9d5f06fadc00917ad860d7f6301aa7163ee3"
@@ -12742,7 +12742,8 @@
         "id": "1812257286676070",
         "publicado_em": "2026-11-11T17:07:30.572517-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T17:07:32.025353-03:00"
     },
     {
       "id": "reel-20261111-1200-08d21c1252",
