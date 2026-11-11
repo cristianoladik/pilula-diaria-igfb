@@ -12439,7 +12439,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0277 - O excesso de redes sociais ⚠️.mp4",
         "sha256": "06a418fe6f03a66ffa303b8eef74805c713aefd95d5d19aac22147f03612a280"
@@ -12472,7 +12472,8 @@
         "id": "1614738247062464",
         "publicado_em": "2026-11-10T22:12:26.028440-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T22:12:28.151542-03:00"
     },
     {
       "id": "reel-20261110-1900-e0087f98e9",
