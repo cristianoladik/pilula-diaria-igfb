@@ -12394,7 +12394,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0275 - Muita gente confunde ficar sem dinheiro com quebrar.mp4",
         "sha256": "66ac6f57f7805dca96f97c695d1fa0a8dba6ccbff48f127d61da0b67af2a533e"
@@ -12427,7 +12427,8 @@
         "id": "1441073090884790",
         "publicado_em": "2026-11-10T21:00:12.057069-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T21:00:13.734764-03:00"
     },
     {
       "id": "reel-20261110-1800-06a418fe6f",
