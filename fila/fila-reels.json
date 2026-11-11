@@ -12574,7 +12574,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0279 - Pare tudo como a aprovação e rejeição controlam sua vida! Veja isso urgente.mp4",
         "sha256": "fde7e82cd9792471dd5ee3f9a658e742f2ccfca76d873c17ad19086655c52d0a"
@@ -12607,7 +12607,8 @@
         "id": "1857481719005065",
         "publicado_em": "2026-11-11T04:43:50.939823-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T04:43:52.465704-03:00"
     },
     {
       "id": "reel-20261111-0600-aafd062a45",
