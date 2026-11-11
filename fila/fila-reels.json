@@ -12601,7 +12601,7 @@
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
         "status": "enviando",
         "tentativas": 1,
-        "fase": "sessao_criada",
+        "fase": "upload_em_andamento",
         "video_id": "1857481719005065",
         "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1857481719005065"
       }
