@@ -12619,7 +12619,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0285 - O conteúdo desse vídeo pode mudar sua vida.mp4",
         "sha256": "aafd062a4570b1d1a6070f76d2aef2d85dff68dbed9eaa4a053ccd8d423bdb8b"
@@ -12652,7 +12652,8 @@
         "id": "1091839347006016",
         "publicado_em": "2026-11-11T14:03:13.299777-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T14:03:14.713486-03:00"
     },
     {
       "id": "reel-20261111-0800-1295454672",
