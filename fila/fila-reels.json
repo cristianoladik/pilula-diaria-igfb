@@ -12754,7 +12754,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0281 - Revela o poder da fé que mudou tudo.mp4",
         "sha256": "08d21c1252fdb8d665d3e6e5bbd584bfd58a29db0446a46fd3b066bb59f8c915"
@@ -12787,7 +12787,8 @@
         "id": "1103926562482547",
         "publicado_em": "2026-11-11T18:54:09.201151-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T18:54:11.125809-03:00"
     },
     {
       "id": "reel-20261111-1600-3e05f10597",
