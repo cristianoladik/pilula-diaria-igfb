@@ -12529,7 +12529,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0273 - A pressa pode custar o seu destino.mp4",
         "sha256": "a368683219b7e237b01a42d801a2ed2f037d69dda2ad767359214effa092e918"
@@ -12562,7 +12562,8 @@
         "id": "1143412375241800",
         "publicado_em": "2026-11-11T02:59:11.973119-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T02:59:13.440273-03:00"
     },
     {
       "id": "reel-20261110-2200-fde7e82cd9",
