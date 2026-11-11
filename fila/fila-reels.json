@@ -12664,7 +12664,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0283 - Fuja dos hábitos de pobre.mp4",
         "sha256": "12954546720be6f2d6ad3b46a2b950fc478634099988f8ae32a95778de6aee2c"
@@ -12697,7 +12697,8 @@
         "id": "1172615655331335",
         "publicado_em": "2026-11-11T15:35:33.448917-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T15:35:35.160241-03:00"
     },
     {
       "id": "reel-20261111-1000-3a18935328",
