@@ -3435,7 +3435,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "2825 - Não julgue, ore - rodrigo silva arqueologia.mp4",
         "sha256": "102dcffe849a2be3167d961d94d8f7a56d4b379592a12977076d917ebd7a18fb"
@@ -3471,7 +3471,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-11T16:11:54.295002-03:00"
     },
     {
       "id": "story-20261112-a12942bfc8",
