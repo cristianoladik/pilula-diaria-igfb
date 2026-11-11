@@ -12484,7 +12484,7 @@
       "aprovado": true,
       "data": "2026-11-10",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0271 - Por que pessoas piores que você são mais reconhecidas.mp4",
         "sha256": "e0087f98e9e3b011d3ca8920da1264a4b5ccce40b3fee09cbb53043461e5f220"
@@ -12517,7 +12517,8 @@
         "id": "1750977059306948",
         "publicado_em": "2026-11-10T22:54:48.763115-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-10T22:54:50.213772-03:00"
     },
     {
       "id": "reel-20261110-2100-a368683219",
