@@ -13069,7 +13069,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0292 - Chega de necessidade de aprovação, meu fi.mp4",
         "sha256": "6aa1abba6f76f7df5775756f96e6ab9044e4d5c5ce0cccc60dbdc000422d4b11"
@@ -13102,7 +13102,8 @@
         "id": "3810660759073425",
         "publicado_em": "2026-11-12T15:49:07.482998-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T15:49:08.995228-03:00"
     },
     {
       "id": "reel-20261112-1000-f2c87df76f",
