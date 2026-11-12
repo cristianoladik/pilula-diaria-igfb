@@ -3483,7 +3483,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "2824 - Não desista do amor de Deus - rodrigo silva arqueologia.mp4",
         "sha256": "a12942bfc84207b63f9fe00cba59344dd5e52fcfc2334b28fa9fcd4ea07674a6"
@@ -3519,7 +3519,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-12T16:28:55.823382-03:00"
     },
     {
       "id": "story-20261113-d681c1232c",
