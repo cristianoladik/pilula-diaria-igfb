@@ -13159,7 +13159,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0290 - A reinvenção de ronaldo Fenômeno impressiona ⚽🔥.mp4",
         "sha256": "f2b2cd7981b619750f403c70e19ea412e4cea59a48afc12bc7f36b8cafad2d03"
@@ -13192,7 +13192,8 @@
         "id": "1455806666682654",
         "publicado_em": "2026-11-12T18:51:16.921301-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T18:51:18.340618-03:00"
     },
     {
       "id": "reel-20261112-1600-8282189241",
