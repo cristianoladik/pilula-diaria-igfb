@@ -13114,7 +13114,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0296 - A história do whey.mp4",
         "sha256": "f2c87df76f3d948a887eee5c330d2df000e5496fa56f5d36caf8209880844c82"
@@ -13147,7 +13147,8 @@
         "id": "4659990470957067",
         "publicado_em": "2026-11-12T17:46:08.253307-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T17:46:09.898758-03:00"
     },
     {
       "id": "reel-20261112-1200-f2b2cd7981",
