@@ -12934,7 +12934,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0282 - Eu me recuso carregar um sentimento negativo.mp4",
         "sha256": "f8e0a993a8ae9a12ee3909e49272afcfa410fe1d0f6ddc35746dc4629bdbe451"
@@ -12967,7 +12967,8 @@
         "id": "2908277922883421",
         "publicado_em": "2026-11-12T04:00:26.068336-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T04:00:27.631306-03:00"
     },
     {
       "id": "reel-20261111-2200-654b15e229",
