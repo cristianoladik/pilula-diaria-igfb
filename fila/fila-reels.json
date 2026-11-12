@@ -12844,7 +12844,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0286 - O perigo do excesso de recompensa na sua vida 🧠🔥.mp4",
         "sha256": "f705e3e942d1a830fb4d10a3cf07ba135e42e11796fa67503dd141dc5096871e"
@@ -12877,7 +12877,8 @@
         "id": "4561371020777171",
         "publicado_em": "2026-11-11T23:14:06.456018-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T23:14:08.107650-03:00"
     },
     {
       "id": "reel-20261111-1900-4357e54985",
