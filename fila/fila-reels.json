@@ -12889,7 +12889,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0280 - Você vai ficar impressionado quando souber disso.mp4",
         "sha256": "4357e549857730917968774db3a295e888578ca0914bdf76aa39cb9d9bb36eea"
@@ -12922,7 +12922,8 @@
         "id": "1756564629807484",
         "publicado_em": "2026-11-11T23:56:19.323993-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T23:56:20.702622-03:00"
     },
     {
       "id": "reel-20261111-2100-f8e0a993a8",
