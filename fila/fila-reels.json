@@ -12799,7 +12799,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0284 - Nicotina aumenta o foco.mp4",
         "sha256": "3e05f10597b312684205aeae067cf758d5ed387c886ece3b7497f82ca81ecaec"
@@ -12832,7 +12832,8 @@
         "id": "1116587204316531",
         "publicado_em": "2026-11-11T22:29:24.410594-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-11T22:29:25.920695-03:00"
     },
     {
       "id": "reel-20261111-1800-f705e3e942",
