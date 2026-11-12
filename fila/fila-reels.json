@@ -12979,7 +12979,7 @@
       "aprovado": true,
       "data": "2026-11-11",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0288 - Você está vivendo em qual lado da vida.mp4",
         "sha256": "654b15e229e72a96bc76065689896b1dcd7f6eff255128822f8590cf678eb0c5"
@@ -13012,7 +13012,8 @@
         "id": "1130881869546431",
         "publicado_em": "2026-11-12T05:14:26.629893-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T05:14:28.354281-03:00"
     },
     {
       "id": "reel-20261112-0600-1cbefa2096",
