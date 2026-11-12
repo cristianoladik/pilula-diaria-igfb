@@ -12951,7 +12951,7 @@
         "share_to_feed": true,
         "status": "processando",
         "tentativas": 1,
-        "fase": "container_criado",
+        "fase": "publicacao_solicitada",
         "container_id": "18124320394950888"
       },
       "facebook": {
