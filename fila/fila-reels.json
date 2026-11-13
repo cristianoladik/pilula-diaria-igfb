@@ -13519,7 +13519,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0305 - Com quem você tomaria um café para pedir um conselho ☕.mp4",
         "sha256": "ac8b6ba65d4ed0d25307b40a100ca8ae59b69a7774895bf5da53f2964fa492ea"
@@ -13552,7 +13552,8 @@
         "id": "1462406492687036",
         "publicado_em": "2026-11-13T17:26:20.724846-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T17:26:22.372461-03:00"
     },
     {
       "id": "reel-20261113-1200-31f9dadc31",
