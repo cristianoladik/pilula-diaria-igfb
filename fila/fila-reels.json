@@ -13249,7 +13249,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0295 - Você está ouvindo a pessoa certa.mp4",
         "sha256": "5717e6a4fc8bce6d1c88ee98a450dad20317239a592af8302b1cbe826a9e312b"
@@ -13282,7 +13282,8 @@
         "id": "1499900878673730",
         "publicado_em": "2026-11-12T22:46:52.380990-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T22:46:53.844372-03:00"
     },
     {
       "id": "reel-20261112-1900-8c0af56298",
