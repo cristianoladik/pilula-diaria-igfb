@@ -13339,7 +13339,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0291 - Como acabar com a insônia.mp4",
         "sha256": "eb54df1f6a35b2517f25065891a8957b83db7e6629653ffec0cf5cae2c6c72dc"
@@ -13372,7 +13372,8 @@
         "id": "2223296375200619",
         "publicado_em": "2026-11-13T03:27:13.084091-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T03:27:14.554016-03:00"
     },
     {
       "id": "reel-20261112-2200-f563efc7c0",
