@@ -13474,7 +13474,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0301 - Seu filho precisa se sentir importante - Paulo vieira.mp4",
         "sha256": "0d9834794541640aa8fde24d1ea0f924cd0dcfcbf797a2041f229f48b49b6a80"
@@ -13507,7 +13507,8 @@
         "id": "1593242159514572",
         "publicado_em": "2026-11-13T15:29:42.605597-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T15:29:44.150967-03:00"
     },
     {
       "id": "reel-20261113-1000-ac8b6ba65d",
