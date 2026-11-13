@@ -13564,7 +13564,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0299 - O que é felicidade pra mim.mp4",
         "sha256": "31f9dadc31aae71c5e3cbac7eb7b35e36a874d7412d7b9435e9b51a7920be0cf"
@@ -13597,7 +13597,8 @@
         "id": "29509210462036879",
         "publicado_em": "2026-11-13T18:25:19.266920-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T18:25:20.803898-03:00"
     },
     {
       "id": "reel-20261113-1600-729d50900f",
