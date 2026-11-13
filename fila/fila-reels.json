@@ -13204,7 +13204,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0293 - Seu filho precisa se sentir pertencente - Paulo vieira.mp4",
         "sha256": "828218924155b509b072b297fdeee0ee05d8ed434e071424cf64fd544006a9ac"
@@ -13237,7 +13237,8 @@
         "id": "1723625239351280",
         "publicado_em": "2026-11-12T21:10:30.199646-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-12T21:10:31.564874-03:00"
     },
     {
       "id": "reel-20261112-1800-5717e6a4fc",
