@@ -3531,7 +3531,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "2823 - Não barganhe o amor de Deus - rodrigo silva arqueologia.mp4",
         "sha256": "d681c1232c49b9b31e8bcc1216d7af75b4ebf77b7cd5e7fac247d34a5b79eafb"
@@ -3597,7 +3597,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-13T16:08:07.890151-03:00"
     },
     {
       "id": "story-20261114-150f827554",
