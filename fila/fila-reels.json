@@ -13384,7 +13384,7 @@
       "aprovado": true,
       "data": "2026-11-12",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0297 - Aula grátis, já salva para ouvir quando precisar.mp4",
         "sha256": "f563efc7c0b0c5593fea3209c9f097958ed75d0cb041340c8d71717517cb48cf"
@@ -13417,7 +13417,8 @@
         "id": "1695619715626016",
         "publicado_em": "2026-11-13T04:52:49.420625-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T04:52:50.845836-03:00"
     },
     {
       "id": "reel-20261113-0600-c3264caa6d",
