@@ -13429,7 +13429,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0303 - A dura verdade sobre hábitos.mp4",
         "sha256": "c3264caa6d0ed52904cbf90cdb462f5f6d376a98aa012b8eb79f0455ae50b82e"
@@ -13462,7 +13462,8 @@
         "id": "1025854600564128",
         "publicado_em": "2026-11-13T14:08:45.861784-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T14:08:47.609363-03:00"
     },
     {
       "id": "reel-20261113-0800-0d98347945",
