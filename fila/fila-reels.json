@@ -13634,7 +13634,11 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "pendente"
+        "status": "enviando",
+        "tentativas": 1,
+        "fase": "sessao_criada",
+        "video_id": "2145521469660297",
+        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2145521469660297"
       }
     },
     {
