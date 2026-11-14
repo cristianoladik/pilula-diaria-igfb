@@ -13969,7 +13969,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0308 - Pare de ouvir todo mundo.mp4",
         "sha256": "3692ef117d5a3a1c18ef0c64f878786ccd1cea9aed67719b56da6687dfc27c55"
@@ -14002,7 +14002,8 @@
         "id": "1836963487632202",
         "publicado_em": "2026-11-14T16:54:31.241291-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T16:54:32.599976-03:00"
     },
     {
       "id": "reel-20261114-1600-5f45116da9",
