@@ -13924,7 +13924,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0314 - Isso acaba com sua autoestima.mp4",
         "sha256": "56dcec1fc5968aebb8cdd37d19ae31953cdc4432a4b18aa3ac394fabc4532eaa"
@@ -13957,7 +13957,8 @@
         "id": "1163555376042908",
         "publicado_em": "2026-11-14T15:42:50.407434-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T15:42:51.783470-03:00"
     },
     {
       "id": "reel-20261114-1200-3692ef117d",
