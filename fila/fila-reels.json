@@ -13879,7 +13879,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0310 - Você está blindado por dentro.mp4",
         "sha256": "9d314fece6106b0f84ba1933d1482f91a95f7aa083179d1d015ae6b39351af42"
@@ -13912,7 +13912,8 @@
         "id": "1140128375428899",
         "publicado_em": "2026-11-14T13:59:40.202745-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T13:59:41.703967-03:00"
     },
     {
       "id": "reel-20261114-1000-56dcec1fc5",
