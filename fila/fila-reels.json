@@ -13834,7 +13834,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0312 - A positividade não muda a realidade. Ela muda a forma como você enfrenta a realidade.mp4",
         "sha256": "4bdc7ffc3c8e7dfd5ac5d7e0d5ff4ea70c6daf5b755a350fdf4903021a4b1ca2"
@@ -13867,7 +13867,8 @@
         "id": "1156465180580129",
         "publicado_em": "2026-11-14T12:44:29.649258-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T12:44:31.343599-03:00"
     },
     {
       "id": "reel-20261114-0800-9d314fece6",
