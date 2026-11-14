@@ -14014,7 +14014,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0311 - A verdade sobre atalhos que ninguém te conta.mp4",
         "sha256": "5f45116da92fd39428441545eff09a80c84c23aeadd3f4853b823141bb733c8e"
@@ -14047,7 +14047,8 @@
         "id": "1140112175405632",
         "publicado_em": "2026-11-14T19:57:07.240357-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T19:57:08.830959-03:00"
     },
     {
       "id": "reel-20261114-1800-f11bea4b8a",
