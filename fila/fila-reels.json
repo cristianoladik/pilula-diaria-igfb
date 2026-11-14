@@ -13609,7 +13609,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0302 - Sem isso, relações não duram.mp4",
         "sha256": "729d50900f262c892ec0ea2a2997cfc0b8b2282071cf3a5833f6e7801ac4dce5"
@@ -13642,7 +13642,8 @@
         "id": "2145521469660297",
         "publicado_em": "2026-11-13T21:18:42.128729-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T21:18:43.641206-03:00"
     },
     {
       "id": "reel-20261113-1800-0228958b25",
