@@ -13744,7 +13744,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0300 - Pare agora não viva refém das circunstâncias ! Descubra como.mp4",
         "sha256": "01f07ba32274e3e5514bf4a595f896b27fd97c9481e0af0941bd06ab753b1b72"
@@ -13777,7 +13777,8 @@
         "id": "2605373056568286",
         "publicado_em": "2026-11-14T03:06:50.150870-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T03:06:51.738547-03:00"
     },
     {
       "id": "reel-20261113-2200-d17a3d627a",
