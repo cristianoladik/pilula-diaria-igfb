@@ -13789,7 +13789,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0306 - Deus não desistiu de você! Revela a verdade que poucos sabem - assista já.mp4",
         "sha256": "d17a3d627a74fdbe8ccf0e9a3c6886a996bb8c15c38fabe93cdb65f7b964af60"
@@ -13822,7 +13822,8 @@
         "id": "1504669224863357",
         "publicado_em": "2026-11-14T04:34:22.655923-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T04:34:23.970250-03:00"
     },
     {
       "id": "reel-20261114-0600-4bdc7ffc3c",
