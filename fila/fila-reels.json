@@ -13654,7 +13654,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0304 - A lição de pai rico, pai pobre que você pode ensinar ao filho 📚💡.mp4",
         "sha256": "0228958b25643fcc3d56abf1dee7cd1c36f5401bfc022e8caa582f96d469b335"
@@ -13687,7 +13687,8 @@
         "id": "1145477631309116",
         "publicado_em": "2026-11-13T22:25:23.410321-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T22:25:25.081128-03:00"
     },
     {
       "id": "reel-20261113-1900-5fad699c10",
