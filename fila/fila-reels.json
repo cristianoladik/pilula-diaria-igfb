@@ -13699,7 +13699,7 @@
       "aprovado": true,
       "data": "2026-11-13",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0298 - Entender a Bíblia muda tudo.mp4",
         "sha256": "5fad699c1085dc8ac25b21ca3bcf19c1e3c1ee89da388f2799ff19c9f83073e4"
@@ -13732,7 +13732,8 @@
         "id": "1446213744291823",
         "publicado_em": "2026-11-13T23:21:44.331340-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-13T23:21:45.807003-03:00"
     },
     {
       "id": "reel-20261113-2100-01f07ba322",
