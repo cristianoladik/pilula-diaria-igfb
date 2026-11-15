@@ -14149,7 +14149,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0309 - Receita matinal saudável e gostosa.mp4",
         "sha256": "454fe193b32a15178fdc49bece8240dfc41debbe68890340cf70e8ce89ed9bcf"
@@ -14182,7 +14182,8 @@
         "id": "1177978138000777",
         "publicado_em": "2026-11-15T03:13:34.231384-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T03:13:35.658642-03:00"
     },
     {
       "id": "reel-20261114-2200-b1e37ad4a6",
