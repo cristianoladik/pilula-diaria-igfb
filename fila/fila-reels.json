@@ -14284,7 +14284,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "08:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0319 - As pessoas são boas. Elas só são diferentes!.mp4",
         "sha256": "f8a6eff97c7fde9f12c2373b3655f68640172697724a3b820bf21e924d01c9aa"
@@ -14317,7 +14317,8 @@
         "id": "1829040464668424",
         "publicado_em": "2026-11-15T14:40:40.325712-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T14:40:41.747076-03:00"
     },
     {
       "id": "reel-20261115-1000-433c8f0280",
