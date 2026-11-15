@@ -3661,7 +3661,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "2821 - Na cova dos leões - rodrigo silva arqueologia.mp4",
         "sha256": "dca8e72a5b536ce8862d3e504476f496f0b6805012fe7eabffd03b58e5afbff3"
@@ -3727,7 +3727,8 @@
             "confirmacao": "finish_facebook"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-11-15T15:27:20.325260-03:00"
     }
   ],
   "estoque_minimo_dias": 60,
