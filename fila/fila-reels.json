@@ -14194,7 +14194,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0315 - O seu sucesso está nas suas emoções - Paulo vieira.mp4",
         "sha256": "b1e37ad4a6212038052bb583354e810e2f126226203b7e2870fcbe81b547c518"
@@ -14227,7 +14227,8 @@
         "id": "1762879558123306",
         "publicado_em": "2026-11-15T04:49:01.269532-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T04:49:02.522330-03:00"
     },
     {
       "id": "reel-20261115-0600-4a9ac33103",
