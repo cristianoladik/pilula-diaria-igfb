@@ -14464,7 +14464,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "16:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0320 - Convivam com o tédio!.mp4",
         "sha256": "7f99a4369daa281de94008eb2b1760d50838e28771621e0d70aeaf6cd80823c0"
@@ -14497,7 +14497,8 @@
         "id": "1822757175607221",
         "publicado_em": "2026-11-15T20:22:48.520247-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T20:22:50.117286-03:00"
     },
     {
       "id": "reel-20261115-1800-77377cbf15",
