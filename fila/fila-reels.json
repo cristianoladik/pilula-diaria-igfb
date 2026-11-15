@@ -14419,7 +14419,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "14:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0325 - Só para dar uma motivada em você.mp4",
         "sha256": "0b23befe53d49efa64e853c9f3e83a02d3f62cb5258a5b486d061d2890bc9e05"
@@ -14452,7 +14452,8 @@
         "id": "1889510952220507",
         "publicado_em": "2026-11-15T18:42:47.745632-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T18:42:49.135539-03:00"
     },
     {
       "id": "reel-20261115-1600-7f99a4369d",
