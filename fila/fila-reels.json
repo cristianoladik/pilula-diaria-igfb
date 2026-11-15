@@ -14239,7 +14239,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "06:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0321 - Como mudar sua mentalidade e alcançar o sucesso !.mp4",
         "sha256": "4a9ac33103a05f2587bfa879a5760e84cf98829bb4385707fc802a05756ecc37"
@@ -14272,7 +14272,8 @@
         "id": "940500872328078",
         "publicado_em": "2026-11-15T13:17:02.479513-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T13:17:03.973002-03:00"
     },
     {
       "id": "reel-20261115-0800-f8a6eff97c",
