@@ -14329,7 +14329,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "10:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0323 - O maior obtáculo pode ser você mesmo.mp4",
         "sha256": "433c8f0280fbc4ba8de09979faab22bbbbbfe8a7d4f19e72f936d33af879333c"
@@ -14362,7 +14362,8 @@
         "id": "1892757298561444",
         "publicado_em": "2026-11-15T16:19:59.106345-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T16:20:00.580399-03:00"
     },
     {
       "id": "reel-20261115-1200-ed63d1a0fc",
