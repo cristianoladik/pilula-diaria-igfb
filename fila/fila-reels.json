@@ -14374,7 +14374,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "12:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0317 - Você sabe se defender espiritualmente.mp4",
         "sha256": "ed63d1a0fc87b36b9d910ea57349cbfcb0674b1829e54af40c1fb1df4b39b1ab"
@@ -14407,7 +14407,8 @@
         "id": "2895557494156015",
         "publicado_em": "2026-11-15T17:22:07.008078-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T17:22:08.585634-03:00"
     },
     {
       "id": "reel-20261115-1400-0b23befe53",
