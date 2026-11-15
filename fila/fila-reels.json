@@ -14059,7 +14059,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0313 - Deus não existe.mp4",
         "sha256": "f11bea4b8a5801b0c8e8c83e6548796620ef0eded2cf4cfeb36337d917aa14df"
@@ -14092,7 +14092,8 @@
         "id": "1693692465816176",
         "publicado_em": "2026-11-14T21:58:49.648992-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T21:58:51.292563-03:00"
     },
     {
       "id": "reel-20261114-1900-468aeb6eba",
