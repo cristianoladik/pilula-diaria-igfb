@@ -14104,7 +14104,7 @@
       "aprovado": true,
       "data": "2026-11-14",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0307 - Não seja mais rejeitada - Paulo vieira.mp4",
         "sha256": "468aeb6eba9877fdb7bce8100e4b6004cf4ded1190da1159c70acd0667f9954b"
@@ -14137,7 +14137,8 @@
         "id": "1745351279891690",
         "publicado_em": "2026-11-14T22:51:18.950290-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-14T22:51:20.387170-03:00"
     },
     {
       "id": "reel-20261114-2100-454fe193b3",
