@@ -14624,11 +14624,14 @@
       },
       "facebook": {
         "legenda": "Siga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br\nSiga @piluladiaria_br",
-        "status": "processando",
+        "status": "publicado",
         "tentativas": 1,
-        "fase": "publicacao_aceita",
+        "fase": "publicacao_confirmada",
         "video_id": "1630131935072279",
-        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1630131935072279"
+        "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1630131935072279",
+        "id": "1630131935072279",
+        "publicado_em": "2026-11-16T03:11:21.712580-03:00",
+        "confirmacao": "finish_facebook"
       }
     },
     {
