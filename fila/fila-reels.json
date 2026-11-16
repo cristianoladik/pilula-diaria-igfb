@@ -14509,7 +14509,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "18:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0322 - Fuja de pessoas assim.mp4",
         "sha256": "77377cbf15e7f47666ef2d4fec3567e204b87688fe777174fe6a42c9e739c61b"
@@ -14542,7 +14542,8 @@
         "id": "1837639790842120",
         "publicado_em": "2026-11-15T21:56:18.865314-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-15T21:56:20.296921-03:00"
     },
     {
       "id": "reel-20261115-1900-22ed406d18",
