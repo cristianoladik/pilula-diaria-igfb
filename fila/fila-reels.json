@@ -14599,7 +14599,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0318 - A vida muda quando seus sonhos mudam de lugar ⚡.mp4",
         "sha256": "0c44581eda819645582040c05ab244730684822f4b3578022e85d2ce0205ed6c"
@@ -14632,7 +14632,8 @@
         "id": "1630131935072279",
         "publicado_em": "2026-11-16T03:11:21.712580-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-16T03:11:23.062170-03:00"
     },
     {
       "id": "reel-20261115-2200-0ed177b7e4",
