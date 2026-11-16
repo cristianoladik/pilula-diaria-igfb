@@ -14644,7 +14644,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "22:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0324 - Se você tem dívidas, você não prospera - Elainne ourives.mp4",
         "sha256": "0ed177b7e44695c7996cbf0a0ebaef60a944fce1de1d28cad0a00d0874d7eb9a"
@@ -14677,7 +14677,8 @@
         "id": "30152746294327737",
         "publicado_em": "2026-11-16T04:56:34.566099-03:00",
         "confirmacao": "finish_facebook"
-      }
+      },
+      "concluido_em": "2026-11-16T04:56:36.417693-03:00"
     }
   ],
   "estoque_minimo_dias": 60,
