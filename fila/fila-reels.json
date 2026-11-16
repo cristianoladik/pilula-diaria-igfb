@@ -14554,7 +14554,7 @@
       "aprovado": true,
       "data": "2026-11-15",
       "horario": "19:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "0316 - O segredo para não ficar perdido 💡.mp4",
         "sha256": "22ed406d18e5847070911393d1fe153b44051921b49a9705ee0dffb92d22b846"
@@ -14587,7 +14587,8 @@
         "id": "1783334659398684",
         "publicado_em": "2026-11-15T23:14:53.200258-03:00",
         "confirmacao": "video_facebook_reconciliado"
-      }
+      },
+      "concluido_em": "2026-11-15T23:14:54.599258-03:00"
     },
     {
       "id": "reel-20261115-2100-0c44581eda",
